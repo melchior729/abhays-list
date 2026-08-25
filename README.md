@@ -13,6 +13,20 @@ npm run build
 
 After `just update`, commit `data/generated.json` if you want Vercel/production to show the latest progress.
 
+### Auto-sync from GitHub
+
+Pushes to [`neetcode-submissions`](https://github.com/melchior729/neetcode-submissions) trigger a workflow that calls `repository_dispatch` on this repo. The [`sync-submissions`](.github/workflows/sync-submissions.yml) workflow then:
+
+1. Checks out the latest `neetcode-submissions`
+2. Runs `npm run generate` → updates `data/generated.json`
+3. Commits and pushes to `main` (if anything changed)
+
+Vercel redeploys on that push automatically.
+
+**One-time setup:** create a fine-grained PAT (or classic token) with `repo` scope on `abhays-list`, add it as **`ABHAYS_LIST_PAT`** in the `neetcode-submissions` repo secrets ([Settings → Secrets → Actions](https://github.com/melchior729/neetcode-submissions/settings/secrets/actions)).
+
+Manual sync: **Actions → Sync NeetCode submissions → Run workflow** on this repo.
+
 ## Data
 
 | File | Role |

@@ -1,0 +1,44 @@
+name: Sync NeetCode submissions
+
+on:
+  repository_dispatch:
+    types: [submissions-updated]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-submissions
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout abhays-list
+        uses: actions/checkout@v4
+
+      - name: Checkout neetcode-submissions
+        uses: actions/checkout@v4
+        with:
+          repository: melchior729/neetcode-submissions
+          path: neetcode-submissions
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate solved progress
+        run: NEETCODE_SUBMISSIONS_DIR=./neetcode-submissions npm run generate
+
+      - name: Commit generated.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sync solved progress from neetcode-submissions"
+          file_pattern: data/generated.json
