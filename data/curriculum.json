@@ -1,0 +1,912 @@
+[
+  {
+    "slug": "append-characters-to-string-to-make-subsequence",
+    "name": "Append Characters To String To Make Subsequence",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/append-characters-to-string-to-make-subsequence"
+  },
+  {
+    "slug": "contains-duplicate-ii",
+    "name": "Contains Duplicate Ii",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/contains-duplicate-ii"
+  },
+  {
+    "slug": "count-the-number-of-consistent-strings",
+    "name": "Count The Number Of Consistent Strings",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/count-the-number-of-consistent-strings"
+  },
+  {
+    "slug": "divide-array-into-equal-pairs",
+    "name": "Divide Array Into Equal Pairs",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/divide-array-into-equal-pairs"
+  },
+  {
+    "slug": "find-lucky-integer-in-an-array",
+    "name": "Find Lucky Integer In An Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/find-lucky-integer-in-an-array"
+  },
+  {
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "name": "Find The Index Of The First Occurrence In A String",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-index-of-the-first-occurrence-in-a-string"
+  },
+  {
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "name": "Find Words That Can Be Formed By Characters",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/find-words-that-can-be-formed-by-characters"
+  },
+  {
+    "slug": "is-anagram",
+    "name": "Is Anagram",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-anagram"
+  },
+  {
+    "slug": "is-subsequence",
+    "name": "Is Subsequence",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/is-subsequence"
+  },
+  {
+    "slug": "kth-distinct-string-in-an-array",
+    "name": "Kth Distinct String In An Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/kth-distinct-string-in-an-array"
+  },
+  {
+    "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+    "name": "Longest Strictly Increasing Or Strictly Decreasing Subarray",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/longest-strictly-increasing-or-strictly-decreasing-subarray"
+  },
+  {
+    "slug": "matrix-diagonal-sum",
+    "name": "Matrix Diagonal Sum",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/matrix-diagonal-sum"
+  },
+  {
+    "slug": "monotonic-array",
+    "name": "Monotonic Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/monotonic-array"
+  },
+  {
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "name": "Number Of Students Unable To Eat Lunch",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-students-unable-to-eat-lunch"
+  },
+  {
+    "slug": "plus-one",
+    "name": "Plus One",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/plus-one"
+  },
+  {
+    "slug": "score-of-a-string",
+    "name": "Score Of A String",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/score-of-a-string"
+  },
+  {
+    "slug": "sort-an-array",
+    "name": "Sort An Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/sort-an-array"
+  },
+  {
+    "slug": "sort-colors",
+    "name": "Sort Colors",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/sort-colors"
+  },
+  {
+    "slug": "special-array-i",
+    "name": "Special Array I",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/special-array-i"
+  },
+  {
+    "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+    "name": "Special Array With X Elements Greater Than Or Equal X",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/special-array-with-x-elements-greater-than-or-equal-x"
+  },
+  {
+    "slug": "two-integer-sum",
+    "name": "Two Integer Sum",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/two-sum"
+  },
+  {
+    "slug": "unique-email-addresses",
+    "name": "Unique Email Addresses",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/unique-email-addresses"
+  },
+  {
+    "slug": "valid-word-abbreviation",
+    "name": "Valid Word Abbreviation",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-word-abbreviation"
+  },
+  {
+    "slug": "word-pattern",
+    "name": "Word Pattern",
+    "pattern": "arrays-hashing",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/word-pattern"
+  },
+  {
+    "slug": "anagram-groups",
+    "name": "Anagram Groups",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/group-anagrams"
+  },
+  {
+    "slug": "concatenation-of-array",
+    "name": "Concatenation Of Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/concatenation-of-array"
+  },
+  {
+    "slug": "design-hashmap",
+    "name": "Design Hashmap",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/design-hashmap"
+  },
+  {
+    "slug": "design-hashset",
+    "name": "Design Hashset",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/design-hashset"
+  },
+  {
+    "slug": "duplicate-integer",
+    "name": "Duplicate Integer",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/duplicate-integer"
+  },
+  {
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "name": "Final Array State After K Multiplication Operations I",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/final-array-state-after-k-multiplication-operations-i"
+  },
+  {
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "name": "Find All Numbers Disappeared In An Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/find-all-numbers-disappeared-in-an-array"
+  },
+  {
+    "slug": "find-common-characters",
+    "name": "Find Common Characters",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/find-common-characters"
+  },
+  {
+    "slug": "find-missing-and-repeated-values",
+    "name": "Find Missing And Repeated Values",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/find-missing-and-repeated-values"
+  },
+  {
+    "slug": "intersection-of-two-arrays",
+    "name": "Intersection Of Two Arrays",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/intersection-of-two-arrays"
+  },
+  {
+    "slug": "isomorphic-strings",
+    "name": "Isomorphic Strings",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/isomorphic-strings"
+  },
+  {
+    "slug": "majority-element",
+    "name": "Majority Element",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/majority-element"
+  },
+  {
+    "slug": "maximum-number-of-balloons",
+    "name": "Maximum Number Of Balloons",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-balloons"
+  },
+  {
+    "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "name": "Minimum Difference Between Highest And Lowest Of K Scores",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-difference-between-highest-and-lowest-of-k-scores"
+  },
+  {
+    "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+    "name": "Minimum Number Of Operations To Move All Balls To Each Box",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-operations-to-move-all-balls-to-each-box"
+  },
+  {
+    "slug": "products-of-array-discluding-self",
+    "name": "Products Of Array Discluding Self",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/products-of-array-except-self"
+  },
+  {
+    "slug": "range-sum-query-immutable",
+    "name": "Range Sum Query Immutable",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/range-sum-query-immutable"
+  },
+  {
+    "slug": "remove-element",
+    "name": "Remove Element",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/remove-element"
+  },
+  {
+    "slug": "replace-elements-with-greatest-element-on-right-side",
+    "name": "Replace Elements With Greatest Element On Right Side",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/replace-elements-with-greatest-element-on-right-side"
+  },
+  {
+    "slug": "set-mismatch",
+    "name": "Set Mismatch",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/set-mismatch"
+  },
+  {
+    "slug": "sort-the-people",
+    "name": "Sort The People",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/sort-the-people"
+  },
+  {
+    "slug": "squares-of-a-sorted-array",
+    "name": "Squares Of A Sorted Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/squares-of-a-sorted-array"
+  },
+  {
+    "slug": "string-matching-in-an-array",
+    "name": "String Matching In An Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/string-matching-in-an-array"
+  },
+  {
+    "slug": "time-needed-to-buy-tickets",
+    "name": "Time Needed To Buy Tickets",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/time-needed-to-buy-tickets"
+  },
+  {
+    "slug": "transpose-matrix",
+    "name": "Transpose Matrix",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/transpose-matrix"
+  },
+  {
+    "slug": "verifying-an-alien-dictionary",
+    "name": "Verifying An Alien Dictionary",
+    "pattern": "arrays-hashing",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/verifying-an-alien-dictionary"
+  },
+  {
+    "slug": "check-if-array-is-sorted-and-rotated",
+    "name": "Check If Array Is Sorted And Rotated",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-array-is-sorted-and-rotated"
+  },
+  {
+    "slug": "find-pivot-index",
+    "name": "Find Pivot Index",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/find-pivot-index"
+  },
+  {
+    "slug": "find-the-difference-of-two-arrays",
+    "name": "Find The Difference Of Two Arrays",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-difference-of-two-arrays"
+  },
+  {
+    "slug": "length-of-last-word",
+    "name": "Length Of Last Word",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/length-of-last-word"
+  },
+  {
+    "slug": "maximum-difference-between-even-and-odd-frequency-i",
+    "name": "Maximum Difference Between Even And Odd Frequency I",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-difference-between-even-and-odd-frequency-i"
+  },
+  {
+    "slug": "maximum-product-difference-between-two-pairs",
+    "name": "Maximum Product Difference Between Two Pairs",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-product-difference-between-two-pairs"
+  },
+  {
+    "slug": "relative-sort-array",
+    "name": "Relative Sort Array",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/relative-sort-array"
+  },
+  {
+    "slug": "sort-array-by-increasing-frequency",
+    "name": "Sort Array By Increasing Frequency",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/sort-array-by-increasing-frequency"
+  },
+  {
+    "slug": "sort-array-by-parity",
+    "name": "Sort Array By Parity",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/sort-array-by-parity"
+  },
+  {
+    "slug": "trapping-rain-water",
+    "name": "Trapping Rain Water",
+    "pattern": "arrays-hashing",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/trapping-rain-water"
+  },
+  {
+    "slug": "move-zeroes",
+    "name": "Move Zeroes",
+    "pattern": "two-pointers",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/move-zeroes"
+  },
+  {
+    "slug": "is-palindrome",
+    "name": "Is Palindrome",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-palindrome"
+  },
+  {
+    "slug": "max-water-container",
+    "name": "Max Water Container",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/max-water-container"
+  },
+  {
+    "slug": "remove-duplicates-from-sorted-array",
+    "name": "Remove Duplicates From Sorted Array",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/remove-duplicates-from-sorted-array"
+  },
+  {
+    "slug": "reverse-string",
+    "name": "Reverse String",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/reverse-string"
+  },
+  {
+    "slug": "three-integer-sum",
+    "name": "Three Integer Sum",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/three-sum"
+  },
+  {
+    "slug": "two-integer-sum-ii",
+    "name": "Two Integer Sum Ii",
+    "pattern": "two-pointers",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/two-sum-ii"
+  },
+  {
+    "slug": "merge-strings-alternately",
+    "name": "Merge Strings Alternately",
+    "pattern": "two-pointers",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/merge-strings-alternately"
+  },
+  {
+    "slug": "valid-palindrome-ii",
+    "name": "Valid Palindrome Ii",
+    "pattern": "two-pointers",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-palindrome-ii"
+  },
+  {
+    "slug": "max-consecutive-ones",
+    "name": "Max Consecutive Ones",
+    "pattern": "sliding-window",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/max-consecutive-ones"
+  },
+  {
+    "slug": "maximum-ascending-subarray-sum",
+    "name": "Maximum Ascending Subarray Sum",
+    "pattern": "sliding-window",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-ascending-subarray-sum"
+  },
+  {
+    "slug": "buy-and-sell-crypto",
+    "name": "Buy And Sell Crypto",
+    "pattern": "sliding-window",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock"
+  },
+  {
+    "slug": "longest-consecutive-sequence",
+    "name": "Longest Consecutive Sequence",
+    "pattern": "sliding-window",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/longest-consecutive-sequence"
+  },
+  {
+    "slug": "subarray-sum-equals-k",
+    "name": "Subarray Sum Equals K",
+    "pattern": "sliding-window",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/subarray-sum-equals-k"
+  },
+  {
+    "slug": "count-vowel-strings-in-ranges",
+    "name": "Count Vowel Strings In Ranges",
+    "pattern": "sliding-window",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/count-vowel-strings-in-ranges"
+  },
+  {
+    "slug": "baseball-game",
+    "name": "Baseball Game",
+    "pattern": "stack",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/baseball-game"
+  },
+  {
+    "slug": "crawler-log-folder",
+    "name": "Crawler Log Folder",
+    "pattern": "stack",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/crawler-log-folder"
+  },
+  {
+    "slug": "minimum-stack",
+    "name": "Minimum Stack",
+    "pattern": "stack",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-stack"
+  },
+  {
+    "slug": "validate-parentheses",
+    "name": "Validate Parentheses",
+    "pattern": "stack",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-parentheses"
+  },
+  {
+    "slug": "daily-temperatures",
+    "name": "Daily Temperatures",
+    "pattern": "stack",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/daily-temperatures"
+  },
+  {
+    "slug": "evaluate-reverse-polish-notation",
+    "name": "Evaluate Reverse Polish Notation",
+    "pattern": "stack",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/evaluate-reverse-polish-notation"
+  },
+  {
+    "slug": "next-greater-element-i",
+    "name": "Next Greater Element I",
+    "pattern": "stack",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/next-greater-element-i"
+  },
+  {
+    "slug": "largest-rectangle-in-histogram",
+    "name": "Largest Rectangle In Histogram",
+    "pattern": "stack",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/largest-rectangle-in-histogram"
+  },
+  {
+    "slug": "binary-search",
+    "name": "Binary Search",
+    "pattern": "binary-search",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/binary-search"
+  },
+  {
+    "slug": "guess-number-higher-or-lower",
+    "name": "Guess Number Higher Or Lower",
+    "pattern": "binary-search",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/guess-number-higher-or-lower"
+  },
+  {
+    "slug": "arranging-coins",
+    "name": "Arranging Coins",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/arranging-coins"
+  },
+  {
+    "slug": "eating-bananas",
+    "name": "Eating Bananas",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/koko-eating-bananas"
+  },
+  {
+    "slug": "find-k-closest-elements",
+    "name": "Find K Closest Elements",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/find-k-closest-elements"
+  },
+  {
+    "slug": "search-2d-matrix",
+    "name": "Search 2d Matrix",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/search-2d-matrix"
+  },
+  {
+    "slug": "sqrtx",
+    "name": "Sqrtx",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/sqrtx"
+  },
+  {
+    "slug": "valid-perfect-square",
+    "name": "Valid Perfect Square",
+    "pattern": "binary-search",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-perfect-square"
+  },
+  {
+    "slug": "search-insert-position",
+    "name": "Search Insert Position",
+    "pattern": "binary-search",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/search-insert-position"
+  },
+  {
+    "slug": "invert-a-binary-tree",
+    "name": "Invert A Binary Tree",
+    "pattern": "trees",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/invert-binary-tree"
+  },
+  {
+    "slug": "depth-of-binary-tree",
+    "name": "Depth Of Binary Tree",
+    "pattern": "trees",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-depth-of-binary-tree"
+  },
+  {
+    "slug": "two-sum-iv",
+    "name": "Two Sum IV",
+    "pattern": "trees",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/two-sum-iv"
+  },
+  {
+    "slug": "valid-sudoku",
+    "name": "Valid Sudoku",
+    "pattern": "trees",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/valid-sudoku"
+  },
+  {
+    "slug": "longest-common-prefix",
+    "name": "Longest Common Prefix",
+    "pattern": "tries",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/longest-common-prefix"
+  },
+  {
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "name": "Count Prefix And Suffix Pairs I",
+    "pattern": "tries",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/count-prefix-and-suffix-pairs-i"
+  },
+  {
+    "slug": "design-add-and-search-words",
+    "name": "Design Add And Search Words",
+    "pattern": "tries",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/design-add-and-search-words"
+  },
+  {
+    "slug": "implement-trie",
+    "name": "Implement Trie",
+    "pattern": "tries",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/implement-trie"
+  },
+  {
+    "slug": "string-encode-and-decode",
+    "name": "String Encode And Decode",
+    "pattern": "tries",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/string-encode-and-decode"
+  },
+  {
+    "slug": "counting-words-with-a-given-prefix",
+    "name": "Counting Words With A Given Prefix",
+    "pattern": "tries",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/counting-words-with-a-given-prefix"
+  },
+  {
+    "slug": "last-stone-weight",
+    "name": "Last Stone Weight",
+    "pattern": "heap",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/last-stone-weight"
+  },
+  {
+    "slug": "take-gifts-from-the-richest-pile",
+    "name": "Take Gifts From The Richest Pile",
+    "pattern": "heap",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/take-gifts-from-the-richest-pile"
+  },
+  {
+    "slug": "lru-cache",
+    "name": "Lru Cache",
+    "pattern": "heap",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/lru-cache"
+  },
+  {
+    "slug": "top-k-elements-in-list",
+    "name": "Top K Elements In List",
+    "pattern": "heap",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/top-k-frequent-elements"
+  },
+  {
+    "slug": "clone-graph",
+    "name": "Clone Graph",
+    "pattern": "graphs",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/clone-graph"
+  },
+  {
+    "slug": "course-schedule",
+    "name": "Course Schedule",
+    "pattern": "graphs",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/course-schedule"
+  },
+  {
+    "slug": "merge-sorted-array",
+    "name": "Merge Sorted Array",
+    "pattern": "intervals",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/merge-sorted-array"
+  },
+  {
+    "slug": "car-fleet",
+    "name": "Car Fleet",
+    "pattern": "intervals",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/car-fleet"
+  },
+  {
+    "slug": "meeting-schedule",
+    "name": "Meeting Schedule",
+    "pattern": "intervals",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/meeting-schedule"
+  },
+  {
+    "slug": "assign-cookies",
+    "name": "Assign Cookies",
+    "pattern": "greedy",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/assign-cookies"
+  },
+  {
+    "slug": "height-checker",
+    "name": "Height Checker",
+    "pattern": "greedy",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/height-checker"
+  },
+  {
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "name": "Minimum Number Of Moves To Seat Everyone",
+    "pattern": "greedy",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-moves-to-seat-everyone"
+  },
+  {
+    "slug": "buy-two-chocolates",
+    "name": "Buy Two Chocolates",
+    "pattern": "greedy",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/buy-two-chocolates"
+  },
+  {
+    "slug": "can-place-flowers",
+    "name": "Can Place Flowers",
+    "pattern": "greedy",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/can-place-flowers"
+  },
+  {
+    "slug": "lemonade-change",
+    "name": "Lemonade Change",
+    "pattern": "greedy",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/lemonade-change"
+  },
+  {
+    "slug": "number-of-senior-citizens",
+    "name": "Number Of Senior Citizens",
+    "pattern": "greedy",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-senior-citizens"
+  },
+  {
+    "slug": "pascals-triangle",
+    "name": "Pascals Triangle",
+    "pattern": "dp-1d",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/pascals-triangle"
+  },
+  {
+    "slug": "pascals-triangle-ii",
+    "name": "Pascals Triangle Ii",
+    "pattern": "dp-1d",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/pascals-triangle-ii"
+  },
+  {
+    "slug": "coin-change",
+    "name": "Coin Change",
+    "pattern": "dp-1d",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/coin-change"
+  },
+  {
+    "slug": "house-robber",
+    "name": "House Robber",
+    "pattern": "dp-1d",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/house-robber"
+  },
+  {
+    "slug": "word-break",
+    "name": "Word Break",
+    "pattern": "dp-1d",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/word-break"
+  },
+  {
+    "slug": "range-sum-query-2d-immutable",
+    "name": "Range Sum Query 2d Immutable",
+    "pattern": "dp-2d",
+    "difficulty": "easy",
+    "neetcodeUrl": "https://neetcode.io/problems/range-sum-query-2d-immutable"
+  },
+  {
+    "slug": "longest-common-subsequence",
+    "name": "Longest Common Subsequence",
+    "pattern": "dp-2d",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/longest-common-subsequence"
+  },
+  {
+    "slug": "unique-paths",
+    "name": "Unique Paths",
+    "pattern": "dp-2d",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/unique-paths"
+  },
+  {
+    "slug": "missing-number",
+    "name": "Missing Number",
+    "pattern": "bit-manipulation",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/missing-number"
+  },
+  {
+    "slug": "number-of-good-pairs",
+    "name": "Number Of Good Pairs",
+    "pattern": "bit-manipulation",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-good-pairs"
+  },
+  {
+    "slug": "sign-of-the-product-of-an-array",
+    "name": "Sign Of The Product Of An Array",
+    "pattern": "bit-manipulation",
+    "difficulty": "medium",
+    "neetcodeUrl": "https://neetcode.io/problems/sign-of-the-product-of-an-array"
+  },
+  {
+    "slug": "single-number",
+    "name": "Single Number",
+    "pattern": "bit-manipulation",
+    "difficulty": "hard",
+    "neetcodeUrl": "https://neetcode.io/problems/single-number"
+  }
+]
