@@ -9,7 +9,8 @@
     "max-consecutive-ones",
     "maximum-nesting-depth-of-the-parentheses",
     "number-of-senior-citizens",
-    "score-of-a-string"
+    "score-of-a-string",
+    "sign-of-the-product-of-an-array"
   ],
   "gitDates": {}
 }
