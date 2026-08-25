@@ -79,6 +79,7 @@ export function TrackerShell({
         const problems = byPatternProblems[slug] ?? [];
         const progress = demoAll
           ? {
+              pattern: slug,
               solved: problems.length,
               total: problems.length,
               isComplete: problems.length > 0,
