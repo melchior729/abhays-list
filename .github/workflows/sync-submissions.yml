@@ -32,7 +32,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Regenerate solved progress
         run: NEETCODE_SUBMISSIONS_DIR=./neetcode-submissions npm run generate
