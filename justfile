@@ -1,5 +1,9 @@
 set shell := ["bash", "-cu"]
 
+# Refresh solved progress from local neetcode-submissions clone
+update:
+    npm run generate
+
 # copy all files to clipboard with borders (name, path, contents) via wl-copy
 copy:
     #!/usr/bin/env bash

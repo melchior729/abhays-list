@@ -1,0 +1,949 @@
+{
+  "pattern": "arrays",
+  "before": 35,
+  "after": 32,
+  "moves": {
+    "can-place-flowers": [
+      "greedy"
+    ],
+    "lemonade-change": [
+      "greedy"
+    ],
+    "largest-number": [
+      "greedy"
+    ]
+  },
+  "desired_order": [
+    "concatenation-of-array",
+    "score-of-a-string",
+    "length-of-last-word",
+    "largest-3-same-digit-number-in-string",
+    "minimum-changes-to-make-alternating-binary-string",
+    "counting-words-with-a-given-prefix",
+    "crawler-log-folder",
+    "island-perimeter",
+    "max-consecutive-ones",
+    "maximum-nesting-depth-of-the-parentheses",
+    "number-of-senior-citizens",
+    "sign-of-the-product-of-an-array",
+    "unique-email-addresses",
+    "verifying-an-alien-dictionary",
+    "monotonic-array",
+    "maximum-ascending-subarray-sum",
+    "longest-strictly-increasing-or-strictly-decreasing-subarray",
+    "maximum-product-difference-between-two-pairs",
+    "longest-common-prefix",
+    "maximum-score-after-splitting-a-string",
+    "find-pivot-index",
+    "range-sum-query-immutable",
+    "replace-elements-with-greatest-element-on-right-side",
+    "time-needed-to-buy-tickets",
+    "majority-element-ii",
+    "minimum-index-of-a-valid-split",
+    "rearrange-array-elements-by-sign",
+    "minimum-number-of-operations-to-move-all-balls-to-each-box",
+    "products-of-array-discluding-self",
+    "range-sum-query-2d-immutable",
+    "average-waiting-time",
+    "string-encode-and-decode"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "can-place-flowers",
+      "name": "Can Place Flowers",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "MOVE:greedy",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 1,
+      "slug": "concatenation-of-array",
+      "name": "Concatenation of Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Two Pass)",
+        "Iteration (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "score-of-a-string",
+      "name": "Score of a String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
+      "slug": "length-of-last-word",
+      "name": "Length of Last Word",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 4,
+      "slug": "largest-3-same-digit-number-in-string",
+      "name": "Largest 3-Same-Digit Number in String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Iteration (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 5,
+      "slug": "minimum-changes-to-make-alternating-binary-string",
+      "name": "Minimum Changes To Make Alternating Binary String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Start with Zero and One",
+        "Start with Zero or One"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 6,
+      "slug": "counting-words-with-a-given-prefix",
+      "name": "Counting Words With a Given Prefix",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Built-In Method"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "lemonade-change",
+      "name": "Lemonade Change",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "MOVE:greedy",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 8,
+      "slug": "crawler-log-folder",
+      "name": "Crawler Log Folder",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "island-perimeter",
+      "name": "Island Perimeter",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
+      "slug": "max-consecutive-ones",
+      "name": "Max Consecutive Ones",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 11,
+      "slug": "maximum-nesting-depth-of-the-parentheses",
+      "name": "Maximum Nesting Depth of the Parentheses",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "number-of-senior-citizens",
+      "name": "Number of Senior Citizens",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "String Parsing",
+        "Character-Based Extraction"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 13,
+      "slug": "sign-of-the-product-of-an-array",
+      "name": "Sign of the Product of an Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Count Negative Numbers",
+        "Track the Sign of the Product"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "unique-email-addresses",
+      "name": "Unique Email Addresses",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Built-In Functions",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 15,
+      "slug": "verifying-an-alien-dictionary",
+      "name": "Verifying An Alien Dictionary",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 16,
+      "slug": "monotonic-array",
+      "name": "Monotonic Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "neighbor",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pass",
+        "One Pass - I",
+        "One Pass - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 17,
+      "slug": "maximum-ascending-subarray-sum",
+      "name": "Maximum Ascending Subarray Sum",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "neighbor",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 18,
+      "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+      "name": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "neighbor",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II",
+        "Iteration - III"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 19,
+      "slug": "maximum-product-difference-between-two-pairs",
+      "name": "Maximum Product Difference Between Two Pairs",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "neighbor",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Maximums and Two Minimums"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 20,
+      "slug": "longest-common-prefix",
+      "name": "Longest Common Prefix",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 21,
+      "slug": "maximum-score-after-splitting-a-string",
+      "name": "Maximum Score After Splitting a String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Two Pass)",
+        "Iteration (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 22,
+      "slug": "find-pivot-index",
+      "name": "Find Pivot Index",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 23,
+      "slug": "range-sum-query-immutable",
+      "name": "Range Sum Query - Immutable",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum - I",
+        "Prefix Sum - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 24,
+      "slug": "replace-elements-with-greatest-element-on-right-side",
+      "name": "Replace Elements With Greatest Element On Right Side",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "suffix",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Suffix Max"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 25,
+      "slug": "time-needed-to-buy-tickets",
+      "name": "Time Needed to Buy Tickets",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "simulation",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 26,
+      "slug": "majority-element-ii",
+      "name": "Majority Element II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Boyer-Moore Voting Algorithm",
+        "Boyer-Moore Voting Algorithm (Hash Map)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 27,
+      "slug": "minimum-index-of-a-valid-split",
+      "name": "Minimum Index of a Valid Split",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Boyer-Moore Voting Algorithm"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 28,
+      "slug": "largest-number",
+      "name": "Largest Number",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "MOVE:greedy",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 29,
+      "slug": "rearrange-array-elements-by-sign",
+      "name": "Rearrange Array Elements by Sign",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Group Numbers Into Two Arrays",
+        "Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 30,
+      "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+      "name": "Minimum Number of Operations to Move All Balls to Each Box",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 31,
+      "slug": "products-of-array-discluding-self",
+      "name": "Product of Array Except Self",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Division",
+        "Prefix & Suffix (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 32,
+      "slug": "range-sum-query-2d-immutable",
+      "name": "Range Sum Query 2D Immutable",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Dimensional Prefix Sum"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 33,
+      "slug": "average-waiting-time",
+      "name": "Average Waiting Time",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "simulation",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Simulation - I",
+        "Simulation - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 34,
+      "slug": "string-encode-and-decode",
+      "name": "Encode and Decode Strings",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "encode",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Encoding & Decoding",
+        "Encoding & Decoding (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

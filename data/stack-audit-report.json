@@ -1,0 +1,522 @@
+{
+  "pattern": "stack",
+  "before": 19,
+  "after": 19,
+  "moves": {},
+  "desired_order": [
+    "implement-queue-using-stacks",
+    "implement-stack-using-queues",
+    "validate-parentheses",
+    "next-greater-element-i",
+    "baseball-game",
+    "minimum-stack",
+    "design-browser-history",
+    "online-stock-span",
+    "car-fleet",
+    "decode-string",
+    "simplify-path",
+    "basic-calculator-ii",
+    "evaluate-reverse-polish-notation",
+    "minimum-remove-to-make-valid-parentheses",
+    "asteroid-collision",
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "largest-rectangle-in-histogram",
+    "number-of-visible-people-in-a-queue",
+    "maximum-frequency-stack"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "implement-queue-using-stacks",
+      "name": "Implement Queue using Stacks",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Using Two Stacks (Amortized Complexity)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "implement-stack-using-queues",
+      "name": "Implement Stack Using Queues",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Using Two Queues",
+        "Using One Queue",
+        "Queue Of Queues"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "validate-parentheses",
+      "name": "Valid Parentheses",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
+      "slug": "baseball-game",
+      "name": "Baseball Game",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack - I",
+        "Stack - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 4 after next-greater-element-i"
+    },
+    {
+      "index": 4,
+      "slug": "next-greater-element-i",
+      "name": "Next Greater Element I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 3 after validate-parentheses"
+    },
+    {
+      "index": 5,
+      "slug": "minimum-stack",
+      "name": "Min Stack",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Stacks",
+        "One Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 6,
+      "slug": "design-browser-history",
+      "name": "Design Browser History",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Stacks",
+        "Dynamic Array",
+        "Dynamic Array (Optimal)",
+        "Doubly Linked List"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "online-stock-span",
+      "name": "Online Stock Span",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "monotonic",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Monotonic Decreasing Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
+      "slug": "car-fleet",
+      "name": "Car Fleet",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "monotonic",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "decode-string",
+      "name": "Decode String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "parsing",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Stacks"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
+      "slug": "simplify-path",
+      "name": "Simplify Path",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "parsing",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack - I",
+        "Stack - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 11,
+      "slug": "basic-calculator-ii",
+      "name": "Basic Calculator II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "parsing",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Without Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "evaluate-reverse-polish-notation",
+      "name": "Evaluate Reverse Polish Notation",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "parsing",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Doubly Linked List",
+        "Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 13,
+      "slug": "minimum-remove-to-make-valid-parentheses",
+      "name": "Minimum Remove to Make Valid Parentheses",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "parsing",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Without Stack (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "asteroid-collision",
+      "name": "Asteroid Collision",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "simulation",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack",
+        "Without Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 15,
+      "slug": "remove-all-adjacent-duplicates-in-string-ii",
+      "name": "Remove All Adjacent Duplicates In String II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "advanced",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack",
+        "Stack (Optimal)",
+        "Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 16,
+      "slug": "largest-rectangle-in-histogram",
+      "name": "Largest Rectangle In Histogram",
+      "difficulty": "hard",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "monotonic",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack",
+        "Stack (One Pass)",
+        "Stack (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 17,
+      "slug": "number-of-visible-people-in-a-queue",
+      "name": "Number of Visible People in a Queue",
+      "difficulty": "hard",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "monotonic",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack - I",
+        "Stack - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 18,
+      "slug": "maximum-frequency-stack",
+      "name": "Maximum Frequency Stack",
+      "difficulty": "hard",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "advanced",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack Of Stacks (Hash Map)",
+        "Stack Of Stacks (Dynamic Array)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

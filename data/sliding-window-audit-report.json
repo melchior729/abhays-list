@@ -1,0 +1,516 @@
+{
+  "pattern": "sliding-window",
+  "before": 19,
+  "after": 19,
+  "moves": {},
+  "desired_order": [
+    "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "check-if-array-is-sorted-and-rotated",
+    "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "grumpy-bookstore-owner",
+    "maximum-points-you-can-obtain-from-cards",
+    "longest-turbulent-subarray",
+    "max-consecutive-ones-iii",
+    "fruit-into-baskets",
+    "longest-substring-without-duplicates",
+    "longest-repeating-substring-with-replacement",
+    "subarray-product-less-than-k",
+    "binary-subarrays-with-sum",
+    "permutation-string",
+    "minimum-size-subarray-sum",
+    "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "sliding-window-maximum",
+    "subarrays-with-k-different-integers",
+    "minimum-window-with-characters"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+      "name": "Minimum Recolors to Get K Consecutive Black Blocks",
+      "difficulty": "easy",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "fixed_k",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+      "name": "Minimum Difference Between Highest And Lowest of K Scores",
+      "difficulty": "easy",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "fixed_k",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting + Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "name": "Check if Array Is Sorted and Rotated",
+      "difficulty": "easy",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
+      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+      "name": "Number of Sub Arrays of Size K and Avg Greater than or Equal to Threshold",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "fixed_k",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window - I",
+        "Sliding Window - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 4,
+      "slug": "grumpy-bookstore-owner",
+      "name": "Grumpy Bookstore Owner",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "fixed_k",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 5,
+      "slug": "maximum-points-you-can-obtain-from-cards",
+      "name": "Maximum Points You Can Obtain From Cards",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "fixed_k",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window (Minimum Sum Window)",
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 6,
+      "slug": "longest-turbulent-subarray",
+      "name": "Longest Turbulent Subarray",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "max-consecutive-ones-iii",
+      "name": "Max Consecutive Ones III",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
+      "slug": "fruit-into-baskets",
+      "name": "Fruit into Basket",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window - I",
+        "Sliding Window - II",
+        "Sliding Window - III"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "longest-substring-without-duplicates",
+      "name": "Longest Substring Without Repeating Characters",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window",
+        "Sliding Window (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
+      "slug": "longest-repeating-substring-with-replacement",
+      "name": "Longest Repeating Character Replacement",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 11,
+      "slug": "subarray-product-less-than-k",
+      "name": "Subarray Product Less Than K",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "binary-subarrays-with-sum",
+      "name": "Binary Subarrays with Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "variable",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 13,
+      "slug": "permutation-string",
+      "name": "Permutation In String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "freq_window",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "minimum-size-subarray-sum",
+      "name": "Minimum Size Subarray Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "min_window",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 15,
+      "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+      "name": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+      "difficulty": "medium",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "deque",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Deque - I",
+        "Deque - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 16,
+      "slug": "sliding-window-maximum",
+      "name": "Sliding Window Maximum",
+      "difficulty": "hard",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "deque",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming",
+        "Deque"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 17,
+      "slug": "subarrays-with-k-different-integers",
+      "name": "Subarrays with K Different Integers",
+      "difficulty": "hard",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "freq_window",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window",
+        "Sliding Window (One Pass) - I",
+        "Sliding Window (One Pass) - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 18,
+      "slug": "minimum-window-with-characters",
+      "name": "Minimum Window Substring",
+      "difficulty": "hard",
+      "current_patterns": [
+        "sliding-window"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "sliding-window"
+      ],
+      "technique_family": "min_window",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

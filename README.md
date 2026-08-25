@@ -1,48 +1,37 @@
-# Abhay's List — NeetCode Progress Tracker
+# Abhay's List
 
-Black-theme, mobile-friendly tracker for curated NeetCode patterns. Hosted on Vercel, data from `melchior729/neetcode-submissions`.
+NeetCode pattern tracker. Progress comes from a local [`neetcode-submissions`](https://github.com/melchior729/neetcode-submissions) clone synced from NeetCode.
 
-## Features
-- **Home `/`**: Header `X / TOTAL`, grid of pattern boxes in fixed learning order (`data/patternOrder.json`), per-difficulty progress bars (easy/medium/hard), **Play ▶** jumps to next unsolved at same difficulty as last solve (fallback to next unsolved), gold styling when 100%.
-- **Pattern `/pattern/[slug]`**: Back to home, lists ALL problems in category, search/filter (text + difficulty), clicking opens NeetCode externally (no in-app code).
-- **Design**: Black background, responsive 1→2→3 columns.
-- **Data**: `data/curriculum.json` is source of truth (pattern assignment + difficulty + neetcodeUrl). `data/generated.json` is derived solved set from GitHub submissions.
+## Commands
 
-## Data Files (you own)
-- `data/patternOrder.json` — fixed learning order
-- `data/curriculum.json` — 130 entries (120 solved + 10 unsolved placeholders). Edit to set your full list. Each entry:
-  ```json
-  { "slug": "two-integer-sum", "name": "Two Integer Sum", "pattern": "arrays-hashing", "difficulty": "easy", "neetcodeUrl": "https://neetcode.io/problems/two-sum" }
-  ```
-- `data/slugMap.json` — repo kebab → NeetCode slug overrides
-- `data/generated.json` — auto-generated, do not hand-edit (run `npm run generate`)
-
-## Local Dev
 ```bash
 npm install
-npm run generate   # scans /home/abhay/code/neetcode-submissions or GitHub API
-npm run dev        # http://localhost:3000
-npm run build      # generates + builds
+just update        # refresh solved set from local clone → data/generated.json
+npm run dev
+npm run build
 ```
 
-## Wireable for Vercel (not yet connected — per your request)
-The site is **pre-wired** but not yet connected:
+After `just update`, commit `data/generated.json` if you want Vercel/production to show the latest progress.
 
-1. **GitHub source of truth**: `melchior729/neetcode-submissions` (NeetCode GitHub Sync pushes on every solve)
-2. **Build-time fetch**: `scripts/generate-data.ts` tries local clone → falls back to `GitHub API` with `GITHUB_TOKEN` env. On Vercel where local clone doesn't exist, it will use API.
-3. **To connect (when you're ready to watch)**:
-   ```bash
-   vercel --prod                # link to melchior729/abhays-list
-   # add env GITHUB_TOKEN (gh pat with repo scope) in Vercel dashboard
-   # add deploy hook: Vercel Settings → Git Hooks → Deploy Hook URL
-   # in neetcode-submissions repo: .github/workflows/deploy-hook.yml
-   # on: push
-   # jobs: { trigger: { runs-on: ubuntu-latest, steps: [{ run: curl -X POST $VERCEL_DEPLOY_HOOK }] } }
-   ```
-   Every NeetCode push then auto-rebuilds this site in ~60s.
+## Data
 
-## Editing Your List
-- Change pattern order: edit `data/patternOrder.json`
-- Re-assign problem to different pattern or change difficulty: edit `data/curriculum.json` `pattern` / `difficulty` fields
-- Add new problem: append entry to `curriculum.json` (TOTAL increments automatically)
-- Regenerate solved: `npm run generate` after pushing to submissions, or rely on Vercel hook
+| File | Role |
+|------|------|
+| `data/patternOrder.json` | Learning order for pattern cards |
+| `data/curriculum.json` | Problems (slug, patterns[], difficulty, NeetCode URL) — one row per problem |
+| `data/generated.json` | Solved slugs + git dates — refreshed by `just update`, don't hand-edit |
+| `data/pattern-audit-rules.md` | Curriculum audit rules and pattern completion status |
+| `data/pattern-status.json` | Which pattern lists are complete |
+| `data/dead-neetcode-links.json` | Removed slugs with no live NeetCode problem page |
+
+Curriculum excludes Pro, JavaScript-only, and dead NeetCode links. Pattern lists are easy → medium → hard; **design/construction problems lead each difficulty band** (design-before-use). Audit with:
+
+```bash
+python scripts/audit-pattern-list.py --pattern hashing --apply
+```
+
+Local clone is read from `NEETCODE_SUBMISSIONS_DIR`, or defaults to `~/code/neetcode-submissions`.
+
+## Vercel
+
+Production uses the committed `data/generated.json`. Run `just update` locally, commit, and deploy — or wire a deploy hook from `neetcode-submissions` after bulk sync.

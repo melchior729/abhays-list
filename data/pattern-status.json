@@ -1,0 +1,116 @@
+{
+  "arrays": {
+    "status": "complete",
+    "count": 35,
+    "completedAt": "2026-08-25",
+    "notes": "34; +count-servers from graphs (row/col scan)"
+  },
+  "hashing": {
+    "status": "complete",
+    "count": 57,
+    "completedAt": "2026-08-25",
+    "notes": "Pure hashing; design-before-use applied (HashSet/HashMap lead Easy; InsertDeleteGetRandom leads Medium)"
+  },
+  "two-pointers": {
+    "status": "complete",
+    "count": 26,
+    "completedAt": "2026-08-25",
+    "notes": "Greedy-pair items to greedy; interval-list-intersections to intervals; intersection to linked-list"
+  },
+  "sliding-window": {
+    "status": "complete",
+    "count": 19,
+    "completedAt": "2026-08-25",
+    "notes": "22\u219219; BFS/DP/binary-search moved out; Sliding Window Maximum leads Hard (deque design)"
+  },
+  "binary-search": {
+    "status": "complete",
+    "count": 21,
+    "completedAt": "2026-08-25",
+    "notes": "27\u219221; Binary Search leads Easy; Time Based KV leads Medium; DP/graph/interval moved out"
+  },
+  "stack": {
+    "status": "complete",
+    "count": 20,
+    "completedAt": "2026-08-25",
+    "notes": "20; +daily-temperatures from dp-1d (monotonic stack)"
+  },
+  "linked-list": {
+    "status": "complete",
+    "count": 25,
+    "completedAt": "2026-08-25",
+    "notes": "25; +insert-GCD from math-geometry"
+  },
+  "trees": {
+    "status": "complete",
+    "count": 36,
+    "completedAt": "2026-08-25",
+    "notes": "42\u219235; Invert leads Easy; BST Iterator leads Medium; Serialize leads Hard; trie/DP/graph/interval moved out"
+  },
+  "tries": {
+    "status": "complete",
+    "count": 3,
+    "completedAt": "2026-08-25",
+    "notes": "5\u21923; Implement Trie leads Medium; extra-characters\u2192dp-1d; word-break-ii\u2192backtracking"
+  },
+  "heap": {
+    "status": "complete",
+    "count": 11,
+    "completedAt": "2026-08-25",
+    "notes": "13\u219211; stream/Twitter/median design lead bands; meeting rooms II/III \u2192 intervals"
+  },
+  "backtracking": {
+    "status": "complete",
+    "count": 18,
+    "completedAt": "2026-08-25",
+    "notes": "subsets leads; bit duals dropped; generate-parentheses pure BT"
+  },
+  "graphs": {
+    "status": "complete",
+    "count": 31,
+    "completedAt": "2026-08-25",
+    "notes": "37\u219231; coin-change\u2192dp-1d; Dijkstra/MST\u2192advanced-graphs; LIP\u2192dp-2d; servers\u2192arrays"
+  },
+  "advanced-graphs": {
+    "status": "complete",
+    "count": 8,
+    "completedAt": "2026-08-25",
+    "notes": "Dijkstra/Prim/Floyd/Kruskal cluster; path/swim/critical exclusive"
+  },
+  "greedy": {
+    "status": "complete",
+    "count": 30,
+    "completedAt": "2026-08-25",
+    "notes": "29\u219227; merge/insert intervals \u2192 intervals"
+  },
+  "intervals": {
+    "status": "complete",
+    "count": 10,
+    "completedAt": "2026-08-25",
+    "notes": "7+2; insert-new-interval leads Medium"
+  },
+  "dp-1d": {
+    "status": "complete",
+    "count": 26,
+    "completedAt": "2026-08-25",
+    "notes": "33\u219227; counting-bits\u2192bit; pascal\u2192math; daily-temps\u2192stack; BT/graph duals cleaned"
+  },
+  "dp-2d": {
+    "status": "complete",
+    "count": 23,
+    "completedAt": "2026-08-25",
+    "notes": "LIP exclusive; grid/string/interval DP"
+  },
+  "bit-manipulation": {
+    "status": "complete",
+    "count": 14,
+    "completedAt": "2026-08-25",
+    "notes": "27\u219218; BT duals\u2192backtracking; math duals split \u2014 power/missing kept in bit"
+  },
+  "math-geometry": {
+    "status": "complete",
+    "count": 26,
+    "completedAt": "2026-08-25",
+    "notes": "32\u219229; insert-GCD\u2192linked-list; duals from bit absorbed where math-primary"
+  }
+}

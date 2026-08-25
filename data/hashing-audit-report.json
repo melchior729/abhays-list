@@ -1,0 +1,1435 @@
+{
+  "pattern": "hashing",
+  "before": 53,
+  "after": 53,
+  "moves": {},
+  "desired_order": [
+    "design-hashset",
+    "design-hashmap",
+    "duplicate-integer",
+    "contains-duplicate-ii",
+    "intersection-of-two-arrays",
+    "find-the-difference-of-two-arrays",
+    "path-crossing",
+    "first-unique-character-in-a-string",
+    "ransom-note",
+    "find-common-characters",
+    "maximum-number-of-balloons",
+    "number-of-students-unable-to-eat-lunch",
+    "redistribute-characters-to-make-all-strings-equal",
+    "is-anagram",
+    "find-words-that-can-be-formed-by-characters",
+    "maximum-difference-between-even-and-odd-frequency-i",
+    "divide-array-into-equal-pairs",
+    "kth-distinct-string-in-an-array",
+    "word-pattern",
+    "isomorphic-strings",
+    "two-integer-sum",
+    "roman-to-integer",
+    "find-the-difference",
+    "largest-substring-between-two-equal-characters",
+    "number-of-good-pairs",
+    "height-checker",
+    "relative-sort-array",
+    "minimum-number-of-moves-to-seat-everyone",
+    "special-array-with-x-elements-greater-than-or-equal-x",
+    "sort-array-by-increasing-frequency",
+    "sort-the-people",
+    "find-the-index-of-the-first-occurrence-in-a-string",
+    "find-all-numbers-disappeared-in-an-array",
+    "insert-delete-getrandom-o1",
+    "longest-consecutive-sequence",
+    "remove-sub-folders-from-the-filesystem",
+    "anagram-groups",
+    "custom-sort-string",
+    "reorganize-string",
+    "4sum",
+    "hand-of-straights",
+    "unique-length-3-palindromic-subsequences",
+    "sort-an-array",
+    "subarray-sum-equals-k",
+    "continuous-subarray-sum",
+    "subarray-sums-divisible-by-k",
+    "number-of-sub-arrays-with-odd-sum",
+    "make-sum-divisible-by-p",
+    "count-vowel-strings-in-ranges",
+    "brick-wall",
+    "count-squares",
+    "analyze-user-website-visit-pattern",
+    "first-missing-positive"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "design-hashset",
+      "name": "Design HashSet",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "design_map",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Boolean Array"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "design-hashmap",
+      "name": "Design HashMap",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "design_map",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Array"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "duplicate-integer",
+      "name": "Contains Duplicate",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Hash Set Length"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
+      "slug": "contains-duplicate-ii",
+      "name": "Contains Duplicate II",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Hash Set"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 4,
+      "slug": "intersection-of-two-arrays",
+      "name": "Intersection of Two Arrays",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Hash Map",
+        "Hash Set (Optimal)",
+        "Built-In Functions"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 5,
+      "slug": "find-the-difference-of-two-arrays",
+      "name": "Find the Difference of Two Arrays",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Hash Set Difference"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 6,
+      "slug": "path-crossing",
+      "name": "Path Crossing",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Hash Set (Custom Hash)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "first-unique-character-in-a-string",
+      "name": "First Unique Character in a String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Hash Map (Optimal)",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
+      "slug": "ransom-note",
+      "name": "Ransom Note",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Count Frequency",
+        "Count Frequency (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "find-common-characters",
+      "name": "Find Common Characters",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
+      "slug": "maximum-number-of-balloons",
+      "name": "Maximum Number of Balloons",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map - I",
+        "Hash Map - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 11,
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "name": "Number of Students Unable to Eat Lunch",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "redistribute-characters-to-make-all-strings-equal",
+      "name": "Redistribute Characters to Make All Strings Equal",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count (Hash Map)",
+        "Frequency Count (Array)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 13,
+      "slug": "is-anagram",
+      "name": "Valid Anagram",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Hash Table (Using Array)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "find-words-that-can-be-formed-by-characters",
+      "name": "Find Words That Can Be Formed by Characters",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map (Two Pass)",
+        "Hash Map (One Pass)",
+        "Hash Table"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 15,
+      "slug": "maximum-difference-between-even-and-odd-frequency-i",
+      "name": "Maximum Difference Between Even and Odd Frequency I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 8,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting",
+        "Counting (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 16,
+      "slug": "divide-array-into-equal-pairs",
+      "name": "Divide Array Into Equal Pairs",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Hash Set"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 17,
+      "slug": "kth-distinct-string-in-an-array",
+      "name": "Kth Distinct String in an Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Hash Set"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 18,
+      "slug": "word-pattern",
+      "name": "Word Pattern",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Hash Maps",
+        "Two Hash Maps (Optimal)",
+        "Hash Set",
+        "Single Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 19,
+      "slug": "isomorphic-strings",
+      "name": "Isomorphic Strings",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map (Two Pass)",
+        "Hash Map (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 20,
+      "slug": "two-integer-sum",
+      "name": "Two Sum",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map (Two Pass)",
+        "Hash Map (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 21,
+      "slug": "roman-to-integer",
+      "name": "Roman to Integer",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 22,
+      "slug": "find-the-difference",
+      "name": "Find the Difference",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Hash Maps",
+        "One Hash Map",
+        "Difference Between ASCII Values",
+        "Difference Between ASCII Values (Optimal)",
+        "Bitwise XOR"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 23,
+      "slug": "largest-substring-between-two-equal-characters",
+      "name": "Largest Substring Between Two Equal Characters",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "First And Last Index",
+        "First Index (Hash Map)",
+        "First Index (Array)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 24,
+      "slug": "number-of-good-pairs",
+      "name": "Number of Good Pairs",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 8,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map (Math)",
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 25,
+      "slug": "height-checker",
+      "name": "Height Checker",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 26,
+      "slug": "relative-sort-array",
+      "name": "Relative Sort Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 27,
+      "slug": "minimum-number-of-moves-to-seat-everyone",
+      "name": "Minimum Number of Moves to Seat Everyone",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort",
+        "Counting Sort (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 28,
+      "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+      "name": "Special Array with X Elements Greater than or Equal X",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 29,
+      "slug": "sort-array-by-increasing-frequency",
+      "name": "Sort Array by Increasing Frequency",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Custom Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 30,
+      "slug": "sort-the-people",
+      "name": "Sort the People",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Sorting the Pairs",
+        "Sorting the Indices"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 31,
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "name": "Find The Index of The First Occurrence in a String",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Rabin-Karp Algorithm (Rolling Hash)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 32,
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "name": "Find All Numbers Disappeared in An Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "index_marking",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Negative Marking"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 33,
+      "slug": "insert-delete-getrandom-o1",
+      "name": "Insert Delete Get Random O(1)",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "design_map",
+      "is_design": true,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map + List"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 34,
+      "slug": "longest-consecutive-sequence",
+      "name": "Longest Consecutive Sequence",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 35,
+      "slug": "remove-sub-folders-from-the-filesystem",
+      "name": "Remove Sub-Folders from the Filesystem",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Set",
+        "Sorting",
+        "Trie"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 36,
+      "slug": "anagram-groups",
+      "name": "Group Anagrams",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 9,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Table"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 37,
+      "slug": "custom-sort-string",
+      "name": "Custom Sort String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 10,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 38,
+      "slug": "reorganize-string",
+      "name": "Reorganize String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "freq_count",
+      "is_design": false,
+      "within_family_rank": 11,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count",
+        "Frequency Count (Max-Heap)",
+        "Frequency Count (Greedy)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 39,
+      "slug": "4sum",
+      "name": "4Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 9,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map",
+        "Two Pointers",
+        "K-Sum + Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 40,
+      "slug": "hand-of-straights",
+      "name": "Hand of Straights",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 10,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 41,
+      "slug": "unique-length-3-palindromic-subsequences",
+      "name": "Unique Length 3 Palindromic Subsequences",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 11,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "First And Last Index",
+        "First And Last Index (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 42,
+      "slug": "sort-an-array",
+      "name": "Sort an Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "counting_sort",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 43,
+      "slug": "subarray-sum-equals-k",
+      "name": "Subarray Sum Equals K",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 44,
+      "slug": "continuous-subarray-sum",
+      "name": "Continuous Subarray Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 45,
+      "slug": "subarray-sums-divisible-by-k",
+      "name": "Subarray Sums Divisible by K",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Hash Map",
+        "Prefix Sum + Array"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 46,
+      "slug": "number-of-sub-arrays-with-odd-sum",
+      "name": "Number of Sub-arrays With Odd Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum - I",
+        "Prefix Sum - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 47,
+      "slug": "make-sum-divisible-by-p",
+      "name": "Make Sum Divisible by P",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 48,
+      "slug": "count-vowel-strings-in-ranges",
+      "name": "Count Vowel Strings in Ranges",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Hash Set",
+        "Prefix Sum + Bitmask"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 49,
+      "slug": "brick-wall",
+      "name": "Brick Wall",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "geometry_hash",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 50,
+      "slug": "count-squares",
+      "name": "Detect Squares",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "geometry_hash",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map - I",
+        "Hash Map - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 51,
+      "slug": "analyze-user-website-visit-pattern",
+      "name": "Analyze User Website Visit Pattern",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "geometry_hash",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 52,
+      "slug": "first-missing-positive",
+      "name": "First Missing Positive",
+      "difficulty": "hard",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "index_marking",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Negative Marking",
+        "Cycle Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

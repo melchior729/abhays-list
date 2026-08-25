@@ -1,0 +1,713 @@
+{
+  "pattern": "linked-list",
+  "before": 26,
+  "after": 24,
+  "moves": {
+    "find-duplicate-integer": [
+      "bit-manipulation"
+    ],
+    "rotate-array": [
+      "arrays"
+    ]
+  },
+  "desired_order": [
+    "reverse-a-linked-list",
+    "merge-two-sorted-linked-lists",
+    "remove-linked-list-elements",
+    "linked-list-cycle-detection",
+    "non-cyclical-number",
+    "middle-of-the-linked-list",
+    "palindrome-linked-list",
+    "intersection-of-two-linked-lists",
+    "design-linked-list",
+    "design-circular-queue",
+    "lru-cache",
+    "reverse-linked-list-ii",
+    "rotate-list",
+    "reorder-linked-list",
+    "maximum-twin-sum-of-a-linked-list",
+    "add-two-numbers",
+    "add-two-numbers-ii",
+    "insertion-sort-list",
+    "remove-node-from-end-of-linked-list",
+    "lowest-common-ancestor-of-a-binary-tree-iii",
+    "copy-linked-list-with-random-pointer",
+    "lfu-cache",
+    "reverse-nodes-in-k-group",
+    "merge-k-sorted-linked-lists"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "non-cyclical-number",
+      "name": "Happy Number",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "fast_slow",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Fast And Slow Pointers - I",
+        "Fast And Slow Pointers - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 4 after linked-list-cycle-detection"
+    },
+    {
+      "index": 1,
+      "slug": "linked-list-cycle-detection",
+      "name": "Linked List Cycle",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "fast_slow",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Fast And Slow Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 3 after remove-linked-list-elements"
+    },
+    {
+      "index": 2,
+      "slug": "merge-two-sorted-linked-lists",
+      "name": "Merge Two Sorted Lists",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 1 after reverse-a-linked-list"
+    },
+    {
+      "index": 3,
+      "slug": "middle-of-the-linked-list",
+      "name": "Middle of the Linked List",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "fast_slow",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Find Length of the List",
+        "Fast & Slow Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 5 after non-cyclical-number"
+    },
+    {
+      "index": 4,
+      "slug": "palindrome-linked-list",
+      "name": "Palindrome Linked List",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "fast_slow",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Fast & Slow Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 6 after middle-of-the-linked-list"
+    },
+    {
+      "index": 5,
+      "slug": "remove-linked-list-elements",
+      "name": "Remove Linked List Elements",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Iteration Without Prev Pointer"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 2 after merge-two-sorted-linked-lists"
+    },
+    {
+      "index": 6,
+      "slug": "reverse-a-linked-list",
+      "name": "Reverse Linked List",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 0 after (start)"
+    },
+    {
+      "index": 7,
+      "slug": "intersection-of-two-linked-lists",
+      "name": "Intersection of Two Linked Lists",
+      "difficulty": "easy",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "two_pointer",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers - I",
+        "Two Pointers - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
+      "slug": "add-two-numbers",
+      "name": "Add Two Numbers",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 15 after maximum-twin-sum-of-a-linked-list"
+    },
+    {
+      "index": 9,
+      "slug": "add-two-numbers-ii",
+      "name": "Add Two Numbers II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Reverse List",
+        "Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 16 after add-two-numbers"
+    },
+    {
+      "index": 10,
+      "slug": "copy-linked-list-with-random-pointer",
+      "name": "Copy List With Random Pointer",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "advanced",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Space Optimized - I",
+        "Space Optimized - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 20 after lowest-common-ancestor-of-a-binary-tree-iii"
+    },
+    {
+      "index": 11,
+      "slug": "design-circular-queue",
+      "name": "Design Circular Queue",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Array",
+        "Doubly Linked List",
+        "Singly Linked List"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 9 after design-linked-list"
+    },
+    {
+      "index": 12,
+      "slug": "design-linked-list",
+      "name": "Design Linked List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Singly Linked List",
+        "Singly Linked List (Optimal)",
+        "Doubly Linked List",
+        "Doubly Linked List (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 8 after intersection-of-two-linked-lists"
+    },
+    {
+      "index": 13,
+      "slug": "find-duplicate-integer",
+      "name": "Find The Duplicate Number",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list",
+        "bit-manipulation"
+      ],
+      "verdict": "MOVE:bit-manipulation",
+      "target_patterns": [
+        "bit-manipulation"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bit Manipulation",
+        "Fast And Slow Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 14,
+      "slug": "insertion-sort-list",
+      "name": "Insertion Sort List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Convert To Array"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 17 after add-two-numbers-ii"
+    },
+    {
+      "index": 15,
+      "slug": "lru-cache",
+      "name": "LRU Cache",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Doubly Linked List",
+        "Built-In Data Structure"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 10 after design-circular-queue"
+    },
+    {
+      "index": 16,
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "name": "Lowest Common Ancestor of a Binary Tree III",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "two_pointer",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 19 after remove-node-from-end-of-linked-list"
+    },
+    {
+      "index": 17,
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "name": "Maximum Twin Sum Of A Linked List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Reverse the Second Half",
+        "Reverse the First Half"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 14 after reorder-linked-list"
+    },
+    {
+      "index": 18,
+      "slug": "remove-node-from-end-of-linked-list",
+      "name": "Remove Nth Node From End of List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "two_pointer",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Two Pass)",
+        "Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 18 after insertion-sort-list"
+    },
+    {
+      "index": 19,
+      "slug": "reorder-linked-list",
+      "name": "Reorder List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Reverse And Merge"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 13 after rotate-list"
+    },
+    {
+      "index": 20,
+      "slug": "reverse-linked-list-ii",
+      "name": "Reverse Linked List II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 11 after lru-cache"
+    },
+    {
+      "index": 21,
+      "slug": "rotate-array",
+      "name": "Rotate Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Cyclic Traversal",
+        "Using Reverse"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 22,
+      "slug": "rotate-list",
+      "name": "Rotate List",
+      "difficulty": "medium",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Iteration (Using One Pointer)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 12 after reverse-linked-list-ii"
+    },
+    {
+      "index": 23,
+      "slug": "lfu-cache",
+      "name": "LFU Cache",
+      "difficulty": "hard",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Doubly Linked List"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 24,
+      "slug": "merge-k-sorted-linked-lists",
+      "name": "Merge K Sorted Lists",
+      "difficulty": "hard",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "advanced",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Merge Lists One By One"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 23 after reverse-nodes-in-k-group"
+    },
+    {
+      "index": 25,
+      "slug": "reverse-nodes-in-k-group",
+      "name": "Reverse Nodes In K Group",
+      "difficulty": "hard",
+      "current_patterns": [
+        "linked-list"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "linked-list"
+      ],
+      "technique_family": "reverse",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 22 after lfu-cache"
+    }
+  ]
+}

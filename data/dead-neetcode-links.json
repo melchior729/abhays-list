@@ -1,0 +1,2842 @@
+[
+  {
+    "slug": "circular-sentence",
+    "name": "Circular Sentence",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/circular-sentence"
+  },
+  {
+    "slug": "design-parking-system",
+    "name": "Design Parking System",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/design-parking-system"
+  },
+  {
+    "slug": "add-to-array-form-of-integer",
+    "name": "Add to Array-Form of Integer",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/add-to-array-form-of-integer"
+  },
+  {
+    "slug": "apply-operations-to-an-array",
+    "name": "Apply Operations to an Array",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/apply-operations-to-an-array"
+  },
+  {
+    "slug": "backspace-string-compare",
+    "name": "Backspace String Compare",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/backspace-string-compare"
+  },
+  {
+    "slug": "calculate-money-in-leetcode-bank",
+    "name": "Calculate Money in Leetcode Bank",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/calculate-money-in-leetcode-bank"
+  },
+  {
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "name": "Check If Two String Arrays are Equivalent",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-two-string-arrays-are-equivalent"
+  },
+  {
+    "slug": "check-if-one-string-swap-can-make-strings-equal",
+    "name": "Check if One String Swap Can Make Strings Equal",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-one-string-swap-can-make-strings-equal"
+  },
+  {
+    "slug": "clear-digits",
+    "name": "Clear Digits",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/clear-digits"
+  },
+  {
+    "slug": "convert-1d-array-into-2d-array",
+    "name": "Convert 1D Array Into 2D Array",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/convert-1d-array-into-2d-array"
+  },
+  {
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "name": "Convert Sorted Array to Binary Search Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/convert-sorted-array-to-binary-search-tree"
+  },
+  {
+    "slug": "count-of-matches-in-tournament",
+    "name": "Count of Matches in Tournament",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-of-matches-in-tournament"
+  },
+  {
+    "slug": "defuse-the-bomb",
+    "name": "Defuse the Bomb",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/defuse-the-bomb"
+  },
+  {
+    "slug": "destination-city",
+    "name": "Destination City",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/destination-city"
+  },
+  {
+    "slug": "evaluate-boolean-binary-tree",
+    "name": "Evaluate Boolean Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/evaluate-boolean-binary-tree"
+  },
+  {
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "name": "Final Prices With a Special Discount in a Shop",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/final-prices-with-a-special-discount-in-a-shop"
+  },
+  {
+    "slug": "find-first-palindromic-string-in-the-array",
+    "name": "Find First Palindromic String in the Array",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-first-palindromic-string-in-the-array"
+  },
+  {
+    "slug": "image-smoother",
+    "name": "Image Smoother",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/image-smoother"
+  },
+  {
+    "slug": "largest-local-values-in-a-matrix",
+    "name": "Largest Local Values in a Matrix",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/largest-local-values-in-a-matrix"
+  },
+  {
+    "slug": "largest-odd-number-in-string",
+    "name": "Largest Odd Number in String",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/largest-odd-number-in-string"
+  },
+  {
+    "slug": "leaf-similar-trees",
+    "name": "Leaf-Similar Trees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/leaf-similar-trees"
+  },
+  {
+    "slug": "lucky-numbers-in-a-matrix",
+    "name": "Lucky Numbers in a Matrix",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/lucky-numbers-in-a-matrix"
+  },
+  {
+    "slug": "make-two-arrays-equal-by-reversing-subarrays",
+    "name": "Make Two Arrays Equal by Reversing Subarrays",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/make-two-arrays-equal-by-reversing-subarrays"
+  },
+  {
+    "slug": "make-the-string-great",
+    "name": "Make The String Great",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/make-the-string-great"
+  },
+  {
+    "slug": "merge-two-2d-arrays-by-summing-values",
+    "name": "Merge Two 2D Arrays by Summing Values",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/merge-two-2d-arrays-by-summing-values"
+  },
+  {
+    "slug": "minimum-bit-flips-to-convert-number",
+    "name": "Minimum Bit Flips to Convert Number",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-bit-flips-to-convert-number"
+  },
+  {
+    "slug": "minimum-distance-between-bst-nodes",
+    "name": "Minimum Distance between BST Nodes",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-distance-between-bst-nodes"
+  },
+  {
+    "slug": "minimum-string-length-after-removing-substrings",
+    "name": "Minimum String Length After Removing Substrings",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-string-length-after-removing-substrings"
+  },
+  {
+    "slug": "power-of-four",
+    "name": "Power of Four",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/power-of-four"
+  },
+  {
+    "slug": "remove-duplicates-from-sorted-list",
+    "name": "Remove Duplicates From Sorted List",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-duplicates-from-sorted-list"
+  },
+  {
+    "slug": "reverse-words-in-a-string-iii",
+    "name": "Reverse Words in a String III",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/reverse-words-in-a-string-iii"
+  },
+  {
+    "slug": "shift-2d-grid",
+    "name": "Shift 2D Grid",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shift-2d-grid"
+  },
+  {
+    "slug": "shuffle-the-array",
+    "name": "Shuffle the Array",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shuffle-the-array"
+  },
+  {
+    "slug": "symmetric-tree",
+    "name": "Symmetric Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/symmetric-tree"
+  },
+  {
+    "slug": "uncommon-words-from-two-sentences",
+    "name": "Uncommon Words from Two Sentences",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/uncommon-words-from-two-sentences"
+  },
+  {
+    "slug": "water-bottles",
+    "name": "Water Bottles",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/water-bottles"
+  },
+  {
+    "slug": "widest-vertical-area-between-two-points-containing-no-points",
+    "name": "Wildest Vertical Area Between Two Points Containing No Points",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/widest-vertical-area-between-two-points-containing-no-points"
+  },
+  {
+    "slug": "sort-the-jumbled-numbers",
+    "name": "Sort the Jumbled Numbers",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sort-the-jumbled-numbers"
+  },
+  {
+    "slug": "number-of-zero-filled-subarrays",
+    "name": "Number of Zero-Filled Subarrays",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-zero-filled-subarrays"
+  },
+  {
+    "slug": "number-of-ways-to-split-array",
+    "name": "Number of Ways to Split Array",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-split-array"
+  },
+  {
+    "slug": "minimum-penalty-for-a-shop",
+    "name": "Minimum Penalty for a Shop",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-penalty-for-a-shop"
+  },
+  {
+    "slug": "sum-of-absolute-differences-in-a-sorted-array",
+    "name": "Sum of Absolute Differences in a Sorted Array",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sum-of-absolute-differences-in-a-sorted-array"
+  },
+  {
+    "slug": "grid-game",
+    "name": "Grid Game",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/grid-game"
+  },
+  {
+    "slug": "count-unguarded-cells-in-the-grid",
+    "name": "Count Unguarded Cells in the Grid",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-unguarded-cells-in-the-grid"
+  },
+  {
+    "slug": "132-pattern",
+    "name": "132 Pattern",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/132-pattern"
+  },
+  {
+    "slug": "2-keys-keyboard",
+    "name": "2 Keys Keyboard",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/2-keys-keyboard"
+  },
+  {
+    "slug": "shifting-letters-ii",
+    "name": "Shifting Letters II",
+    "patterns": [
+      "arrays"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shifting-letters-ii"
+  },
+  {
+    "slug": "adding-spaces-to-a-string",
+    "name": "Adding Spaces to a String",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/adding-spaces-to-a-string"
+  },
+  {
+    "slug": "alternating-groups-ii",
+    "name": "Alternating Groups II",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/alternating-groups-ii"
+  },
+  {
+    "slug": "all-possible-full-binary-trees",
+    "name": "All Possible Full Binary Trees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/all-possible-full-binary-trees"
+  },
+  {
+    "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+    "name": "Array With Elements Not Equal to Average of Neighbors",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/array-with-elements-not-equal-to-average-of-neighbors"
+  },
+  {
+    "slug": "as-far-from-land-as-possible",
+    "name": "As Far from Land as Possible",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/as-far-from-land-as-possible"
+  },
+  {
+    "slug": "bag-of-tokens",
+    "name": "Bag of Tokens",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/bag-of-tokens"
+  },
+  {
+    "slug": "best-sightseeing-pair",
+    "name": "Best Sightseeing Pair",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/best-sightseeing-pair"
+  },
+  {
+    "slug": "best-team-with-no-conflicts",
+    "name": "Best Team with no Conflicts",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/best-team-with-no-conflicts"
+  },
+  {
+    "slug": "bitwise-xor-of-all-pairings",
+    "name": "Bitwise XOR of All Pairings",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/bitwise-xor-of-all-pairings"
+  },
+  {
+    "slug": "champagne-tower",
+    "name": "Champagne Tower",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/champagne-tower"
+  },
+  {
+    "slug": "check-if-grid-can-be-cut-into-sections",
+    "name": "Check if Grid can be Cut into Sections",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-grid-can-be-cut-into-sections"
+  },
+  {
+    "slug": "check-if-there-is-a-valid-partition-for-the-array",
+    "name": "Check if There is a Valid Partition For The Array",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-there-is-a-valid-partition-for-the-array"
+  },
+  {
+    "slug": "check-if-number-is-a-sum-of-powers-of-three",
+    "name": "Check if Number is a Sum of Powers of Three",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-number-is-a-sum-of-powers-of-three"
+  },
+  {
+    "slug": "check-if-move-is-legal",
+    "name": "Check if Move Is Legal",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-move-is-legal"
+  },
+  {
+    "slug": "check-if-a-parentheses-string-can-be-valid",
+    "name": "Check if a Parentheses String Can Be Valid",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-a-parentheses-string-can-be-valid"
+  },
+  {
+    "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "name": "Check if a String Contains all Binary Codes of Size K",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/check-if-a-string-contains-all-binary-codes-of-size-k"
+  },
+  {
+    "slug": "closest-prime-numbers-in-range",
+    "name": "Closest Prime Numbers in Range",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/closest-prime-numbers-in-range"
+  },
+  {
+    "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
+    "name": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-binary-tree-from-preorder-and-postorder-traversal"
+  },
+  {
+    "slug": "construct-k-palindrome-strings",
+    "name": "Construct K Palindrome Strings",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-k-palindrome-strings"
+  },
+  {
+    "slug": "construct-string-from-binary-tree",
+    "name": "Construct String From Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-string-from-binary-tree"
+  },
+  {
+    "slug": "construct-smallest-number-from-di-string",
+    "name": "Construct Smallest Number From DI String",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-smallest-number-from-di-string"
+  },
+  {
+    "slug": "contiguous-array",
+    "name": "Contiguous Array",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/contiguous-array"
+  },
+  {
+    "slug": "construct-string-with-repeat-limit",
+    "name": "Construct String With Repeat Limit",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-string-with-repeat-limit"
+  },
+  {
+    "slug": "construct-the-lexicographically-largest-valid-sequence",
+    "name": "Construct the Lexicographically Largest Valid Sequence",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/construct-the-lexicographically-largest-valid-sequence"
+  },
+  {
+    "slug": "convert-an-array-into-a-2d-array-with-conditions",
+    "name": "Convert an Array Into a 2D Array With Conditions",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/convert-an-array-into-a-2d-array-with-conditions"
+  },
+  {
+    "slug": "count-days-without-meetings",
+    "name": "Count Days Without Meetings",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-days-without-meetings"
+  },
+  {
+    "slug": "count-number-of-bad-pairs",
+    "name": "Count Number of Bad Pairs",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-number-of-bad-pairs"
+  },
+  {
+    "slug": "count-number-of-nice-subarrays",
+    "name": "Count Number of Nice Subarrays",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-number-of-nice-subarrays"
+  },
+  {
+    "slug": "count-number-of-maximum-bitwise-or-subsets",
+    "name": "Count Number of Maximum Bitwise-OR Subsets",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-number-of-maximum-bitwise-or-subsets"
+  },
+  {
+    "slug": "count-number-of-teams",
+    "name": "Count Number of Teams",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-number-of-teams"
+  },
+  {
+    "slug": "count-square-submatrices-with-all-ones",
+    "name": "Count Square Submatrices with All Ones",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-square-submatrices-with-all-ones"
+  },
+  {
+    "slug": "count-subarrays-where-max-element-appears-at-least-k-times",
+    "name": "Count Subarrays Where Max Element Appears at Least K Times",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-subarrays-where-max-element-appears-at-least-k-times"
+  },
+  {
+    "slug": "count-sub-islands",
+    "name": "Count Sub Islands",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-sub-islands"
+  },
+  {
+    "slug": "count-total-number-of-colored-cells",
+    "name": "Count Total Number of Colored Cells",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-total-number-of-colored-cells"
+  },
+  {
+    "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+    "name": "Count Triplets That Can Form Two Arrays of Equal XOR",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-triplets-that-can-form-two-arrays-of-equal-xor"
+  },
+  {
+    "slug": "count-ways-to-build-good-strings",
+    "name": "Count Ways to Build Good Strings",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-ways-to-build-good-strings"
+  },
+  {
+    "slug": "count-of-substrings-containing-every-vowel-and-k-consonants-ii",
+    "name": "Count of Substrings Containing Every Vowel and K Consonants II",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii"
+  },
+  {
+    "slug": "count-the-number-of-fair-pairs",
+    "name": "Count the Number of Fair Pairs",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-the-number-of-fair-pairs"
+  },
+  {
+    "slug": "count-the-number-of-complete-components",
+    "name": "Count the Number of Complete Components",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-the-number-of-complete-components"
+  },
+  {
+    "slug": "create-binary-tree-from-descriptions",
+    "name": "Create Binary Tree From Descriptions",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/create-binary-tree-from-descriptions"
+  },
+  {
+    "slug": "cousins-in-binary-tree-ii",
+    "name": "Cousins in Binary Tree II",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/cousins-in-binary-tree-ii"
+  },
+  {
+    "slug": "delete-nodes-and-return-forest",
+    "name": "Delete Nodes And Return Forest",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/delete-nodes-and-return-forest"
+  },
+  {
+    "slug": "delete-nodes-from-linked-list-present-in-array",
+    "name": "Delete Nodes From Linked List Present in Array",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/delete-nodes-from-linked-list-present-in-array"
+  },
+  {
+    "slug": "delete-and-earn",
+    "name": "Delete And Earn",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/delete-and-earn"
+  },
+  {
+    "slug": "design-underground-system",
+    "name": "Design Underground System",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/design-underground-system"
+  },
+  {
+    "slug": "design-a-food-rating-system",
+    "name": "Design a Food Rating System",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/design-a-food-rating-system"
+  },
+  {
+    "slug": "detonate-the-maximum-bombs",
+    "name": "Detonate the Maximum Bombs",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/detonate-the-maximum-bombs"
+  },
+  {
+    "slug": "different-ways-to-add-parentheses",
+    "name": "Different Ways to Add Parentheses",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/different-ways-to-add-parentheses"
+  },
+  {
+    "slug": "distribute-coins-in-binary-tree",
+    "name": "Distribute Coins in Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/distribute-coins-in-binary-tree"
+  },
+  {
+    "slug": "divide-array-into-arrays-with-max-difference",
+    "name": "Divide Array Into Arrays With Max Difference",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/divide-array-into-arrays-with-max-difference"
+  },
+  {
+    "slug": "divide-players-into-teams-of-equal-skill",
+    "name": "Divide Players Into Teams of Equal Skill",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/divide-players-into-teams-of-equal-skill"
+  },
+  {
+    "slug": "divide-intervals-into-minimum-number-of-groups",
+    "name": "Divide Intervals Into Minimum Number of Groups",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/divide-intervals-into-minimum-number-of-groups"
+  },
+  {
+    "slug": "eliminate-maximum-number-of-monsters",
+    "name": "Eliminate Maximum Number of Monsters",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/eliminate-maximum-number-of-monsters"
+  },
+  {
+    "slug": "encode-and-decode-tinyurl",
+    "name": "Encode and Decode TinyURL",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/encode-and-decode-tinyurl"
+  },
+  {
+    "slug": "even-odd-tree",
+    "name": "Even Odd Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/even-odd-tree"
+  },
+  {
+    "slug": "find-all-anagrams-in-a-string",
+    "name": "Find All Anagrams in a String",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-all-anagrams-in-a-string"
+  },
+  {
+    "slug": "filling-bookcase-shelves",
+    "name": "Filling Bookcase Shelves",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/filling-bookcase-shelves"
+  },
+  {
+    "slug": "find-all-duplicates-in-an-array",
+    "name": "Find All Duplicates in an Array",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-all-duplicates-in-an-array"
+  },
+  {
+    "slug": "find-all-possible-recipes-from-given-supplies",
+    "name": "Find All Possible Recipes from Given Supplies",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-all-possible-recipes-from-given-supplies"
+  },
+  {
+    "slug": "find-bottom-left-tree-value",
+    "name": "Find Bottom Left Tree Value",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-bottom-left-tree-value"
+  },
+  {
+    "slug": "find-closest-node-to-given-two-nodes",
+    "name": "Find Closest Node to Given Two Nodes",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-closest-node-to-given-two-nodes"
+  },
+  {
+    "slug": "find-champion-ii",
+    "name": "Find Champion II",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-champion-ii"
+  },
+  {
+    "slug": "find-eventual-safe-states",
+    "name": "Find Eventual Safe States",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-eventual-safe-states"
+  },
+  {
+    "slug": "find-duplicate-subtrees",
+    "name": "Find Duplicate Subtrees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-duplicate-subtrees"
+  },
+  {
+    "slug": "find-missing-observations",
+    "name": "Find Missing Observations",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-missing-observations"
+  },
+  {
+    "slug": "find-kth-bit-in-nth-binary-string",
+    "name": "Find Kth Bit in Nth Binary String",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-kth-bit-in-nth-binary-string"
+  },
+  {
+    "slug": "find-largest-value-in-each-tree-row",
+    "name": "Find Largest Value in Tree Row",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-largest-value-in-each-tree-row"
+  },
+  {
+    "slug": "find-polygon-with-the-largest-perimeter",
+    "name": "Find Polygon with the Largest Perimeter",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-polygon-with-the-largest-perimeter"
+  },
+  {
+    "slug": "find-the-kth-largest-integer-in-the-array",
+    "name": "Find The Kth Largest Integer In The Array",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-kth-largest-integer-in-the-array"
+  },
+  {
+    "slug": "find-unique-binary-string",
+    "name": "Find Unique Binary String",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-unique-binary-string"
+  },
+  {
+    "slug": "find-the-length-of-the-longest-common-prefix",
+    "name": "Find the Length of the Longest Common Prefix",
+    "patterns": [
+      "tries"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-length-of-the-longest-common-prefix"
+  },
+  {
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "name": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance"
+  },
+  {
+    "slug": "find-valid-matrix-given-row-and-column-sums",
+    "name": "Find Valid Matrix Given Row and Column Sums",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-valid-matrix-given-row-and-column-sums"
+  },
+  {
+    "slug": "find-if-array-can-be-sorted",
+    "name": "Find if Array Can Be Sorted",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-if-array-can-be-sorted"
+  },
+  {
+    "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+    "name": "Find the Longest Substring Containing Vowels in Even Counts",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-longest-substring-containing-vowels-in-even-counts"
+  },
+  {
+    "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+    "name": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points"
+  },
+  {
+    "slug": "find-the-power-of-k-size-subarrays-i",
+    "name": "Find the Power of K-Size Subarrays I",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-power-of-k-size-subarrays-i"
+  },
+  {
+    "slug": "find-the-winner-of-the-circular-game",
+    "name": "Find the Winner of the Circular Game",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-winner-of-the-circular-game"
+  },
+  {
+    "slug": "find-the-punishment-number-of-an-integer",
+    "name": "Find the Punishment Number of an Integer",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-punishment-number-of-an-integer"
+  },
+  {
+    "slug": "find-the-safest-path-in-a-grid",
+    "name": "Find the Safest Path in a Grid",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-safest-path-in-a-grid"
+  },
+  {
+    "slug": "flatten-nested-list-iterator",
+    "name": "Flatten Nested List Iterator",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/flatten-nested-list-iterator"
+  },
+  {
+    "slug": "flip-columns-for-maximum-number-of-equal-rows",
+    "name": "Flip Columns For Maximum Number of Equal Rows",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/flip-columns-for-maximum-number-of-equal-rows"
+  },
+  {
+    "slug": "flip-string-to-monotone-increasing",
+    "name": "Flip String to Monotone Increasing",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/flip-string-to-monotone-increasing"
+  },
+  {
+    "slug": "flip-equivalent-binary-trees",
+    "name": "Flip Equivalent Binary Trees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/flip-equivalent-binary-trees"
+  },
+  {
+    "slug": "furthest-building-you-can-reach",
+    "name": "Furthest Building You Can Reach",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/furthest-building-you-can-reach"
+  },
+  {
+    "slug": "get-equal-substrings-within-budget",
+    "name": "Get Equal Substrings Within Budget",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/get-equal-substrings-within-budget"
+  },
+  {
+    "slug": "house-robber-iv",
+    "name": "House Robber IV",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/house-robber-iv"
+  },
+  {
+    "slug": "is-graph-bipartite",
+    "name": "Is Graph Bipartite?",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/is-graph-bipartite"
+  },
+  {
+    "slug": "k-th-symbol-in-grammar",
+    "name": "K-th Symbol in Grammar",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/k-th-symbol-in-grammar"
+  },
+  {
+    "slug": "knight-dialer",
+    "name": "Knight Dialer",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/knight-dialer"
+  },
+  {
+    "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+    "name": "Largest Combination With Bitwise AND Greater Than Zero",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/largest-combination-with-bitwise-and-greater-than-zero"
+  },
+  {
+    "slug": "kth-largest-sum-in-a-binary-tree",
+    "name": "Kth Largest Sum in a Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/kth-largest-sum-in-a-binary-tree"
+  },
+  {
+    "slug": "least-number-of-unique-integers-after-k-removals",
+    "name": "Least Number of Unique Integers after K Removal",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/least-number-of-unique-integers-after-k-removals"
+  },
+  {
+    "slug": "length-of-longest-fibonacci-subsequence",
+    "name": "Length of Longest Fibonacci Subsequence",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/length-of-longest-fibonacci-subsequence"
+  },
+  {
+    "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+    "name": "Length of Longest Subarray With at Most K Frequency",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/length-of-longest-subarray-with-at-most-k-frequency"
+  },
+  {
+    "slug": "letter-tile-possibilities",
+    "name": "Letter Tile Possibilities",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/letter-tile-possibilities"
+  },
+  {
+    "slug": "lexicographical-numbers",
+    "name": "Lexicographical Numbers",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/lexicographical-numbers"
+  },
+  {
+    "slug": "linked-list-in-binary-tree",
+    "name": "Linked List in Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/linked-list-in-binary-tree"
+  },
+  {
+    "slug": "longest-ideal-subsequence",
+    "name": "Longest Ideal Subsequence",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/longest-ideal-subsequence"
+  },
+  {
+    "slug": "longest-nice-subarray",
+    "name": "Longest Nice Subarray",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/longest-nice-subarray"
+  },
+  {
+    "slug": "longest-subarray-with-maximum-bitwise-and",
+    "name": "Longest Subarray With Maximum Bitwise AND",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/longest-subarray-with-maximum-bitwise-and"
+  },
+  {
+    "slug": "longest-string-chain",
+    "name": "Longest String Chain",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/longest-string-chain"
+  },
+  {
+    "slug": "magic-squares-in-grid",
+    "name": "Magic Squares In Grid",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/magic-squares-in-grid"
+  },
+  {
+    "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+    "name": "Make Lexicographically Smallest Array by Swapping Elements",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/make-lexicographically-smallest-array-by-swapping-elements"
+  },
+  {
+    "slug": "max-chunks-to-make-sorted",
+    "name": "Max Chunks To Make Sorted",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/max-chunks-to-make-sorted"
+  },
+  {
+    "slug": "maximal-score-after-applying-k-operations",
+    "name": "Maximal Score After Applying K Operations",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximal-score-after-applying-k-operations"
+  },
+  {
+    "slug": "maximum-absolute-sum-of-any-subarray",
+    "name": "Maximum Absolute Sum of Any Subarray",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-absolute-sum-of-any-subarray"
+  },
+  {
+    "slug": "maximum-alternating-subsequence-sum",
+    "name": "Maximum Alternating Subsequence Sum",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-alternating-subsequence-sum"
+  },
+  {
+    "slug": "maximum-beauty-of-an-array-after-applying-operation",
+    "name": "Maximum Beauty of an Array After Applying Operation",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-beauty-of-an-array-after-applying-operation"
+  },
+  {
+    "slug": "maximum-element-after-decreasing-and-rearranging",
+    "name": "Maximum Element After Decreasing and Rearranging",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-element-after-decreasing-and-rearranging"
+  },
+  {
+    "slug": "maximum-candies-allocated-to-k-children",
+    "name": "Maximum Candies Allocated to K Children",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-candies-allocated-to-k-children"
+  },
+  {
+    "slug": "maximum-length-of-pair-chain",
+    "name": "Maximum Length of Pair Chain",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-length-of-pair-chain"
+  },
+  {
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "name": "Maximum Length of a Concatenated String With Unique Characters",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-length-of-a-concatenated-string-with-unique-characters"
+  },
+  {
+    "slug": "maximum-matrix-sum",
+    "name": "Maximum Matrix Sum",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-matrix-sum"
+  },
+  {
+    "slug": "maximum-number-of-removable-characters",
+    "name": "Maximum Number of Removable Characters",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-removable-characters"
+  },
+  {
+    "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+    "name": "Maximum Number of Vowels in a Substring of Given Length",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-vowels-in-a-substring-of-given-length"
+  },
+  {
+    "slug": "maximum-number-of-fish-in-a-grid",
+    "name": "Maximum Number of Fish in a Grid",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-fish-in-a-grid"
+  },
+  {
+    "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+    "name": "Maximum Product of The Length of Two Palindromic Subsequences",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-product-of-the-length-of-two-palindromic-subsequences"
+  },
+  {
+    "slug": "maximum-subarray-min-product",
+    "name": "Maximum Subarray Min Product",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-subarray-min-product"
+  },
+  {
+    "slug": "maximum-score-from-removing-substrings",
+    "name": "Maximum Score From Removing Substrings",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-score-from-removing-substrings"
+  },
+  {
+    "slug": "maximum-subsequence-score",
+    "name": "Maximum Subsequence Score",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-subsequence-score"
+  },
+  {
+    "slug": "maximum-swap",
+    "name": "Maximum Swap",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-swap"
+  },
+  {
+    "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+    "name": "Maximum Sum of Distinct Subarrays With Length K",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-sum-of-distinct-subarrays-with-length-k"
+  },
+  {
+    "slug": "maximum-total-importance-of-roads",
+    "name": "Maximum Total Importance of Roads",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-total-importance-of-roads"
+  },
+  {
+    "slug": "maximum-width-ramp",
+    "name": "Maximum Width Ramp",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-width-ramp"
+  },
+  {
+    "slug": "maximum-xor-for-each-query",
+    "name": "Maximum XOR for Each Query",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-xor-for-each-query"
+  },
+  {
+    "slug": "maximum-width-of-binary-tree",
+    "name": "Maximum Width of Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-width-of-binary-tree"
+  },
+  {
+    "slug": "merge-nodes-in-between-zeros",
+    "name": "Merge Nodes in Between Zeros",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/merge-nodes-in-between-zeros"
+  },
+  {
+    "slug": "merge-in-between-linked-lists",
+    "name": "Merge in Between Linked Lists",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/merge-in-between-linked-lists"
+  },
+  {
+    "slug": "minimize-maximum-of-array",
+    "name": "Minimize Maximum of Array",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimize-maximum-of-array"
+  },
+  {
+    "slug": "minimize-xor",
+    "name": "Minimize XOR",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimize-xor"
+  },
+  {
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "name": "Minimum Add to Make Parentheses Valid",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-add-to-make-parentheses-valid"
+  },
+  {
+    "slug": "minimized-maximum-of-products-distributed-to-any-store",
+    "name": "Minimized Maximum of Products Distributed to Any Store",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimized-maximum-of-products-distributed-to-any-store"
+  },
+  {
+    "slug": "minimum-deletions-to-make-character-frequencies-unique",
+    "name": "Minimum Deletions to Make Character Frequencies Unique",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-deletions-to-make-character-frequencies-unique"
+  },
+  {
+    "slug": "minimum-cost-to-convert-string-i",
+    "name": "Minimum Cost to Convert String I",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-cost-to-convert-string-i"
+  },
+  {
+    "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+    "name": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves"
+  },
+  {
+    "slug": "minimum-deletions-to-make-string-balanced",
+    "name": "Minimum Deletions to Make String Balanced",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-deletions-to-make-string-balanced"
+  },
+  {
+    "slug": "minimum-fuel-cost-to-report-to-the-capital",
+    "name": "Minimum Fuel Cost to Report to the Capital",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-fuel-cost-to-report-to-the-capital"
+  },
+  {
+    "slug": "minimum-increment-to-make-array-unique",
+    "name": "Minimum Increment to Make Array Unique",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-increment-to-make-array-unique"
+  },
+  {
+    "slug": "minimum-falling-path-sum",
+    "name": "Minimum Falling Path Sum",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-falling-path-sum"
+  },
+  {
+    "slug": "minimum-length-of-string-after-operations",
+    "name": "Minimum Length of String After Operations",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-length-of-string-after-operations"
+  },
+  {
+    "slug": "minimum-length-of-string-after-deleting-similar-ends",
+    "name": "Minimum Length of String after Deleting Similar Ends",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-length-of-string-after-deleting-similar-ends"
+  },
+  {
+    "slug": "minimum-limit-of-balls-in-a-bag",
+    "name": "Minimum Limit of Balls in a Bag",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-limit-of-balls-in-a-bag"
+  },
+  {
+    "slug": "minimum-number-of-arrows-to-burst-balloons",
+    "name": "Minimum Number of Arrows to Burst Balloons",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-arrows-to-burst-balloons"
+  },
+  {
+    "slug": "minimum-number-of-changes-to-make-binary-string-beautiful",
+    "name": "Minimum Number of Changes to Make Binary String Beautiful",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-changes-to-make-binary-string-beautiful"
+  },
+  {
+    "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+    "name": "Minimum Number of Flips to Make The Binary String Alternating",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-flips-to-make-the-binary-string-alternating"
+  },
+  {
+    "slug": "minimum-number-of-pushes-to-type-word-ii",
+    "name": "Minimum Number of Pushes to Type Word II",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-pushes-to-type-word-ii"
+  },
+  {
+    "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "name": "Minimum Number of Operations to Sort a Binary Tree by Level",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level"
+  },
+  {
+    "slug": "minimum-operations-to-make-a-uni-value-grid",
+    "name": "Minimum Operations to Make a Uni-Value Grid",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-operations-to-make-a-uni-value-grid"
+  },
+  {
+    "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+    "name": "Minimum Number of Vertices to Reach all Nodes",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-vertices-to-reach-all-nodes"
+  },
+  {
+    "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+    "name": "Minimum Operations to Make Binary Array Elements Equal to One I",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i"
+  },
+  {
+    "slug": "minimum-score-of-a-path-between-two-cities",
+    "name": "Minimum Score of a Path Between Two Cities",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-score-of-a-path-between-two-cities"
+  },
+  {
+    "slug": "minimum-operations-to-reduce-x-to-zero",
+    "name": "Minimum Operations to Reduce X to Zero",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-operations-to-reduce-x-to-zero"
+  },
+  {
+    "slug": "minimum-swaps-to-group-all-1s-together-ii",
+    "name": "Minimum Swaps to Group All 1's Together II",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-swaps-to-group-all-1s-together-ii"
+  },
+  {
+    "slug": "minimum-time-to-make-rope-colorful",
+    "name": "Minimum Time To Make Rope Colorful",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-time-to-make-rope-colorful"
+  },
+  {
+    "slug": "minimum-time-difference",
+    "name": "Minimum Time Difference",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-time-difference"
+  },
+  {
+    "slug": "most-beautiful-item-for-each-query",
+    "name": "Most Beautiful Item for Each Query",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/most-beautiful-item-for-each-query"
+  },
+  {
+    "slug": "minimum-time-to-repair-cars",
+    "name": "Minimum Time to Repair Cars",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-time-to-repair-cars"
+  },
+  {
+    "slug": "most-profitable-path-in-a-tree",
+    "name": "Most Profitable Path in a Tree",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/most-profitable-path-in-a-tree"
+  },
+  {
+    "slug": "my-calendar-ii",
+    "name": "My Calendar II",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/my-calendar-ii"
+  },
+  {
+    "slug": "neighboring-bitwise-xor",
+    "name": "Neighboring Bitwise XOR",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/neighboring-bitwise-xor"
+  },
+  {
+    "slug": "non-decreasing-array",
+    "name": "Non Decreasing Array",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/non-decreasing-array"
+  },
+  {
+    "slug": "number-of-closed-islands",
+    "name": "Number of Closed Islands",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-closed-islands"
+  },
+  {
+    "slug": "number-of-dice-rolls-with-target-sum",
+    "name": "Number of Dice Rolls with Target Sum",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-dice-rolls-with-target-sum"
+  },
+  {
+    "slug": "number-of-good-leaf-nodes-pairs",
+    "name": "Number of Good Leaf Nodes Pairs",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-good-leaf-nodes-pairs"
+  },
+  {
+    "slug": "number-of-pairs-of-interchangeable-rectangles",
+    "name": "Number of Pairs of Interchangeable Rectangles",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-pairs-of-interchangeable-rectangles"
+  },
+  {
+    "slug": "number-of-laser-beams-in-a-bank",
+    "name": "Number of Laser Beams in a Bank",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-laser-beams-in-a-bank"
+  },
+  {
+    "slug": "number-of-longest-increasing-subsequence",
+    "name": "Number of Longest Increasing Subsequence",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-longest-increasing-subsequence"
+  },
+  {
+    "slug": "number-of-substrings-containing-all-three-characters",
+    "name": "Number of Substrings Containing All Three Characters",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-substrings-containing-all-three-characters"
+  },
+  {
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "name": "Number of Ways to Arrive at Destination",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-arrive-at-destination"
+  },
+  {
+    "slug": "operations-on-tree",
+    "name": "Operations On Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/operations-on-tree"
+  },
+  {
+    "slug": "optimal-partition-of-string",
+    "name": "Optimal Partition of String",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/optimal-partition-of-string"
+  },
+  {
+    "slug": "out-of-boundary-paths",
+    "name": "Out of Boundary Paths",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/out-of-boundary-paths"
+  },
+  {
+    "slug": "partition-array-for-maximum-sum",
+    "name": "Partition Array for Maximum Sum",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/partition-array-for-maximum-sum"
+  },
+  {
+    "slug": "partition-array-according-to-given-pivot",
+    "name": "Partition Array According to Given Pivot",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/partition-array-according-to-given-pivot"
+  },
+  {
+    "slug": "partition-list",
+    "name": "Partition List",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/partition-list"
+  },
+  {
+    "slug": "path-with-maximum-gold",
+    "name": "Path with Maximum Gold",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/path-with-maximum-gold"
+  },
+  {
+    "slug": "process-tasks-using-servers",
+    "name": "Process Tasks Using Servers",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/process-tasks-using-servers"
+  },
+  {
+    "slug": "prime-subtraction-operation",
+    "name": "Prime Subtraction Operation",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/prime-subtraction-operation"
+  },
+  {
+    "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+    "name": "Pseudo-Palindromic Paths in a Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/pseudo-palindromic-paths-in-a-binary-tree"
+  },
+  {
+    "slug": "range-sum-of-sorted-subarray-sums",
+    "name": "Range Sum of Sorted Subarray Sums",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/range-sum-of-sorted-subarray-sums"
+  },
+  {
+    "slug": "push-dominoes",
+    "name": "Push Dominoes",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/push-dominoes"
+  },
+  {
+    "slug": "regions-cut-by-slashes",
+    "name": "Regions Cut By Slashes",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/regions-cut-by-slashes"
+  },
+  {
+    "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "name": "Remove Colored Pieces if Both Neighbors are the Same Color",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color"
+  },
+  {
+    "slug": "remove-covered-intervals",
+    "name": "Remove Covered Intervals",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-covered-intervals"
+  },
+  {
+    "slug": "remove-k-digits",
+    "name": "Remove K Digits",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-k-digits"
+  },
+  {
+    "slug": "remove-nodes-from-linked-list",
+    "name": "Remove Nodes From Linked List",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-nodes-from-linked-list"
+  },
+  {
+    "slug": "removing-stars-from-a-string",
+    "name": "Removing Stars From a String",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/removing-stars-from-a-string"
+  },
+  {
+    "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "name": "Reorder Routes to Make All Paths Lead to The City Zero",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero"
+  },
+  {
+    "slug": "repeated-dna-sequences",
+    "name": "Repeated DNA Sequences",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/repeated-dna-sequences"
+  },
+  {
+    "slug": "reveal-cards-in-increasing-order",
+    "name": "Reveal Cards In Increasing Order",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/reveal-cards-in-increasing-order"
+  },
+  {
+    "slug": "reverse-odd-levels-of-binary-tree",
+    "name": "Reverse Odd Levels of Binary Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/reverse-odd-levels-of-binary-tree"
+  },
+  {
+    "slug": "reverse-substrings-between-each-pair-of-parentheses",
+    "name": "Reverse Substrings Between Each Pair of Parentheses",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/reverse-substrings-between-each-pair-of-parentheses"
+  },
+  {
+    "slug": "robot-bounded-in-circle",
+    "name": "Robot Bounded In Circle",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/robot-bounded-in-circle"
+  },
+  {
+    "slug": "search-suggestions-system",
+    "name": "Search Suggestions System",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/search-suggestions-system"
+  },
+  {
+    "slug": "score-after-flipping-matrix",
+    "name": "Score After Flipping Matrix",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/score-after-flipping-matrix"
+  },
+  {
+    "slug": "seat-reservation-manager",
+    "name": "Seat Reservation Manager",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/seat-reservation-manager"
+  },
+  {
+    "slug": "sentence-similarity-iii",
+    "name": "Sentence Similarity III",
+    "patterns": [
+      "two-pointers"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sentence-similarity-iii"
+  },
+  {
+    "slug": "separate-black-and-white-balls",
+    "name": "Separate Black and White Balls",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/separate-black-and-white-balls"
+  },
+  {
+    "slug": "sequential-digits",
+    "name": "Sequential Digits",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sequential-digits"
+  },
+  {
+    "slug": "shortest-distance-after-road-addition-queries-i",
+    "name": "Shortest Distance After Road Addition Queries I",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-distance-after-road-addition-queries-i"
+  },
+  {
+    "slug": "shortest-path-with-alternating-colors",
+    "name": "Shortest Path with Alternating Colors",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-path-with-alternating-colors"
+  },
+  {
+    "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "name": "Shortest Subarray to be Removed to Make Array Sorted",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-subarray-to-be-removed-to-make-array-sorted"
+  },
+  {
+    "slug": "shortest-subarray-with-or-at-least-k-ii",
+    "name": "Shortest Subarray With OR at Least K II",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-subarray-with-or-at-least-k-ii"
+  },
+  {
+    "slug": "smallest-string-starting-from-leaf",
+    "name": "Smallest String Starting From Leaf",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/smallest-string-starting-from-leaf"
+  },
+  {
+    "slug": "sort-characters-by-frequency",
+    "name": "Sort Characters By Frequency",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sort-characters-by-frequency"
+  },
+  {
+    "slug": "snakes-and-ladders",
+    "name": "Snakes And Ladders",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/snakes-and-ladders"
+  },
+  {
+    "slug": "solving-questions-with-brainpower",
+    "name": "Solving Questions With Brainpower",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/solving-questions-with-brainpower"
+  },
+  {
+    "slug": "sort-list",
+    "name": "Sort List",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sort-list"
+  },
+  {
+    "slug": "spiral-matrix-iv",
+    "name": "Spiral Matrix IV",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/spiral-matrix-iv"
+  },
+  {
+    "slug": "split-linked-list-in-parts",
+    "name": "Split Linked List in Parts",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/split-linked-list-in-parts"
+  },
+  {
+    "slug": "spiral-matrix-iii",
+    "name": "Spiral Matrix III",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/spiral-matrix-iii"
+  },
+  {
+    "slug": "split-a-string-into-the-max-number-of-unique-substrings",
+    "name": "Split a String Into the Max Number of Unique Substrings",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/split-a-string-into-the-max-number-of-unique-substrings"
+  },
+  {
+    "slug": "splitting-a-string-into-descending-consecutive-values",
+    "name": "Splitting a String Into Descending Consecutive Values",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/splitting-a-string-into-descending-consecutive-values"
+  },
+  {
+    "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "name": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/step-by-step-directions-from-a-binary-tree-node-to-another"
+  },
+  {
+    "slug": "successful-pairs-of-spells-and-potions",
+    "name": "Successful Pairs of Spells and Potions",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/successful-pairs-of-spells-and-potions"
+  },
+  {
+    "slug": "sum-of-subarray-minimums",
+    "name": "Sum of Subarray Minimums",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sum-of-subarray-minimums"
+  },
+  {
+    "slug": "sum-of-square-numbers",
+    "name": "Sum of Square Numbers",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sum-of-square-numbers"
+  },
+  {
+    "slug": "swapping-nodes-in-a-linked-list",
+    "name": "Swapping Nodes in a Linked List",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/swapping-nodes-in-a-linked-list"
+  },
+  {
+    "slug": "swap-nodes-in-pairs",
+    "name": "Swap Nodes In Pairs",
+    "patterns": [
+      "linked-list"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/swap-nodes-in-pairs"
+  },
+  {
+    "slug": "the-number-of-beautiful-subsets",
+    "name": "The Number of Beautiful Subsets",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/the-number-of-beautiful-subsets"
+  },
+  {
+    "slug": "the-number-of-the-smallest-unoccupied-chair",
+    "name": "The Number of the Smallest Unoccupied Chair",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/the-number-of-the-smallest-unoccupied-chair"
+  },
+  {
+    "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+    "name": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n"
+  },
+  {
+    "slug": "take-k-of-each-character-from-left-and-right",
+    "name": "Take K of Each Character From Left and Right",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/take-k-of-each-character-from-left-and-right"
+  },
+  {
+    "slug": "time-needed-to-inform-all-employees",
+    "name": "Time Needed to Inform All Employees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/time-needed-to-inform-all-employees"
+  },
+  {
+    "slug": "trim-a-binary-search-tree",
+    "name": "Trim a Binary Search Tree",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/trim-a-binary-search-tree"
+  },
+  {
+    "slug": "tuple-with-same-product",
+    "name": "Tuple with Same Product",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/tuple-with-same-product"
+  },
+  {
+    "slug": "ugly-number-ii",
+    "name": "Ugly Number II",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/ugly-number-ii"
+  },
+  {
+    "slug": "uncrossed-lines",
+    "name": "Uncrossed Lines",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/uncrossed-lines"
+  },
+  {
+    "slug": "unique-binary-search-trees",
+    "name": "Unique Binary Search Trees",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/unique-binary-search-trees"
+  },
+  {
+    "slug": "unique-binary-search-trees-ii",
+    "name": "Unique Binary Search Trees II",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/unique-binary-search-trees-ii"
+  },
+  {
+    "slug": "validate-binary-tree-nodes",
+    "name": "Validate Binary Tree Nodes",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/validate-binary-tree-nodes"
+  },
+  {
+    "slug": "validate-stack-sequences",
+    "name": "Validate Stack Sequences",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/validate-stack-sequences"
+  },
+  {
+    "slug": "walking-robot-simulation",
+    "name": "Walking Robot Simulation",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/walking-robot-simulation"
+  },
+  {
+    "slug": "word-subsets",
+    "name": "Word Subsets",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/word-subsets"
+  },
+  {
+    "slug": "xor-queries-of-a-subarray",
+    "name": "XOR Queries of a Subarray",
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/xor-queries-of-a-subarray"
+  },
+  {
+    "slug": "apply-operations-to-maximize-score",
+    "name": "Apply Operations to Maximize Score",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/apply-operations-to-maximize-score"
+  },
+  {
+    "slug": "arithmetic-slices-ii-subsequence",
+    "name": "Arithmetic Slices II",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/arithmetic-slices-ii-subsequence"
+  },
+  {
+    "slug": "cherry-pickup-ii",
+    "name": "Cherry Pickup II",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/cherry-pickup-ii"
+  },
+  {
+    "slug": "count-prefix-and-suffix-pairs-ii",
+    "name": "Count Prefix and Suffix Pairs II",
+    "patterns": [
+      "tries"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-prefix-and-suffix-pairs-ii"
+  },
+  {
+    "slug": "constrained-subsequence-sum",
+    "name": "Constrained Subsequence Sum",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/constrained-subsequence-sum"
+  },
+  {
+    "slug": "count-vowels-permutation",
+    "name": "Count Vowels Permutation",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-vowels-permutation"
+  },
+  {
+    "slug": "count-all-valid-pickup-and-delivery-options",
+    "name": "Count all Valid Pickup and Delivery Options",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/count-all-valid-pickup-and-delivery-options"
+  },
+  {
+    "slug": "data-stream-as-disjoint-intervals",
+    "name": "Data Stream as Disjoint Intervals",
+    "patterns": [
+      "intervals"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/data-stream-as-disjoint-intervals"
+  },
+  {
+    "slug": "find-all-people-with-secret",
+    "name": "Find All People With Secret",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-all-people-with-secret"
+  },
+  {
+    "slug": "divide-nodes-into-the-maximum-number-of-groups",
+    "name": "Divide Nodes Into the Maximum Number of Groups",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/divide-nodes-into-the-maximum-number-of-groups"
+  },
+  {
+    "slug": "find-building-where-alice-and-bob-can-meet",
+    "name": "Find Building Where Alice and Bob Can Meet",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-building-where-alice-and-bob-can-meet"
+  },
+  {
+    "slug": "find-k-th-smallest-pair-distance",
+    "name": "Find K-th Smallest Pair Distance",
+    "patterns": [
+      "binary-search"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-k-th-smallest-pair-distance"
+  },
+  {
+    "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+    "name": "Find the Longest Valid Obstacle Course at Each Position",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-longest-valid-obstacle-course-at-each-position"
+  },
+  {
+    "slug": "find-minimum-diameter-after-merging-two-trees",
+    "name": "Find Minimum Diameter After Merging Two Trees",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-minimum-diameter-after-merging-two-trees"
+  },
+  {
+    "slug": "find-the-maximum-sum-of-node-values",
+    "name": "Find the Maximum Sum of Node Values",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/find-the-maximum-sum-of-node-values"
+  },
+  {
+    "slug": "freedom-trail",
+    "name": "Freedom Trail",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/freedom-trail"
+  },
+  {
+    "slug": "integer-to-english-words",
+    "name": "Integer to English Words",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/integer-to-english-words"
+  },
+  {
+    "slug": "k-inverse-pairs-array",
+    "name": "K Inverse Pairs Array",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/k-inverse-pairs-array"
+  },
+  {
+    "slug": "largest-color-value-in-a-directed-graph",
+    "name": "Largest Color Value in a Directed Graph",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/largest-color-value-in-a-directed-graph"
+  },
+  {
+    "slug": "making-a-large-island",
+    "name": "Making A Large Island",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/making-a-large-island"
+  },
+  {
+    "slug": "maximize-score-after-n-operations",
+    "name": "Maximize Score after N Operations",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximize-score-after-n-operations"
+  },
+  {
+    "slug": "maximum-employees-to-be-invited-to-a-meeting",
+    "name": "Maximum Employees to Be Invited to a Meeting",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-employees-to-be-invited-to-a-meeting"
+  },
+  {
+    "slug": "maximum-number-of-k-divisible-components",
+    "name": "Maximum Number of K-Divisible Components",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-k-divisible-components"
+  },
+  {
+    "slug": "maximum-number-of-points-from-grid-queries",
+    "name": "Maximum Number of Points From Grid Queries",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-number-of-points-from-grid-queries"
+  },
+  {
+    "slug": "maximum-performance-of-a-team",
+    "name": "Maximum Performance of a Team",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-performance-of-a-team"
+  },
+  {
+    "slug": "max-points-on-a-line",
+    "name": "Maximum Points on a Line",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/max-points-on-a-line"
+  },
+  {
+    "slug": "maximum-value-of-k-coins-from-piles",
+    "name": "Maximum Value of K Coins from Piles",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-value-of-k-coins-from-piles"
+  },
+  {
+    "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+    "name": "Maximum Sum of 3 Non-Overlapping Subarrays",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-sum-of-3-non-overlapping-subarrays"
+  },
+  {
+    "slug": "maximum-score-words-formed-by-letters",
+    "name": "Maximum Score Words Formed By Letters",
+    "patterns": [
+      "backtracking"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-score-words-formed-by-letters"
+  },
+  {
+    "slug": "maximum-score-of-a-good-subarray",
+    "name": "Maximum Score of a Good Subarray",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/maximum-score-of-a-good-subarray"
+  },
+  {
+    "slug": "minimize-deviation-in-array",
+    "name": "Minimize Deviation in Array",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimize-deviation-in-array"
+  },
+  {
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "name": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid"
+  },
+  {
+    "slug": "minimum-cost-to-hire-k-workers",
+    "name": "Minimum Cost to Hire K Workers",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-cost-to-hire-k-workers"
+  },
+  {
+    "slug": "minimum-cost-walk-in-weighted-graph",
+    "name": "Minimum Cost Walk in Weighted Graph",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-cost-walk-in-weighted-graph"
+  },
+  {
+    "slug": "minimum-difficulty-of-a-job-schedule",
+    "name": "Minimum Difficulty of a Job Schedule",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-difficulty-of-a-job-schedule"
+  },
+  {
+    "slug": "minimum-falling-path-sum-ii",
+    "name": "Minimum Falling Path Sum II",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-falling-path-sum-ii"
+  },
+  {
+    "slug": "minimum-cost-to-cut-a-stick",
+    "name": "Minimum Cost to Cut a Stick",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-cost-to-cut-a-stick"
+  },
+  {
+    "slug": "minimum-number-of-days-to-eat-n-oranges",
+    "name": "Minimum Number of Days to Eat N Oranges",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-days-to-eat-n-oranges"
+  },
+  {
+    "slug": "minimum-number-of-days-to-disconnect-island",
+    "name": "Minimum Number of Days to Disconnect Island",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-days-to-disconnect-island"
+  },
+  {
+    "slug": "minimum-number-of-k-consecutive-bit-flips",
+    "name": "Minimum Number of K Consecutive Bit Flips",
+    "patterns": [
+      "greedy"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-k-consecutive-bit-flips"
+  },
+  {
+    "slug": "minimum-one-bit-operations-to-make-integers-zero",
+    "name": "Minimum Number of One Bit Operations to Make Integers Zero",
+    "patterns": [
+      "math-geometry"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-one-bit-operations-to-make-integers-zero"
+  },
+  {
+    "slug": "minimum-number-of-operations-to-make-array-continuous",
+    "name": "Minimum Number of Operations to Make Array Continuous",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-operations-to-make-array-continuous"
+  },
+  {
+    "slug": "minimum-number-of-removals-to-make-mountain-array",
+    "name": "Minimum Number of Removals to Make Mountain Array",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-number-of-removals-to-make-mountain-array"
+  },
+  {
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "name": "Minimum Obstacle Removal to Reach Corner",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-obstacle-removal-to-reach-corner"
+  },
+  {
+    "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+    "name": "Minimum Time to Visit a Cell In a Grid",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/minimum-time-to-visit-a-cell-in-a-grid"
+  },
+  {
+    "slug": "number-of-atoms",
+    "name": "Number of Atoms",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-atoms"
+  },
+  {
+    "slug": "number-of-music-playlists",
+    "name": "Number of Music Playlists",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-music-playlists"
+  },
+  {
+    "slug": "number-of-flowers-in-full-bloom",
+    "name": "Number of Flowers in Full Bloom",
+    "patterns": [
+      "heap"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-flowers-in-full-bloom"
+  },
+  {
+    "slug": "number-of-good-paths",
+    "name": "Number of Good Paths",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-good-paths"
+  },
+  {
+    "slug": "naming-a-company",
+    "name": "Naming a Company",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/naming-a-company"
+  },
+  {
+    "slug": "number-of-submatrices-that-sum-to-target",
+    "name": "Number of Submatrices that Sum to Target",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-submatrices-that-sum-to-target"
+  },
+  {
+    "slug": "number-of-ways-to-divide-a-long-corridor",
+    "name": "Number of Ways to Divide a Long Corridor",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-divide-a-long-corridor"
+  },
+  {
+    "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+    "name": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible"
+  },
+  {
+    "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+    "name": "Number of Ways to Form a Target String Given a Dictionary",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-form-a-target-string-given-a-dictionary"
+  },
+  {
+    "slug": "parallel-courses-iii",
+    "name": "Parallel Courses III",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/parallel-courses-iii"
+  },
+  {
+    "slug": "painting-the-walls",
+    "name": "Painting the Walls",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/painting-the-walls"
+  },
+  {
+    "slug": "profitable-schemes",
+    "name": "Profitable Schemes",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/profitable-schemes"
+  },
+  {
+    "slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+    "name": "Number of Ways to Stay in the Same Place After Some Steps",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps"
+  },
+  {
+    "slug": "parsing-a-boolean-expression",
+    "name": "Parsing A Boolean Expression",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/parsing-a-boolean-expression"
+  },
+  {
+    "slug": "recover-a-tree-from-preorder-traversal",
+    "name": "Recover a Tree From Preorder Traversal",
+    "patterns": [
+      "trees"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/recover-a-tree-from-preorder-traversal"
+  },
+  {
+    "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+    "name": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable"
+  },
+  {
+    "slug": "second-minimum-time-to-reach-destination",
+    "name": "Second Minimum Time to Reach Destination",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/second-minimum-time-to-reach-destination"
+  },
+  {
+    "slug": "robot-collisions",
+    "name": "Robot Collisions",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/robot-collisions"
+  },
+  {
+    "slug": "shortest-subarray-with-sum-at-least-k",
+    "name": "Shortest Subarray with Sum at Least K",
+    "patterns": [
+      "stack"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-subarray-with-sum-at-least-k"
+  },
+  {
+    "slug": "shortest-palindrome",
+    "name": "Shortest Palindrome",
+    "patterns": [
+      "hashing"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/shortest-palindrome"
+  },
+  {
+    "slug": "sliding-puzzle",
+    "name": "Sliding Puzzle",
+    "patterns": [
+      "graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sliding-puzzle"
+  },
+  {
+    "slug": "smallest-range-covering-elements-from-k-lists",
+    "name": "Smallest Range Covering Elements from K Lists",
+    "patterns": [
+      "sliding-window"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists"
+  },
+  {
+    "slug": "stickers-to-spell-word",
+    "name": "Stickers to Spell Word",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/stickers-to-spell-word"
+  },
+  {
+    "slug": "string-compression-ii",
+    "name": "String Compression II",
+    "patterns": [
+      "dp-2d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/string-compression-ii"
+  },
+  {
+    "slug": "student-attendance-record-ii",
+    "name": "Student Attendance Record II",
+    "patterns": [
+      "dp-1d"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/student-attendance-record-ii"
+  },
+  {
+    "slug": "sum-of-prefix-scores-of-strings",
+    "name": "Sum of Prefix Scores of Strings",
+    "patterns": [
+      "tries"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/sum-of-prefix-scores-of-strings"
+  },
+  {
+    "slug": "trapping-rain-water-ii",
+    "name": "Trapping Rain Water II",
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "neetcodeUrl": "https://neetcode.io/problems/trapping-rain-water-ii"
+  }
+]

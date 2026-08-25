@@ -1,0 +1,922 @@
+{
+  "pattern": "greedy",
+  "before": 33,
+  "after": 26,
+  "moves": {
+    "can-place-flowers": [
+      "arrays"
+    ],
+    "lemonade-change": [
+      "arrays"
+    ],
+    "best-time-to-buy-and-sell-stock-ii": [
+      "dp-1d"
+    ],
+    "largest-number": [
+      "arrays"
+    ],
+    "meeting-schedule-ii": [
+      "intervals"
+    ],
+    "minimum-number-of-operations-to-make-array-empty": [
+      "dp-1d"
+    ],
+    "non-overlapping-intervals": [
+      "dp-1d"
+    ]
+  },
+  "desired_order": [
+    "assign-cookies",
+    "buy-two-chocolates",
+    "maximum-odd-binary-number",
+    "boats-to-save-people",
+    "buildings-with-an-ocean-view",
+    "dota2-senate",
+    "gas-station",
+    "insert-new-interval",
+    "jump-game",
+    "jump-game-ii",
+    "largest-submatrix-with-rearrangements",
+    "longest-happy-string",
+    "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues",
+    "merge-intervals",
+    "merge-triplets-to-form-target",
+    "minimize-the-maximum-difference-of-pairs",
+    "minimum-number-of-swaps-to-make-the-string-balanced",
+    "next-permutation",
+    "partition-labels",
+    "task-scheduling",
+    "two-city-scheduling",
+    "valid-parenthesis-string",
+    "wiggle-sort",
+    "candy",
+    "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "put-marbles-in-bags"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "buy-two-chocolates",
+      "name": "Buy Two Chocolates",
+      "difficulty": "easy",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 1 after assign-cookies"
+    },
+    {
+      "index": 1,
+      "slug": "can-place-flowers",
+      "name": "Can Place Flowers",
+      "difficulty": "easy",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 2,
+      "slug": "lemonade-change",
+      "name": "Lemonade Change",
+      "difficulty": "easy",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 3,
+      "slug": "maximum-odd-binary-number",
+      "name": "Maximum Odd Binary Number",
+      "difficulty": "easy",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy",
+        "Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 2 after buy-two-chocolates"
+    },
+    {
+      "index": 4,
+      "slug": "assign-cookies",
+      "name": "Assign Cookies",
+      "difficulty": "easy",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers - I",
+        "Two Pointers - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 0 after (start)"
+    },
+    {
+      "index": 5,
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "name": "Best Time to Buy And Sell Stock II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy",
+        "dp-1d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 6,
+      "slug": "buildings-with-an-ocean-view",
+      "name": "Buildings With an Ocean View",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 4 after boats-to-save-people"
+    },
+    {
+      "index": 7,
+      "slug": "dota2-senate",
+      "name": "Dota2 Senate",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy (Two Queues)",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 5 after buildings-with-an-ocean-view"
+    },
+    {
+      "index": 8,
+      "slug": "insert-new-interval",
+      "name": "Insert Interval",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Linear Search",
+        "Binary Search",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 7 after gas-station"
+    },
+    {
+      "index": 9,
+      "slug": "jump-game",
+      "name": "Jump Game",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 8 after insert-new-interval"
+    },
+    {
+      "index": 10,
+      "slug": "jump-game-ii",
+      "name": "Jump Game II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "graphs",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Breadth First Search (Greedy)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 9 after jump-game"
+    },
+    {
+      "index": 11,
+      "slug": "largest-number",
+      "name": "Largest Number",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 12,
+      "slug": "largest-submatrix-with-rearrangements",
+      "name": "Largest Submatrix With Rearrangements",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy + Sorting",
+        "Greedy + Sorting (Overwriting the Input)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 10 after jump-game-ii"
+    },
+    {
+      "index": 13,
+      "slug": "longest-happy-string",
+      "name": "Longest Happy String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy",
+        "Greedy (Max-Heap)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 11 after largest-submatrix-with-rearrangements"
+    },
+    {
+      "index": 14,
+      "slug": "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues",
+      "name": "Maximize Y-Sum by Picking a Triplet of Distinct X-Values",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 12 after longest-happy-string"
+    },
+    {
+      "index": 15,
+      "slug": "meeting-schedule-ii",
+      "name": "Meeting Rooms II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap",
+        "intervals",
+        "greedy"
+      ],
+      "verdict": "MOVE:intervals",
+      "target_patterns": [
+        "intervals"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Min Heap",
+        "Sweep Line Algorithm",
+        "Two Pointers",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 16,
+      "slug": "merge-intervals",
+      "name": "Merge Intervals",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 13 after maximize-ysum-by-picking-a-triplet-of-distinct-xvalues"
+    },
+    {
+      "index": 17,
+      "slug": "merge-triplets-to-form-target",
+      "name": "Merge Triplets to Form Target Triplet",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy",
+        "Greedy (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 14 after merge-intervals"
+    },
+    {
+      "index": 18,
+      "slug": "minimize-the-maximum-difference-of-pairs",
+      "name": "Minimize the Maximum Difference of Pairs",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy + Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 15 after merge-triplets-to-form-target"
+    },
+    {
+      "index": 19,
+      "slug": "minimum-number-of-operations-to-make-array-empty",
+      "name": "Minimum Number of Operations to Make Array Empty",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy",
+        "dp-1d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Bottom-Up)",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 20,
+      "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+      "name": "Minimum Number of Swaps to Make The String Balanced",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy - I",
+        "Greedy - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 16 after minimize-the-maximum-difference-of-pairs"
+    },
+    {
+      "index": 21,
+      "slug": "next-permutation",
+      "name": "Next Permutation",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 17 after minimum-number-of-swaps-to-make-the-string-balanced"
+    },
+    {
+      "index": 22,
+      "slug": "non-overlapping-intervals",
+      "name": "Non Overlapping Intervals",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search",
+        "greedy",
+        "dp-1d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Binary Search)",
+        "Greedy (Sort By Start)",
+        "Greedy (Sort By End)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 23,
+      "slug": "boats-to-save-people",
+      "name": "Boats to Save People",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 3 after maximum-odd-binary-number"
+    },
+    {
+      "index": 24,
+      "slug": "gas-station",
+      "name": "Gas Station",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers",
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 6 after dota2-senate"
+    },
+    {
+      "index": 25,
+      "slug": "task-scheduling",
+      "name": "Task Scheduler",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap",
+        "greedy",
+        "math-geometry"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Max-Heap",
+        "Greedy",
+        "Math"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 19 after partition-labels"
+    },
+    {
+      "index": 26,
+      "slug": "two-city-scheduling",
+      "name": "Two City Scheduling",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy",
+        "Greedy (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 20 after task-scheduling"
+    },
+    {
+      "index": 27,
+      "slug": "partition-labels",
+      "name": "Partition Labels",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers (Greedy)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 18 after next-permutation"
+    },
+    {
+      "index": 28,
+      "slug": "valid-parenthesis-string",
+      "name": "Valid Parenthesis String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 29,
+      "slug": "wiggle-sort",
+      "name": "Wiggle Sort",
+      "difficulty": "medium",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy - I",
+        "Greedy - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 30,
+      "slug": "candy",
+      "name": "Candy",
+      "difficulty": "hard",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 31,
+      "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+      "name": "Minimum Number of Increments on Subarrays to Form a Target Array",
+      "difficulty": "hard",
+      "current_patterns": [
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 32,
+      "slug": "put-marbles-in-bags",
+      "name": "Put Marbles in Bags",
+      "difficulty": "hard",
+      "current_patterns": [
+        "heap",
+        "greedy"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "greedy"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Greedy + Sorting",
+        "Heap"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

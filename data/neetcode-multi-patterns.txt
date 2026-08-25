@@ -1,0 +1,506 @@
+Multi-pattern problems — grouped by WHY they have multiple tags
+================================================================
+
+Every problem here has 2+ truePatterns because the NeetCode solution article
+lists multiple approaches that share the best time/space. This file groups
+them by the *reason* that happened — not by which pattern names appear.
+
+102 problems.
+
+
+########################################################################
+# Why: one scan, two ways to describe it
+# (6 problems)
+########################################################################
+
+These are multi-tagged because the optimal solution is basically a single O(n) pass,
+but NeetCode's article presents that pass under two names — e.g. "Two Pointers" and
+"Dynamic Programming", or "Kadane" and "Prefix & Suffix", or "Sliding Window" and
+"Iteration".
+
+Nothing about the complexity forces two patterns. The article just frames the same
+work two ways, and our retagger mapped each frame to a different pattern slug.
+
+For curriculum: pick the framing you want to practice. Do not treat these as two
+separate techniques you must learn independently for this problem.
+
+slug / patterns / approaches
+----------------------------------------
+buy-and-sell-crypto
+  two-pointers | dp-1d
+  Two Pointers; Dynamic Programming
+
+check-if-array-is-sorted-and-rotated
+  sliding-window | arrays-hashing
+  Sliding Window; Iteration
+
+jump-game-vii
+  graphs | sliding-window | dp-1d | two-pointers
+  Breadth First Search; Dynamic Programming (Sliding Window); Dynamic Programming (Two Pointers)
+
+longest-turbulent-subarray
+  sliding-window | arrays-hashing
+  Sliding Window; Iteration
+
+maximum-product-subarray
+  dp-1d | arrays-hashing
+  Kadane's Algorithm; Prefix & Suffix
+
+new-21-game
+  dp-1d | sliding-window
+  Dynamic Programming (Top-Down Optimized); Dynamic Programming (Sliding Window)
+
+
+########################################################################
+# Why: same algorithm, different bookkeeping structure
+# (13 problems)
+########################################################################
+
+These are multi-tagged because the core algorithm is identical (usually backtracking
+or a stack-based design). What changes between "optimal" approaches is only how you
+store auxiliary state — hash set vs boolean array vs bitmask, stack vs doubly linked
+list, hash set vs bitmask on a prefix, etc.
+
+Those bookkeeping choices got mapped to different pattern tags (backtracking +
+arrays-hashing + bit-manipulation, or stack + linked-list), even though you are not
+learning two problem patterns — you are learning one pattern with interchangeable
+data structures.
+
+For curriculum: tag the algorithm (backtracking / stack). Ignore the storage variant
+as a separate pattern.
+
+slug / patterns / approaches
+----------------------------------------
+combination-target-sum-ii
+  backtracking | arrays-hashing
+  Backtracking; Backtracking (Hash Map); Backtracking (Optimal)
+
+combinations
+  backtracking | arrays-hashing | bit-manipulation
+  Backtracking - I; Backtracking - II; Iteration; Bit Manipulation
+
+count-vowel-strings-in-ranges
+  arrays-hashing | bit-manipulation
+  Prefix Sum + Hash Set; Prefix Sum + Bitmask
+
+design-browser-history
+  stack | linked-list
+  Two Stacks; Dynamic Array; Dynamic Array (Optimal); Doubly Linked List
+
+evaluate-reverse-polish-notation
+  linked-list | stack
+  Doubly Linked List; Stack
+
+maximum-frequency-stack
+  stack | arrays-hashing
+  Stack Of Stacks (Hash Map); Stack Of Stacks (Dynamic Array)
+
+n-queens
+  backtracking | arrays-hashing | bit-manipulation
+  Backtracking; Backtracking (Hash Set); Backtracking (Visited Array); Backtracking (Bit Mask)
+
+n-queens-ii
+  backtracking | arrays-hashing | bit-manipulation
+  Backtracking (Hash Set); Backtracking (Boolean Array); Backtracking (Bit Mask)
+
+partition-to-k-equal-sum-subsets
+  backtracking | bit-manipulation
+  Backtracking; Backtracking (Pruning); Backtracking (Bit Mask + Pruning)
+
+permutations
+  arrays-hashing | backtracking | bit-manipulation
+  Iteration; Backtracking; Backtracking (Bit Mask); Backtracking (Optimal)
+
+permutations-ii
+  backtracking | arrays-hashing
+  Backtracking (Hash Set); Backtracking (Hash Map); Backtracking (Boolean Array); Backtracking (Optimal); Iteration
+
+search-for-word
+  backtracking | arrays-hashing
+  Backtracking (Hash Set); Backtracking (Visited Array); Backtracking (Optimal)
+
+subsets
+  backtracking | arrays-hashing | bit-manipulation
+  Backtracking; Iteration; Bit Manipulation
+
+
+########################################################################
+# Why: math statement vs bitwise encoding of the same idea
+# (4 problems)
+########################################################################
+
+These are multi-tagged because one optimal writeup uses ordinary math language
+(parity, modulo, closed form) and another writes the same rule with bits (XOR,
+bitwise AND for parity). Complexity matches because it is the same idea twice.
+
+For curriculum: pick math-geometry or bit-manipulation based on which vocabulary
+you want on the card — not because there are two algorithms.
+
+slug / patterns / approaches
+----------------------------------------
+arranging-coins
+  bit-manipulation | math-geometry
+  Bit Manipulation; Math
+
+missing-number
+  bit-manipulation | math-geometry
+  Bitwise XOR; Math
+
+power-of-two
+  bit-manipulation | math-geometry
+  Bit Manipulation - I; Bit Manipulation - II; Math
+
+special-array-i
+  math-geometry | bit-manipulation
+  Modulo Comparison; Bitwise Comparison
+
+
+########################################################################
+# Why: several classical algorithms all hit the optimal bound
+# (4 problems)
+########################################################################
+
+These are multi-tagged because NeetCode lists a menu of standard algorithms that are
+all optimal for this problem (KMP, Z-algorithm, Rabin–Karp, trie-backed search, etc.).
+Each named algorithm mapped to a different pattern slug, so the problem looks
+"multi-pattern" even though any one of them is enough.
+
+For curriculum: pick one classic algorithm as the intended solution and tag that.
+
+slug / patterns / approaches
+----------------------------------------
+extra-characters-in-a-string
+  tries | dp-1d
+  Dynamic Programming (Top-Down) Using Trie; Dynamic Programming (Bottom-Up) Using Trie
+
+remove-sub-folders-from-the-filesystem
+  arrays-hashing | tries
+  Hash Set; Sorting; Trie
+
+string-matching-in-an-array
+  arrays-hashing | trees
+  Sorting; Knuth-Morris-Pratt (KMP) Algorithm; Rabin-Karp Algorithm (Rolling Hash); Z-Algorithm
+
+word-break-ii
+  backtracking | tries | dp-1d
+  Backtracking; Backtracking + Trie; Dynamic Programming (Top-Down); Dynamic Programming (Bottom-Up); Dynamic Programming (Top-Down) Using Trie
+
+
+########################################################################
+# Why: genuinely different algorithms, same optimal complexity
+# (75 problems)
+########################################################################
+
+These are multi-tagged because NeetCode documents two (or more) truly different
+approaches that both achieve the recommended / best time and space — e.g. greedy and
+DP, binary search and two pointers, heap and sorting, Floyd cycle-finding and bit
+counting, hashing and XOR.
+
+Unlike the buckets above, these really are alternate techniques. The multi-tag is
+correct as a complexity statement; for a learning path you still want one primary
+pattern so the card has a single job.
+
+For curriculum: choose the approach you intend to practice (often NeetCode's original
+bucket or the one that teaches the harder idea), and demote the rest to "alts".
+
+slug / patterns / approaches
+----------------------------------------
+4sum
+  arrays-hashing | two-pointers
+  Hash Map; Two Pointers; K-Sum + Two Pointers
+
+add-two-numbers-ii
+  linked-list | stack
+  Reverse List; Stack
+
+best-time-to-buy-and-sell-stock-ii
+  dp-1d | greedy
+  Dynamic Programming (Space Optimized); Greedy
+
+binary-search
+  binary-search | arrays-hashing
+  Iterative Binary Search; Upper Bound; Lower Bound; Built-In Function
+
+candy
+  greedy | arrays-hashing
+  Greedy (One Pass)
+
+car-fleet
+  stack | arrays-hashing
+  Stack; Iteration
+
+check-completeness-of-a-binary-tree
+  trees | arrays-hashing
+  Breadth First Search; Breadth First Search (Optimal); Depth First Search (Two Pass); Depth First Search (Optimal)
+
+coin-change
+  dp-1d | graphs
+  Dynamic Programming (Top-Down); Dynamic Programming (Bottom-Up); Breadth First Search
+
+combinations-of-a-phone-number
+  backtracking | arrays-hashing
+  Backtracking; Iteration
+
+construct-binary-tree-from-inorder-and-postorder-traversal
+  trees | arrays-hashing
+  Hash Map + Depth First Search; Depth First Search (Optimal)
+
+count-servers-that-communicate
+  arrays-hashing | graphs
+  Iteration (Space Optimized)
+
+counting-bits
+  bit-manipulation | dp-1d
+  Bit Manipulation (DP); Bit Manipulation (Optimal)
+
+delete-node-in-a-bst
+  trees | arrays-hashing
+  Recursion - I; Recursion - II; Iteration
+
+design-circular-queue
+  arrays-hashing | linked-list
+  Array; Doubly Linked List; Singly Linked List
+
+design-word-search-data-structure
+  tries | graphs
+  Depth First Search (Trie)
+
+dota2-senate
+  greedy | stack
+  Greedy (Two Queues); Greedy
+
+find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree
+  advanced-graphs | graphs
+  Kruskal's Algorithm - I; Kruskal's Algorithm - II; Kruskal's Algorithm + DFS
+
+find-duplicate-integer
+  bit-manipulation | linked-list
+  Bit Manipulation; Fast And Slow Pointers
+
+find-first-and-last-position-of-element-in-sorted-array
+  binary-search | arrays-hashing
+  Binary Search - I; Binary Search - II; In-Built Function
+
+find-lucky-integer-in-an-array
+  arrays-hashing | bit-manipulation
+  Negative Marking; Bit Manipulation
+
+find-target-in-rotated-sorted-array
+  binary-search | arrays-hashing
+  Binary Search; Binary Search (Two Pass); Binary Search (One Pass)
+
+find-the-difference
+  arrays-hashing | bit-manipulation
+  Two Hash Maps; One Hash Map; Difference Between ASCII Values; Difference Between ASCII Values (Optimal); Bitwise XOR
+
+frequency-of-the-most-frequent-element
+  binary-search | arrays-hashing | sliding-window
+  Prefix Sum + Binary Search; Sliding Window; Advanced Sliding Window
+
+gas-station
+  two-pointers | greedy
+  Two Pointers; Greedy
+
+generate-parentheses
+  backtracking | dp-1d
+  Backtracking; Dynamic Programming
+
+implement-prefix-tree
+  arrays-hashing | trees
+  Prefix Tree (Array); Prefix Tree (Hash Map)
+
+insert-new-interval
+  arrays-hashing | binary-search | greedy
+  Linear Search; Binary Search; Greedy
+
+ipo
+  heap | arrays-hashing
+  Two Heaps; Two Heaps (Optimal); Sorting + Max-Heap
+
+jump-game-ii
+  greedy | graphs
+  Breadth First Search (Greedy)
+
+kth-largest-integer-in-a-stream
+  arrays-hashing | heap
+  Sorting; Min-Heap
+
+kth-smallest-product-of-two-sorted-arrays
+  two-pointers | binary-search
+  Binary Search + Two Pointers
+
+largest-rectangle-in-histogram
+  stack | arrays-hashing
+  Stack; Stack (One Pass); Stack (Optimal)
+
+largest-submatrix-with-rearrangements
+  greedy | arrays-hashing
+  Greedy + Sorting; Greedy + Sorting (Overwriting the Input)
+
+last-stone-weight-ii
+  dp-2d | arrays-hashing
+  Dynamic Programming (Space Optimized); Dynamic Programming (Hash Set); Dynamic Programming (Bitset)
+
+longest-happy-string
+  greedy | heap
+  Greedy; Greedy (Max-Heap)
+
+longest-increasing-path-in-matrix
+  dp-2d | graphs
+  Dynamic Programming (Top-Down); Topological Sort (Kahn's Algorithm)
+
+longest-increasing-subsequence
+  trees | binary-search | dp-1d
+  Segment Tree; Dynamic Programming + Binary Search
+
+lru-cache
+  linked-list | arrays-hashing
+  Doubly Linked List; Built-In Data Structure
+
+majority-element
+  bit-manipulation | arrays-hashing
+  Bit Manipulation; Boyer-Moore Voting Algorithm; Randomization
+
+maximum-odd-binary-number
+  greedy | two-pointers
+  Greedy; Two Pointers
+
+maximum-profit-in-job-scheduling
+  binary-search | dp-1d
+  Dynamic Programming (Top-Down) + Binary Search; Dynamic Programming (Top-Down) + Binary Search (Optimal); Dynamic Programming (Bottom-Up) + Binary Search
+
+meeting-schedule-ii
+  heap | intervals | two-pointers | greedy
+  Min Heap; Sweep Line Algorithm; Two Pointers; Greedy
+
+minimize-the-maximum-difference-of-pairs
+  binary-search | greedy
+  Greedy + Binary Search
+
+minimum-difference-between-highest-and-lowest-of-k-scores
+  sliding-window | arrays-hashing
+  Sorting + Sliding Window
+
+minimum-height-trees
+  dp-1d | graphs | trees | arrays-hashing
+  Dynamic Programming On Trees (Rerooting); Find Centroids of the Tree (DFS); Topological Sorting (BFS)
+
+minimum-interval-including-query
+  intervals | trees
+  Sweep Line Algorithm; Min Segment Tree (Lazy Propagation)
+
+minimum-number-of-operations-to-make-array-empty
+  dp-1d | greedy
+  Dynamic Programming (Top-Down); Dynamic Programming (Bottom-Up); Greedy
+
+minimum-time-to-collect-all-apples-in-a-tree
+  trees | graphs
+  Depth First Search; Topological Sort (Kahn's Algorithm)
+
+move-zeroes
+  two-pointers | arrays-hashing
+  Two Pointers (Two Pass); Two Pointers (One Pass)
+
+non-overlapping-intervals
+  binary-search | dp-1d | greedy
+  Dynamic Programming (Binary Search); Greedy (Sort By Start); Greedy (Sort By End)
+
+number-of-good-pairs
+  arrays-hashing | math-geometry
+  Hash Map (Math); Hash Map
+
+number-of-one-bits
+  bit-manipulation | arrays-hashing
+  Bit Mask - I; Bit Mask - II; Bit Mask (Optimal); Built-In Function
+
+number-of-subsequences-that-satisfy-the-given-sum-condition
+  binary-search | two-pointers
+  Binary Search; Two Pointers; Two Pointers (Optimal)
+
+partition-equal-subset-sum
+  dp-1d | arrays-hashing
+  Dynamic Programming (Space Optimized); Dynamic Programming (Hash Set); Dynamic Programming (Optimal); Dynamic Programming (Bitset)
+
+partition-labels
+  two-pointers | greedy
+  Two Pointers (Greedy)
+
+pascals-triangle
+  math-geometry | dp-1d
+  Combinatorics; Dynamic Programming - I; Dynamic Programming - II
+
+path-with-minimum-effort
+  advanced-graphs | binary-search | graphs
+  Dijkstra's Algorithm; Binary Search + DFS; Kruskal's Algorithm
+
+put-marbles-in-bags
+  greedy | arrays-hashing | heap
+  Greedy + Sorting; Heap
+
+random-pick-with-weight
+  arrays-hashing | binary-search
+  Prefix Sum + Linear Search; Prefix Sum + Binary Search
+
+remove-all-adjacent-duplicates-in-string-ii
+  stack | two-pointers
+  Stack; Stack (Optimal); Two Pointers
+
+remove-node-from-end-of-linked-list
+  linked-list | arrays-hashing | two-pointers
+  Iteration (Two Pass); Two Pointers
+
+reorganize-string
+  arrays-hashing | heap | greedy
+  Frequency Count; Frequency Count (Max-Heap); Frequency Count (Greedy)
+
+restore-ip-addresses
+  backtracking | arrays-hashing
+  Backtracking; Iteration
+
+reverse-string
+  arrays-hashing | two-pointers
+  Built-In Function; Two Pointers
+
+russian-doll-envelopes
+  binary-search | dp-1d | trees
+  Dynamic Programming + Binary Search; Segment Tree
+
+set-mismatch
+  arrays-hashing | math-geometry | bit-manipulation
+  Negative Marking; Math; Bitwise XOR
+
+single-element-in-a-sorted-array
+  binary-search | bit-manipulation
+  Binary Search; Binary Search On Even Indexes; Binary Search + Bit Manipulation
+
+single-threaded-cpu
+  heap | arrays-hashing
+  Two Min-Heaps; Sorting + Min-Heap; Sorting + Min-Heap (Optimal)
+
+sliding-window-maximum
+  dp-1d | sliding-window
+  Dynamic Programming; Deque
+
+sort-colors
+  arrays-hashing | two-pointers
+  Counting Sort; Three Pointers - I; Three Pointers - II; Three Pointers - III
+
+stone-game-ii
+  dp-2d | arrays-hashing
+  Dynamic Programming (Top-Down); Dynamic Programming (Top-Down) + Suffix Sum; Dynamic Programming (Bottom-Up); Dynamic Programming (Bottom-Up) + Suffix Sum
+
+subarrays-with-k-different-integers
+  sliding-window | arrays-hashing
+  Sliding Window; Sliding Window (One Pass) - I; Sliding Window (One Pass) - II
+
+swim-in-rising-water
+  binary-search | graphs | advanced-graphs
+  Binary Search + DFS; Dijkstra's Algorithm; Kruskal's Algorithm
+
+task-scheduling
+  heap | greedy | math-geometry
+  Max-Heap; Greedy; Math
+
+valid-perfect-square
+  arrays-hashing | bit-manipulation
+  In-Built Function; Bit Manipulation

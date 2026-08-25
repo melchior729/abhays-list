@@ -1,0 +1,574 @@
+{
+  "pattern": "binary-search",
+  "before": 21,
+  "after": 21,
+  "moves": {},
+  "desired_order": [
+    "binary-search",
+    "guess-number-higher-or-lower",
+    "sqrtx",
+    "valid-perfect-square",
+    "search-insert-position",
+    "time-based-key-value-store",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "find-peak-element",
+    "single-element-in-a-sorted-array",
+    "search-2d-matrix",
+    "random-pick-with-weight",
+    "find-minimum-in-rotated-sorted-array",
+    "find-target-in-rotated-sorted-array",
+    "search-in-rotated-sorted-array-ii",
+    "eating-bananas",
+    "capacity-to-ship-packages-within-d-days",
+    "frequency-of-the-most-frequent-element",
+    "number-of-subsequences-that-satisfy-the-given-sum-condition",
+    "find-in-mountain-array",
+    "split-array-largest-sum",
+    "kth-smallest-product-of-two-sorted-arrays"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "binary-search",
+      "name": "Binary Search",
+      "difficulty": "easy",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "basic",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iterative Binary Search",
+        "Upper Bound",
+        "Lower Bound",
+        "Built-In Function"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "guess-number-higher-or-lower",
+      "name": "Guess Number Higher Or Lower",
+      "difficulty": "easy",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Linear Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "sqrtx",
+      "name": "Sqrt(x)",
+      "difficulty": "easy",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "In-Built Function"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
+      "slug": "valid-perfect-square",
+      "name": "Valid Perfect Square",
+      "difficulty": "easy",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "In-Built Function",
+        "Bit Manipulation"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 4,
+      "slug": "search-insert-position",
+      "name": "Search Insert Position",
+      "difficulty": "easy",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Linear Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 5,
+      "slug": "time-based-key-value-store",
+      "name": "Time Based Key Value Store",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "design_bs",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search (Array)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 6,
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "name": "Find First And Last Position of Element In Sorted Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search - I",
+        "Binary Search - II",
+        "In-Built Function"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "find-peak-element",
+      "name": "Find Peak Element",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Binary Search (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
+      "slug": "single-element-in-a-sorted-array",
+      "name": "Single Element in a Sorted Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Binary Search On Even Indexes",
+        "Binary Search + Bit Manipulation"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "search-2d-matrix",
+      "name": "Search a 2D Matrix",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Staircase Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
+      "slug": "random-pick-with-weight",
+      "name": "Random Pick with Weight",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Linear Search",
+        "Prefix Sum + Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 11,
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "name": "Find Minimum In Rotated Sorted Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "rotated",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Binary Search (Lower Bound)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "find-target-in-rotated-sorted-array",
+      "name": "Search In Rotated Sorted Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "rotated",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Binary Search (Two Pass)",
+        "Binary Search (One Pass)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 13,
+      "slug": "search-in-rotated-sorted-array-ii",
+      "name": "Search In Rotated Sorted Array II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "rotated",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "eating-bananas",
+      "name": "Koko Eating Bananas",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 15,
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "name": "Capacity to Ship Packages Within D Days",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 16,
+      "slug": "frequency-of-the-most-frequent-element",
+      "name": "Frequency of The Most Frequent Element",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Binary Search",
+        "Sliding Window",
+        "Advanced Sliding Window"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 17,
+      "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+      "name": "Number of Subsequences That Satisfy The Given Sum Condition",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Two Pointers",
+        "Two Pointers (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 18,
+      "slug": "find-in-mountain-array",
+      "name": "Find in Mountain Array",
+      "difficulty": "hard",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "rotated",
+      "is_design": false,
+      "within_family_rank": 3,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 19,
+      "slug": "split-array-largest-sum",
+      "name": "Split Array Largest Sum",
+      "difficulty": "hard",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 20,
+      "slug": "kth-smallest-product-of-two-sorted-arrays",
+      "name": "Kth Smallest Product of Two Sorted Arrays",
+      "difficulty": "hard",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search + Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

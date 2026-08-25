@@ -1,0 +1,747 @@
+{
+  "find-all-duplicates-in-an-array": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing"
+  },
+  "divide-array-into-arrays-with-max-difference": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy"
+  },
+  "non-decreasing-array": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy"
+  },
+  "can-place-flowers": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "arrays"
+    ]
+  },
+  "lemonade-change": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "arrays"
+    ]
+  },
+  "largest-number": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "arrays"
+    ]
+  },
+  "shortest-palindrome": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing"
+  },
+  "longest-common-prefix": {
+    "keep_in": [
+      "arrays"
+    ],
+    "main_pattern": "arrays"
+  },
+  "longest-substring-without-duplicates": {
+    "patterns": [
+      "sliding-window"
+    ],
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "subarray-sum-equals-k": {
+    "patterns": [
+      "hashing"
+    ],
+    "keep_in": [
+      "hashing"
+    ]
+  },
+  "boats-to-save-people": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "hashing",
+      "two-pointers"
+    ],
+    "notes": "Greedy pairing after sorting; two-pointer walk is implementation detail"
+  },
+  "sort-colors": {
+    "patterns": [
+      "two-pointers"
+    ],
+    "keep_in": [
+      "two-pointers"
+    ],
+    "main_pattern": "two-pointers",
+    "notes": "Dutch national flag / three pointers \u2014 Counting Sort is alt"
+  },
+  "reverse-string": {
+    "patterns": [
+      "two-pointers"
+    ],
+    "keep_in": [
+      "two-pointers"
+    ],
+    "main_pattern": "two-pointers"
+  },
+  "buy-and-sell-crypto": {
+    "patterns": [
+      "two-pointers"
+    ],
+    "keep_in": [
+      "two-pointers"
+    ],
+    "main_pattern": "two-pointers"
+  },
+  "gas-station": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "two-pointers"
+    ]
+  },
+  "partition-labels": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "two-pointers"
+    ]
+  },
+  "jump-game-vii": {
+    "patterns": [
+      "graphs"
+    ],
+    "drop_from": [
+      "two-pointers",
+      "sliding-window"
+    ],
+    "main_pattern": "graphs",
+    "notes": "BFS is main approach"
+  },
+  "maximum-odd-binary-number": {
+    "patterns": [
+      "greedy"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "greedy"
+  },
+  "meeting-schedule-ii": {
+    "patterns": [
+      "intervals"
+    ],
+    "main_pattern": "intervals",
+    "drop_from": [
+      "heap"
+    ]
+  },
+  "interval-list-intersections": {
+    "patterns": [
+      "intervals"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "intervals"
+  },
+  "remove-all-adjacent-duplicates-in-string-ii": {
+    "patterns": [
+      "stack"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "stack"
+  },
+  "number-of-subsequences-that-satisfy-the-given-sum-condition": {
+    "patterns": [
+      "binary-search"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "kth-smallest-product-of-two-sorted-arrays": {
+    "patterns": [
+      "binary-search"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "remove-node-from-end-of-linked-list": {
+    "patterns": [
+      "linked-list"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "linked-list"
+  },
+  "intersection-of-two-linked-lists": {
+    "patterns": [
+      "linked-list"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "linked-list",
+    "notes": "Linked-list structure is the skill; two-pointer walk is supporting"
+  },
+  "palindrome-number": {
+    "patterns": [
+      "math-geometry"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "math-geometry",
+    "notes": "Reverse integer is main; digit two-pointers is alt"
+  },
+  "rearrange-array-elements-by-sign": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "arrays"
+  },
+  "lowest-common-ancestor-of-a-binary-tree-iii": {
+    "patterns": [
+      "linked-list"
+    ],
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "subsets-ii": {
+    "patterns": [
+      "backtracking"
+    ],
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "design-hashmap": {
+    "keep_in": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "design": true
+  },
+  "design-hashset": {
+    "keep_in": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "design": true
+  },
+  "height-checker": {
+    "keep_in": [
+      "hashing"
+    ],
+    "main_pattern": "hashing"
+  },
+  "insert-delete-getrandom-o1": {
+    "keep_in": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "design": true
+  },
+  "implement-prefix-tree": {
+    "patterns": [
+      "tries"
+    ],
+    "main_pattern": "tries",
+    "design": true,
+    "drop_from": [
+      "hashing",
+      "trees"
+    ]
+  },
+  "construct-binary-tree-from-inorder-and-postorder-traversal": {
+    "patterns": [
+      "trees"
+    ],
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "top-k-elements-in-list": {
+    "patterns": [
+      "heap"
+    ],
+    "main_pattern": "heap",
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "minimum-index-of-a-valid-split": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ]
+  },
+  "text-justification": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "notes": "Greedy line packing per problem statement"
+  },
+  "verifying-an-alien-dictionary": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "arrays"
+  },
+  "unique-email-addresses": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "arrays"
+  },
+  "my-calendar-i": {
+    "patterns": [
+      "intervals"
+    ],
+    "main_pattern": "intervals",
+    "design": true,
+    "notes": "Interval overlap booking \u2014 calendar design"
+  },
+  "majority-element-ii": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "arrays",
+    "notes": "Boyer-Moore main approach \u2014 same as minimum-index-of-a-valid-split"
+  },
+  "string-matching-in-an-array": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "notes": "Rolling hash / Rabin-Karp wins over sorting/KMP for pattern home"
+  },
+  "make-sum-divisible-by-p": {
+    "keep_in": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "notes": "Prefix sum + mod hash map (title omits hash)"
+  },
+  "assign-cookies": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "drop_from": [
+      "two-pointers"
+    ]
+  },
+  "new-21-game": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "drop_from": [
+      "sliding-window"
+    ],
+    "notes": "DP is the main skill; sliding window only speeds the recurrence"
+  },
+  "frequency-of-the-most-frequent-element": {
+    "patterns": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "drop_from": [
+      "sliding-window"
+    ],
+    "notes": "First optimal is prefix sum + binary search"
+  },
+  "sliding-window-maximum": {
+    "keep_in": [
+      "sliding-window"
+    ],
+    "main_pattern": "sliding-window",
+    "design": true,
+    "notes": "Canonical monotonic deque window"
+  },
+  "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
+    "keep_in": [
+      "sliding-window"
+    ],
+    "main_pattern": "sliding-window",
+    "notes": "Monotonic deque over a window"
+  },
+  "binary-search": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "design": true
+  },
+  "guess-number-higher-or-lower": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "notes": "Classic BS despite linear first title"
+  },
+  "search-insert-position": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "sqrtx": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "valid-perfect-square": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "search-2d-matrix": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search"
+  },
+  "single-element-in-a-sorted-array": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "drop_from": [
+      "bit-manipulation"
+    ]
+  },
+  "time-based-key-value-store": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "design": true
+  },
+  "longest-increasing-subsequence": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "drop_from": [
+      "binary-search",
+      "trees"
+    ]
+  },
+  "non-overlapping-intervals": {
+    "patterns": [
+      "intervals"
+    ],
+    "main_pattern": "intervals",
+    "drop_from": [
+      "binary-search",
+      "dp-1d"
+    ]
+  },
+  "path-with-minimum-effort": {
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "main_pattern": "advanced-graphs",
+    "drop_from": [
+      "binary-search"
+    ]
+  },
+  "swim-in-rising-water": {
+    "patterns": [
+      "advanced-graphs"
+    ],
+    "main_pattern": "advanced-graphs",
+    "drop_from": [
+      "binary-search"
+    ]
+  },
+  "maximum-profit-in-job-scheduling": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "drop_from": [
+      "binary-search"
+    ]
+  },
+  "russian-doll-envelopes": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "drop_from": [
+      "binary-search",
+      "trees"
+    ]
+  },
+  "random-pick-with-weight": {
+    "keep_in": [
+      "binary-search"
+    ],
+    "main_pattern": "binary-search",
+    "notes": "Prefix sum + binary search on weights"
+  },
+  "add-two-numbers-ii": {
+    "patterns": [
+      "linked-list"
+    ],
+    "drop_from": [
+      "stack"
+    ],
+    "main_pattern": "linked-list"
+  },
+  "basic-calculator-ii": {
+    "keep_in": [
+      "stack"
+    ],
+    "main_pattern": "stack"
+  },
+  "evaluate-reverse-polish-notation": {
+    "keep_in": [
+      "stack"
+    ],
+    "main_pattern": "stack"
+  },
+  "minimum-remove-to-make-valid-parentheses": {
+    "keep_in": [
+      "stack"
+    ],
+    "main_pattern": "stack"
+  },
+  "find-duplicate-integer": {
+    "patterns": [
+      "bit-manipulation"
+    ],
+    "drop_from": [
+      "linked-list"
+    ],
+    "main_pattern": "bit-manipulation"
+  },
+  "rotate-array": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "linked-list"
+    ],
+    "main_pattern": "arrays"
+  },
+  "insertion-sort-list": {
+    "keep_in": [
+      "linked-list"
+    ],
+    "main_pattern": "linked-list"
+  },
+  "minimum-interval-including-query": {
+    "patterns": [
+      "intervals"
+    ],
+    "drop_from": [
+      "trees"
+    ],
+    "main_pattern": "intervals"
+  },
+  "minimum-height-trees": {
+    "patterns": [
+      "graphs"
+    ],
+    "drop_from": [
+      "trees",
+      "dp-1d"
+    ],
+    "main_pattern": "graphs"
+  },
+  "minimum-time-to-collect-all-apples-in-a-tree": {
+    "patterns": [
+      "graphs"
+    ],
+    "drop_from": [
+      "trees"
+    ],
+    "main_pattern": "graphs"
+  },
+  "design-word-search-data-structure": {
+    "patterns": [
+      "tries"
+    ],
+    "main_pattern": "tries",
+    "design": true,
+    "drop_from": [
+      "graphs"
+    ]
+  },
+  "count-prefix-and-suffix-pairs-i": {
+    "keep_in": [
+      "tries"
+    ],
+    "main_pattern": "tries"
+  },
+  "extra-characters-in-a-string": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "drop_from": [
+      "tries"
+    ]
+  },
+  "word-break-ii": {
+    "patterns": [
+      "backtracking"
+    ],
+    "main_pattern": "backtracking",
+    "drop_from": [
+      "tries",
+      "dp-1d"
+    ]
+  },
+  "kth-largest-integer-in-a-stream": {
+    "keep_in": [
+      "heap"
+    ],
+    "main_pattern": "heap",
+    "design": true
+  },
+  "design-twitter-feed": {
+    "keep_in": [
+      "heap"
+    ],
+    "main_pattern": "heap",
+    "design": true
+  },
+  "find-median-in-a-data-stream": {
+    "keep_in": [
+      "heap"
+    ],
+    "main_pattern": "heap",
+    "design": true
+  },
+  "meeting-rooms-iii": {
+    "patterns": [
+      "intervals"
+    ],
+    "main_pattern": "intervals",
+    "drop_from": [
+      "heap"
+    ]
+  },
+  "valid-sudoku": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "notes": "Row/col/box set membership"
+  },
+  "majority-element": {
+    "patterns": [
+      "arrays"
+    ],
+    "main_pattern": "arrays",
+    "notes": "Boyer-Moore voting"
+  },
+  "find-lucky-integer-in-an-array": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "notes": "Negative marking / freq"
+  },
+  "longest-palindrome": {
+    "patterns": [
+      "hashing"
+    ],
+    "main_pattern": "hashing",
+    "notes": "Character frequency counts"
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "notes": "Greedy capture-all-ups"
+  },
+  "house-robber-iii": {
+    "patterns": [
+      "trees"
+    ],
+    "main_pattern": "trees",
+    "notes": "Tree DP on binary tree"
+  },
+  "perfect-squares": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "notes": "1D DP on perfect squares"
+  },
+  "integer-break": {
+    "patterns": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-1d",
+    "notes": "1D DP / math alt"
+  },
+  "count-paths": {
+    "patterns": [
+      "dp-2d"
+    ],
+    "main_pattern": "dp-2d",
+    "notes": "Grid path counting (Unique Paths)"
+  },
+  "minimum-number-of-operations-to-make-array-empty": {
+    "patterns": [
+      "greedy"
+    ],
+    "main_pattern": "greedy",
+    "notes": "Greedy pairing by frequency"
+  }
+}
