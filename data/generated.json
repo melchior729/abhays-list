@@ -21,6 +21,7 @@
     "range-sum-query-immutable",
     "score-of-a-string",
     "sign-of-the-product-of-an-array",
+    "time-needed-to-buy-tickets",
     "verifying-an-alien-dictionary"
   ],
   "gitDates": {}
