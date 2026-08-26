@@ -9,6 +9,7 @@
     "length-of-last-word",
     "majority-element",
     "max-consecutive-ones",
+    "maximum-ascending-subarray-sum",
     "maximum-nesting-depth-of-the-parentheses",
     "minimum-changes-to-make-alternating-binary-string",
     "monotonic-array",
