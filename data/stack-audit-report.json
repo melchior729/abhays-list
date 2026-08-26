@@ -1,8 +1,12 @@
 {
   "pattern": "stack",
-  "before": 19,
+  "before": 20,
   "after": 19,
-  "moves": {},
+  "moves": {
+    "daily-temperatures": [
+      "dp-1d"
+    ]
+  },
   "desired_order": [
     "implement-queue-using-stacks",
     "implement-stack-using-queues",
@@ -105,6 +109,31 @@
     },
     {
       "index": 3,
+      "slug": "next-greater-element-i",
+      "name": "Next Greater Element I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "stack"
+      ],
+      "technique_family": "basic",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Stack"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 4,
       "slug": "baseball-game",
       "name": "Baseball Game",
       "difficulty": "easy",
@@ -127,32 +156,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 4 after next-greater-element-i"
-    },
-    {
-      "index": 4,
-      "slug": "next-greater-element-i",
-      "name": "Next Greater Element I",
-      "difficulty": "easy",
-      "current_patterns": [
-        "stack"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "stack"
-      ],
-      "technique_family": "basic",
-      "is_design": false,
-      "within_family_rank": 1,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Stack"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 3 after validate-parentheses"
+      "order_verdict": "ORDER_OK"
     },
     {
       "index": 5,
@@ -261,6 +265,31 @@
     },
     {
       "index": 9,
+      "slug": "daily-temperatures",
+      "name": "Daily Temperatures",
+      "difficulty": "medium",
+      "current_patterns": [
+        "stack"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 10,
       "slug": "decode-string",
       "name": "Decode String",
       "difficulty": "medium",
@@ -285,7 +314,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 10,
+      "index": 11,
       "slug": "simplify-path",
       "name": "Simplify Path",
       "difficulty": "medium",
@@ -311,7 +340,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 11,
+      "index": 12,
       "slug": "basic-calculator-ii",
       "name": "Basic Calculator II",
       "difficulty": "medium",
@@ -336,7 +365,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 12,
+      "index": 13,
       "slug": "evaluate-reverse-polish-notation",
       "name": "Evaluate Reverse Polish Notation",
       "difficulty": "medium",
@@ -362,7 +391,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 13,
+      "index": 14,
       "slug": "minimum-remove-to-make-valid-parentheses",
       "name": "Minimum Remove to Make Valid Parentheses",
       "difficulty": "medium",
@@ -387,7 +416,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 14,
+      "index": 15,
       "slug": "asteroid-collision",
       "name": "Asteroid Collision",
       "difficulty": "medium",
@@ -413,7 +442,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 15,
+      "index": 16,
       "slug": "remove-all-adjacent-duplicates-in-string-ii",
       "name": "Remove All Adjacent Duplicates In String II",
       "difficulty": "medium",
@@ -440,7 +469,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 16,
+      "index": 17,
       "slug": "largest-rectangle-in-histogram",
       "name": "Largest Rectangle In Histogram",
       "difficulty": "hard",
@@ -467,7 +496,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 17,
+      "index": 18,
       "slug": "number-of-visible-people-in-a-queue",
       "name": "Number of Visible People in a Queue",
       "difficulty": "hard",
@@ -493,7 +522,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 18,
+      "index": 19,
       "slug": "maximum-frequency-stack",
       "name": "Maximum Frequency Stack",
       "difficulty": "hard",

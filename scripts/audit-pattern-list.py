@@ -136,6 +136,8 @@ FAMILY_RANK: dict[str, dict[str, int]] = {
         "simulation": 4,
         "encode": 5,
         "matrix": 6,
+        "sort": 7,
+        "design": 8,
     },
     "hashing": {
         "set_membership": 0,
@@ -196,6 +198,20 @@ FAMILY_RANK: dict[str, dict[str, int]] = {
         "design": 6,
         "advanced": 7,
     },
+    "dp-2d": {
+        "grid": 0,
+        "tree_dp": 1,
+        "knapsack": 2,
+    },
+    "math-geometry": {
+        "number": 0,
+        "matrix": 1,
+        "divide": 2,
+    },
+    "tries": {
+        "design": 0,
+        "search": 1,
+    },
 }
 
 PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
@@ -205,6 +221,8 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "length-of-last-word": ("scan", 2),
         "largest-3-same-digit-number-in-string": ("scan", 3),
         "minimum-changes-to-make-alternating-binary-string": ("scan", 4),
+        "counting-words-with-a-given-prefix": ("scan", 5),
+        "count-prefix-and-suffix-pairs-i": ("scan", 6),
         "monotonic-array": ("neighbor", 0),
         "maximum-ascending-subarray-sum": ("neighbor", 1),
         "longest-strictly-increasing-or-strictly-decreasing-subarray": ("neighbor", 2),
@@ -220,6 +238,12 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "time-needed-to-buy-tickets": ("simulation", 0),
         "average-waiting-time": ("simulation", 1),
         "string-encode-and-decode": ("encode", 0),
+        "rotate-array": ("simulation", 2),
+        "sort-an-array": ("sort", 0),
+        "text-justification": ("simulation", 3),
+        "check-if-array-is-sorted-and-rotated": ("neighbor", 4),
+        "count-vowel-strings-in-ranges": ("prefix", 7),
+        "design-circular-queue": ("design", 0),
     },
     "hashing": {
         "duplicate-integer": ("set_membership", 0),
@@ -228,6 +252,7 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "intersection-of-two-arrays": ("set_membership", 2),
         "find-the-difference-of-two-arrays": ("set_membership", 3),
         "path-crossing": ("set_membership", 4),
+        "unique-email-addresses": ("set_membership", 5),
         "kth-distinct-string-in-an-array": ("map_lookup", 1),
         "word-pattern": ("map_lookup", 2),
         "first-unique-character-in-a-string": ("freq_count", 0),
@@ -249,7 +274,6 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "minimum-number-of-moves-to-seat-everyone": ("counting_sort", 2),
         "special-array-with-x-elements-greater-than-or-equal-x": ("counting_sort", 3),
         "sort-array-by-increasing-frequency": ("counting_sort", 4),
-        "sort-an-array": ("counting_sort", 5),
         "sort-the-people": ("counting_sort", 6),
         "maximum-difference-between-even-and-odd-frequency-i": ("freq_count", 8),
         "design-hashset": ("design_map", 0),
@@ -268,12 +292,13 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "brick-wall": ("geometry_hash", 0),
         "count-squares": ("geometry_hash", 1),
         "analyze-user-website-visit-pattern": ("geometry_hash", 2),
-        "4sum": ("map_lookup", 9),
-        "hand-of-straights": ("map_lookup", 10),
         "custom-sort-string": ("freq_count", 10),
-        "reorganize-string": ("freq_count", 11),
         "remove-sub-folders-from-the-filesystem": ("set_membership", 6),
         "unique-length-3-palindromic-subsequences": ("map_lookup", 11),
+        "longest-palindrome": ("map_lookup", 9),
+        "string-matching-in-an-array": ("prefix_hash", 7),
+        "find-lucky-integer-in-an-array": ("index_marking", 2),
+        "valid-sudoku": ("set_membership", 7),
         "first-missing-positive": ("index_marking", 1),
     },
     "two-pointers": {
@@ -285,9 +310,9 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "two-integer-sum-ii": ("opposite_ends", 4),
         "max-water-container": ("opposite_ends", 5),
         "three-integer-sum": ("opposite_ends", 6),
-        "find-k-closest-elements": ("opposite_ends", 7),
-        "trapping-rain-water": ("opposite_ends", 8),
-        "median-of-two-sorted-arrays": ("opposite_ends", 9),
+        "4sum": ("opposite_ends", 7),
+        "number-of-subsequences-that-satisfy-the-given-sum-condition": ("opposite_ends", 8),
+        "trapping-rain-water": ("opposite_ends", 9),
         # same_direction
         "merge-strings-alternately": ("same_direction", 0),
         "is-subsequence": ("same_direction", 1),
@@ -300,6 +325,7 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "string-compression": ("same_direction", 8),
         "buy-and-sell-crypto": ("same_direction", 9),
         "rotating-the-box": ("same_direction", 10),
+        "next-permutation": ("same_direction", 11),
         # merge
         "merge-sorted-array": ("merge", 0),
         # partition
@@ -315,13 +341,17 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "gas-station": ("greedy_pair", 2),
         "partition-labels": ("greedy_pair", 3),
     },
+    "heap": {
+        "reorganize-string": ("top_k", 1),
+        "hand-of-straights": ("top_k", 2),
+        "merge-k-sorted-linked-lists": ("top_k", 3),
+    },
     "sliding-window": {
         "minimum-recolors-to-get-k-consecutive-black-blocks": ("fixed_k", 0),
         "minimum-difference-between-highest-and-lowest-of-k-scores": ("fixed_k", 1),
         "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": ("fixed_k", 2),
         "grumpy-bookstore-owner": ("fixed_k", 3),
         "maximum-points-you-can-obtain-from-cards": ("fixed_k", 4),
-        "check-if-array-is-sorted-and-rotated": ("variable", 0),
         "longest-turbulent-subarray": ("variable", 1),
         "max-consecutive-ones-iii": ("variable", 2),
         "fruit-into-baskets": ("variable", 3),
@@ -329,12 +359,11 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "longest-repeating-substring-with-replacement": ("variable", 5),
         "subarray-product-less-than-k": ("variable", 6),
         "binary-subarrays-with-sum": ("variable", 7),
+        "frequency-of-the-most-frequent-element": ("variable", 8),
         "permutation-string": ("freq_window", 0),
         "subarrays-with-k-different-integers": ("freq_window", 1),
         "minimum-size-subarray-sum": ("min_window", 0),
         "minimum-window-with-characters": ("min_window", 1),
-        "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": ("deque", 0),
-        "sliding-window-maximum": ("deque", 1),
     },
     "binary-search": {
         "binary-search": ("basic", 0),
@@ -351,13 +380,14 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "search-2d-matrix": ("bound", 4),
         "eating-bananas": ("answer_space", 0),
         "capacity-to-ship-packages-within-d-days": ("answer_space", 1),
-        "frequency-of-the-most-frequent-element": ("answer_space", 2),
-        "number-of-subsequences-that-satisfy-the-given-sum-condition": ("answer_space", 3),
+        "minimize-the-maximum-difference-of-pairs": ("answer_space", 2),
         "random-pick-with-weight": ("bound", 5),
+        "find-k-closest-elements": ("bound", 6),
         "time-based-key-value-store": ("design_bs", 0),
         "find-in-mountain-array": ("rotated", 3),
         "split-array-largest-sum": ("answer_space", 4),
         "kth-smallest-product-of-two-sorted-arrays": ("answer_space", 5),
+        "median-of-two-sorted-arrays": ("answer_space", 6),
     },
     "stack": {
         "implement-queue-using-stacks": ("design", 0),
@@ -365,6 +395,7 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "validate-parentheses": ("basic", 0),
         "next-greater-element-i": ("basic", 1),
         "baseball-game": ("basic", 2),
+        "buildings-with-an-ocean-view": ("monotonic", 0),
         "minimum-stack": ("design", 0),
         "online-stock-span": ("monotonic", 1),
         "decode-string": ("parsing", 0),
@@ -379,6 +410,8 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "largest-rectangle-in-histogram": ("monotonic", 3),
         "maximum-frequency-stack": ("advanced", 1),
         "number-of-visible-people-in-a-queue": ("monotonic", 4),
+        "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": ("monotonic", 5),
+        "sliding-window-maximum": ("monotonic", 6),
     },
     "linked-list": {
         "reverse-a-linked-list": ("reverse", 0),
@@ -388,9 +421,9 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "non-cyclical-number": ("fast_slow", 1),
         "middle-of-the-linked-list": ("fast_slow", 2),
         "palindrome-linked-list": ("fast_slow", 3),
+        "find-duplicate-integer": ("fast_slow", 4),
         "intersection-of-two-linked-lists": ("two_pointer", 0),
         "design-linked-list": ("design", 0),
-        "design-circular-queue": ("design", 1),
         "lru-cache": ("design", 2),
         "add-two-numbers": ("traversal", 2),
         "add-two-numbers-ii": ("traversal", 3),
@@ -401,9 +434,7 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "reorder-linked-list": ("reverse", 3),
         "maximum-twin-sum-of-a-linked-list": ("reverse", 4),
         "copy-linked-list-with-random-pointer": ("advanced", 0),
-        "lowest-common-ancestor-of-a-binary-tree-iii": ("two_pointer", 2),
         "lfu-cache": ("design", 0),
-        "merge-k-sorted-linked-lists": ("advanced", 1),
         "reverse-nodes-in-k-group": ("reverse", 5),
     },
     "trees": {
@@ -430,7 +461,6 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "populating-next-right-pointers-in-each-node": ("bfs", 4),
         "binary-tree-from-preorder-and-inorder-traversal": ("construct", 0),
         "construct-binary-tree-from-inorder-and-postorder-traversal": ("construct", 1),
-        "construct-quad-tree": ("construct", 2),
         "insert-into-a-binary-search-tree": ("bst", 1),
         "delete-node-in-a-bst": ("bst", 2),
         "valid-binary-search-tree": ("bst", 3),
@@ -441,10 +471,25 @@ PEDAGOGY: dict[str, dict[str, tuple[str, int]]] = {
         "count-good-nodes-in-binary-tree": ("path", 1),
         "sum-root-to-leaf-numbers": ("path", 2),
         "lowest-common-ancestor-of-a-binary-tree": ("path", 3),
-        "delete-leaves-with-a-given-value": ("path", 4),
+        "lowest-common-ancestor-of-a-binary-tree-iii": ("path", 4),
+        "delete-leaves-with-a-given-value": ("path", 5),
         # Hard
         "serialize-and-deserialize-binary-tree": ("design", 0),
-        "binary-tree-maximum-path-sum": ("path", 5),
+        "binary-tree-maximum-path-sum": ("path", 6),
+    },
+    "dp-2d": {
+        "minimum-path-sum": ("grid", 0),
+        "triangle": ("grid", 1),
+        "partition-equal-subset-sum": ("knapsack", 0),
+        "house-robber-iii": ("tree_dp", 0),
+    },
+    "math-geometry": {
+        "construct-quad-tree": ("divide", 0),
+    },
+    "tries": {
+        "implement-prefix-tree": ("design", 0),
+        "design-word-search-data-structure": ("design", 1),
+        "search-for-word-ii": ("search", 0),
     },
 }
 
@@ -472,7 +517,6 @@ LATER_PATTERN_CUES: list[tuple[str, list[str]]] = [
 # Canonical "implement this structure/technique" problems, by pattern.
 CANONICAL_DESIGN: dict[str, list[str]] = {
     "hashing": ["design-hashset", "design-hashmap"],
-    "sliding-window": ["sliding-window-maximum"],
     "binary-search": ["binary-search", "time-based-key-value-store"],
     "tries": ["implement-prefix-tree", "implement-trie-prefix-tree"],
     "heap": ["kth-largest-element-in-a-stream"],
@@ -480,11 +524,11 @@ CANONICAL_DESIGN: dict[str, list[str]] = {
         "implement-queue-using-stacks",
         "implement-stack-using-queues",
         "minimum-stack",
+        "sliding-window-maximum",
     ],
     "linked-list": [
         "reverse-a-linked-list",
         "design-linked-list",
-        "design-circular-queue",
         "lru-cache",
         "lfu-cache",
     ],
@@ -710,7 +754,6 @@ def main_approach_is_hashing(
         if slug in {
             "number-of-sub-arrays-with-odd-sum",
             "make-sum-divisible-by-p",
-            "count-vowel-strings-in-ranges",
         }:
             return True
         return False
@@ -862,7 +905,7 @@ def main_approach_is_linked_list(
     if ov.get("drop_from") and "linked-list" in ov["drop_from"]:
         return False
 
-    if slug in {"non-cyclical-number", "lowest-common-ancestor-of-a-binary-tree-iii"}:
+    if slug in {"non-cyclical-number"}:
         return True
 
     if LINKED_LIST_SLUG_RE.search(slug):

@@ -1,8 +1,9 @@
 "use client";
 
-export type StatusSort = "open" | "done";
+export type StatusSort = "open" | "done" | "path";
 
 const STATUS_OPTIONS: { id: StatusSort; label: string }[] = [
+  { id: "path", label: "Path" },
   { id: "open", label: "Open" },
   { id: "done", label: "Done" },
 ];
@@ -26,11 +27,11 @@ export function SearchBar({
 }) {
   return (
     <>
-      <div className="col-span-2 flex min-w-0 flex-wrap items-center gap-0.5">
+      <div className="col-span-2 flex min-w-0 flex-wrap items-center gap-x-4 gap-y-1">
         <div
           className="flex gap-0.5"
           role="group"
-          aria-label="Sort by completion"
+          aria-label="Sort order"
         >
           {STATUS_OPTIONS.map(({ id, label }) => {
             const on = statusSort === id;

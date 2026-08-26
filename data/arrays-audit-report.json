@@ -1,18 +1,8 @@
 {
   "pattern": "arrays",
-  "before": 35,
-  "after": 32,
-  "moves": {
-    "can-place-flowers": [
-      "greedy"
-    ],
-    "lemonade-change": [
-      "greedy"
-    ],
-    "largest-number": [
-      "greedy"
-    ]
-  },
+  "before": 39,
+  "after": 39,
+  "moves": {},
   "desired_order": [
     "concatenation-of-array",
     "score-of-a-string",
@@ -22,60 +12,42 @@
     "counting-words-with-a-given-prefix",
     "crawler-log-folder",
     "island-perimeter",
+    "majority-element",
     "max-consecutive-ones",
     "maximum-nesting-depth-of-the-parentheses",
     "number-of-senior-citizens",
     "sign-of-the-product-of-an-array",
-    "unique-email-addresses",
     "verifying-an-alien-dictionary",
     "monotonic-array",
     "maximum-ascending-subarray-sum",
     "longest-strictly-increasing-or-strictly-decreasing-subarray",
     "maximum-product-difference-between-two-pairs",
+    "check-if-array-is-sorted-and-rotated",
     "longest-common-prefix",
+    "count-prefix-and-suffix-pairs-i",
     "maximum-score-after-splitting-a-string",
     "find-pivot-index",
     "range-sum-query-immutable",
     "replace-elements-with-greatest-element-on-right-side",
     "time-needed-to-buy-tickets",
+    "design-circular-queue",
+    "count-servers-that-communicate",
     "majority-element-ii",
     "minimum-index-of-a-valid-split",
     "rearrange-array-elements-by-sign",
     "minimum-number-of-operations-to-move-all-balls-to-each-box",
     "products-of-array-discluding-self",
     "range-sum-query-2d-immutable",
+    "count-vowel-strings-in-ranges",
     "average-waiting-time",
-    "string-encode-and-decode"
+    "rotate-array",
+    "string-encode-and-decode",
+    "sort-an-array"
   ],
   "needs_review": [],
   "rows": [
     {
       "index": 0,
-      "slug": "can-place-flowers",
-      "name": "Can Place Flowers",
-      "difficulty": "easy",
-      "current_patterns": [
-        "arrays"
-      ],
-      "verdict": "MOVE:greedy",
-      "target_patterns": [
-        "greedy"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Iteration - II"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 1,
       "slug": "concatenation-of-array",
       "name": "Concatenation of Array",
       "difficulty": "easy",
@@ -101,6 +73,31 @@
       "order_verdict": "ORDER_OK"
     },
     {
+      "index": 1,
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "name": "Count Prefix and Suffix Pairs I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Trie"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 20 after longest-common-prefix"
+    },
+    {
       "index": 2,
       "slug": "score-of-a-string",
       "name": "Score of a String",
@@ -123,7 +120,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 1 after concatenation-of-array"
     },
     {
       "index": 3,
@@ -149,7 +146,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 2 after score-of-a-string"
     },
     {
       "index": 4,
@@ -175,7 +172,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 3 after length-of-last-word"
     },
     {
       "index": 5,
@@ -201,7 +198,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 4 after largest-3-same-digit-number-in-string"
     },
     {
       "index": 6,
@@ -226,36 +223,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 5 after minimum-changes-to-make-alternating-binary-string"
     },
     {
       "index": 7,
-      "slug": "lemonade-change",
-      "name": "Lemonade Change",
-      "difficulty": "easy",
-      "current_patterns": [
-        "arrays"
-      ],
-      "verdict": "MOVE:greedy",
-      "target_patterns": [
-        "greedy"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Iteration - I",
-        "Iteration - II"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 8,
       "slug": "crawler-log-folder",
       "name": "Crawler Log Folder",
       "difficulty": "easy",
@@ -277,10 +248,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 6 after counting-words-with-a-given-prefix"
     },
     {
-      "index": 9,
+      "index": 8,
       "slug": "island-perimeter",
       "name": "Island Perimeter",
       "difficulty": "easy",
@@ -303,7 +274,34 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 7 after crawler-log-folder"
+    },
+    {
+      "index": 9,
+      "slug": "majority-element",
+      "name": "Majority Element",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bit Manipulation",
+        "Boyer-Moore Voting Algorithm",
+        "Randomization"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 8 after island-perimeter"
     },
     {
       "index": 10,
@@ -329,7 +327,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 9 after majority-element"
     },
     {
       "index": 11,
@@ -354,7 +352,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 10 after max-consecutive-ones"
     },
     {
       "index": 12,
@@ -380,7 +378,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 11 after maximum-nesting-depth-of-the-parentheses"
     },
     {
       "index": 13,
@@ -406,36 +404,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 12 after number-of-senior-citizens"
     },
     {
       "index": 14,
-      "slug": "unique-email-addresses",
-      "name": "Unique Email Addresses",
-      "difficulty": "easy",
-      "current_patterns": [
-        "arrays"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "arrays"
-      ],
-      "technique_family": "scan",
-      "is_design": false,
-      "within_family_rank": 999,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Built-In Functions",
-        "Iteration"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_OK"
-    },
-    {
-      "index": 15,
       "slug": "verifying-an-alien-dictionary",
       "name": "Verifying An Alien Dictionary",
       "difficulty": "easy",
@@ -457,10 +429,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 13 after sign-of-the-product-of-an-array"
     },
     {
-      "index": 16,
+      "index": 15,
       "slug": "monotonic-array",
       "name": "Monotonic Array",
       "difficulty": "easy",
@@ -484,10 +456,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 14 after verifying-an-alien-dictionary"
     },
     {
-      "index": 17,
+      "index": 16,
       "slug": "maximum-ascending-subarray-sum",
       "name": "Maximum Ascending Subarray Sum",
       "difficulty": "easy",
@@ -509,10 +481,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 15 after monotonic-array"
     },
     {
-      "index": 18,
+      "index": 17,
       "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
       "name": "Longest Strictly Increasing or Strictly Decreasing Subarray",
       "difficulty": "easy",
@@ -536,10 +508,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 16 after maximum-ascending-subarray-sum"
     },
     {
-      "index": 19,
+      "index": 18,
       "slug": "maximum-product-difference-between-two-pairs",
       "name": "Maximum Product Difference Between Two Pairs",
       "difficulty": "easy",
@@ -561,7 +533,33 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 17 after longest-strictly-increasing-or-strictly-decreasing-subarray"
+    },
+    {
+      "index": 19,
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "name": "Check if Array Is Sorted and Rotated",
+      "difficulty": "easy",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "neighbor",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sliding Window",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 18 after maximum-product-difference-between-two-pairs"
     },
     {
       "index": 20,
@@ -586,7 +584,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 19 after check-if-array-is-sorted-and-rotated"
     },
     {
       "index": 21,
@@ -717,6 +715,58 @@
     },
     {
       "index": 26,
+      "slug": "design-circular-queue",
+      "name": "Design Circular Queue",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Array",
+        "Doubly Linked List",
+        "Singly Linked List"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 27,
+      "slug": "count-servers-that-communicate",
+      "name": "Count Servers that Communicate",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 28,
       "slug": "majority-element-ii",
       "name": "Majority Element II",
       "difficulty": "medium",
@@ -742,7 +792,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 27,
+      "index": 29,
       "slug": "minimum-index-of-a-valid-split",
       "name": "Minimum Index of a Valid Split",
       "difficulty": "medium",
@@ -767,32 +817,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 28,
-      "slug": "largest-number",
-      "name": "Largest Number",
-      "difficulty": "medium",
-      "current_patterns": [
-        "arrays"
-      ],
-      "verdict": "MOVE:greedy",
-      "target_patterns": [
-        "greedy"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Sorting"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 29,
+      "index": 30,
       "slug": "rearrange-array-elements-by-sign",
       "name": "Rearrange Array Elements by Sign",
       "difficulty": "medium",
@@ -818,7 +843,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 30,
+      "index": 31,
       "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
       "name": "Minimum Number of Operations to Move All Balls to Each Box",
       "difficulty": "medium",
@@ -843,7 +868,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 31,
+      "index": 32,
       "slug": "products-of-array-discluding-self",
       "name": "Product of Array Except Self",
       "difficulty": "medium",
@@ -869,7 +894,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 32,
+      "index": 33,
       "slug": "range-sum-query-2d-immutable",
       "name": "Range Sum Query 2D Immutable",
       "difficulty": "medium",
@@ -894,7 +919,33 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 33,
+      "index": 34,
+      "slug": "count-vowel-strings-in-ranges",
+      "name": "Count Vowel Strings in Ranges",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "prefix",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Sum + Hash Set",
+        "Prefix Sum + Bitmask"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 35,
       "slug": "average-waiting-time",
       "name": "Average Waiting Time",
       "difficulty": "medium",
@@ -920,7 +971,33 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 34,
+      "index": 36,
+      "slug": "rotate-array",
+      "name": "Rotate Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "simulation",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Cyclic Traversal",
+        "Using Reverse"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 37,
       "slug": "string-encode-and-decode",
       "name": "Encode and Decode Strings",
       "difficulty": "medium",
@@ -940,6 +1017,31 @@
       "optimal_approaches": [
         "Encoding & Decoding",
         "Encoding & Decoding (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 38,
+      "slug": "sort-an-array",
+      "name": "Sort an Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "arrays"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": "sort",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Counting Sort"
       ],
       "confidence": "high",
       "notes": "",

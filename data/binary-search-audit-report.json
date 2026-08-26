@@ -1,8 +1,15 @@
 {
   "pattern": "binary-search",
-  "before": 21,
+  "before": 23,
   "after": 21,
-  "moves": {},
+  "moves": {
+    "frequency-of-the-most-frequent-element": [
+      "sliding-window"
+    ],
+    "number-of-subsequences-that-satisfy-the-given-sum-condition": [
+      "two-pointers"
+    ]
+  },
   "desired_order": [
     "binary-search",
     "guess-number-higher-or-lower",
@@ -15,16 +22,16 @@
     "single-element-in-a-sorted-array",
     "search-2d-matrix",
     "random-pick-with-weight",
+    "find-k-closest-elements",
     "find-minimum-in-rotated-sorted-array",
     "find-target-in-rotated-sorted-array",
     "search-in-rotated-sorted-array-ii",
     "eating-bananas",
     "capacity-to-ship-packages-within-d-days",
-    "frequency-of-the-most-frequent-element",
-    "number-of-subsequences-that-satisfy-the-given-sum-condition",
     "find-in-mountain-array",
     "split-array-largest-sum",
-    "kth-smallest-product-of-two-sorted-arrays"
+    "kth-smallest-product-of-two-sorted-arrays",
+    "median-of-two-sorted-arrays"
   ],
   "needs_review": [],
   "rows": [
@@ -315,6 +322,31 @@
     },
     {
       "index": 11,
+      "slug": "find-k-closest-elements",
+      "name": "Find K Closest Elements",
+      "difficulty": "medium",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "bound",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
       "slug": "find-minimum-in-rotated-sorted-array",
       "name": "Find Minimum In Rotated Sorted Array",
       "difficulty": "medium",
@@ -340,7 +372,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 12,
+      "index": 13,
       "slug": "find-target-in-rotated-sorted-array",
       "name": "Search In Rotated Sorted Array",
       "difficulty": "medium",
@@ -367,7 +399,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 13,
+      "index": 14,
       "slug": "search-in-rotated-sorted-array-ii",
       "name": "Search In Rotated Sorted Array II",
       "difficulty": "medium",
@@ -392,7 +424,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 14,
+      "index": 15,
       "slug": "eating-bananas",
       "name": "Koko Eating Bananas",
       "difficulty": "medium",
@@ -417,7 +449,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 15,
+      "index": 16,
       "slug": "capacity-to-ship-packages-within-d-days",
       "name": "Capacity to Ship Packages Within D Days",
       "difficulty": "medium",
@@ -442,20 +474,20 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 16,
+      "index": 17,
       "slug": "frequency-of-the-most-frequent-element",
       "name": "Frequency of The Most Frequent Element",
       "difficulty": "medium",
       "current_patterns": [
         "binary-search"
       ],
-      "verdict": "KEEP",
+      "verdict": "MOVE:sliding-window",
       "target_patterns": [
-        "binary-search"
+        "sliding-window"
       ],
-      "technique_family": "answer_space",
+      "technique_family": null,
       "is_design": false,
-      "within_family_rank": 2,
+      "within_family_rank": null,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
@@ -466,23 +498,23 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "N/A"
     },
     {
-      "index": 17,
+      "index": 18,
       "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
       "name": "Number of Subsequences That Satisfy The Given Sum Condition",
       "difficulty": "medium",
       "current_patterns": [
         "binary-search"
       ],
-      "verdict": "KEEP",
+      "verdict": "MOVE:two-pointers",
       "target_patterns": [
-        "binary-search"
+        "two-pointers"
       ],
-      "technique_family": "answer_space",
+      "technique_family": null,
       "is_design": false,
-      "within_family_rank": 3,
+      "within_family_rank": null,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
@@ -493,10 +525,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "N/A"
     },
     {
-      "index": 18,
+      "index": 19,
       "slug": "find-in-mountain-array",
       "name": "Find in Mountain Array",
       "difficulty": "hard",
@@ -521,7 +553,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 19,
+      "index": 20,
       "slug": "split-array-largest-sum",
       "name": "Split Array Largest Sum",
       "difficulty": "hard",
@@ -546,7 +578,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 20,
+      "index": 21,
       "slug": "kth-smallest-product-of-two-sorted-arrays",
       "name": "Kth Smallest Product of Two Sorted Arrays",
       "difficulty": "hard",
@@ -565,6 +597,31 @@
       "status": "ok",
       "optimal_approaches": [
         "Binary Search + Two Pointers"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 22,
+      "slug": "median-of-two-sorted-arrays",
+      "name": "Median of Two Sorted Arrays",
+      "difficulty": "hard",
+      "current_patterns": [
+        "binary-search"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "binary-search"
+      ],
+      "technique_family": "answer_space",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Pointers"
       ],
       "confidence": "high",
       "notes": "",

@@ -1,0 +1,361 @@
+{
+  "pattern": "heap",
+  "before": 13,
+  "after": 11,
+  "moves": {
+    "kth-largest-element-in-an-array": [
+      "arrays"
+    ],
+    "k-closest-points-to-origin": [
+      "arrays"
+    ]
+  },
+  "desired_order": [
+    "kth-largest-integer-in-a-stream",
+    "final-array-state-after-k-multiplication-operations-i",
+    "last-stone-weight",
+    "take-gifts-from-the-richest-pile",
+    "design-twitter-feed",
+    "reorganize-string",
+    "hand-of-straights",
+    "single-threaded-cpu",
+    "top-k-elements-in-list",
+    "find-median-in-a-data-stream",
+    "ipo"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "kth-largest-integer-in-a-stream",
+      "name": "Kth Largest Element In a Stream",
+      "difficulty": "easy",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": true,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting",
+        "Min-Heap"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "last-stone-weight",
+      "name": "Last Stone Weight",
+      "difficulty": "easy",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bucket Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 2 after final-array-state-after-k-multiplication-operations-i"
+    },
+    {
+      "index": 2,
+      "slug": "take-gifts-from-the-richest-pile",
+      "name": "Take Gifts From the Richest Pile",
+      "difficulty": "easy",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Max-Heap"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 3 after last-stone-weight"
+    },
+    {
+      "index": 3,
+      "slug": "final-array-state-after-k-multiplication-operations-i",
+      "name": "Final Array State After K Multiplication Operations I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Min-Heap"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 1 after kth-largest-integer-in-a-stream"
+    },
+    {
+      "index": 4,
+      "slug": "design-twitter-feed",
+      "name": "Design Twitter",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": true,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Heap (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 5,
+      "slug": "kth-largest-element-in-an-array",
+      "name": "Kth Largest Element In An Array",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Quick Select (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 6,
+      "slug": "top-k-elements-in-list",
+      "name": "Top K Frequent Elements",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bucket Sort"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 8 after single-threaded-cpu"
+    },
+    {
+      "index": 7,
+      "slug": "reorganize-string",
+      "name": "Reorganize String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "top_k",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Frequency Count",
+        "Frequency Count (Max-Heap)",
+        "Frequency Count (Greedy)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 5 after design-twitter-feed"
+    },
+    {
+      "index": 8,
+      "slug": "hand-of-straights",
+      "name": "Hand of Straights",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "top_k",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 6 after reorganize-string"
+    },
+    {
+      "index": 9,
+      "slug": "k-closest-points-to-origin",
+      "name": "K Closest Points to Origin",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Quick Select"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 10,
+      "slug": "single-threaded-cpu",
+      "name": "Single Threaded CPU",
+      "difficulty": "medium",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Min-Heaps",
+        "Sorting + Min-Heap",
+        "Sorting + Min-Heap (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 7 after hand-of-straights"
+    },
+    {
+      "index": 11,
+      "slug": "find-median-in-a-data-stream",
+      "name": "Find Median From Data Stream",
+      "difficulty": "hard",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": true,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
+      "slug": "ipo",
+      "name": "IPO",
+      "difficulty": "hard",
+      "current_patterns": [
+        "heap"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "heap"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Two Heaps",
+        "Two Heaps (Optimal)",
+        "Sorting + Max-Heap"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

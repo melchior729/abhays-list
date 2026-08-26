@@ -1,26 +1,13 @@
 {
   "pattern": "trees",
-  "before": 42,
+  "before": 37,
   "after": 35,
   "moves": {
-    "string-matching-in-an-array": [],
-    "implement-prefix-tree": [
-      "tries"
+    "house-robber-iii": [
+      "dp-2d"
     ],
-    "longest-increasing-subsequence": [
-      "dp-1d"
-    ],
-    "minimum-height-trees": [
-      "graphs"
-    ],
-    "minimum-time-to-collect-all-apples-in-a-tree": [
-      "graphs"
-    ],
-    "minimum-interval-including-query": [
-      "intervals"
-    ],
-    "russian-doll-envelopes": [
-      "dp-1d"
+    "construct-quad-tree": [
+      "math-geometry"
     ]
   },
   "desired_order": [
@@ -52,10 +39,10 @@
     "recover-binary-search-tree",
     "binary-tree-from-preorder-and-inorder-traversal",
     "construct-binary-tree-from-inorder-and-postorder-traversal",
-    "construct-quad-tree",
     "count-good-nodes-in-binary-tree",
     "sum-root-to-leaf-numbers",
     "lowest-common-ancestor-of-a-binary-tree",
+    "lowest-common-ancestor-of-a-binary-tree-iii",
     "delete-leaves-with-a-given-value",
     "serialize-and-deserialize-binary-tree",
     "binary-tree-maximum-path-sum"
@@ -64,6 +51,83 @@
   "rows": [
     {
       "index": 0,
+      "slug": "invert-a-binary-tree",
+      "name": "Invert Binary Tree",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "basics",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Breadth First Search",
+        "Depth First Search",
+        "Iterative DFS"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "same-binary-tree",
+      "name": "Same Tree",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "basics",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Depth First Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "depth-of-binary-tree",
+      "name": "Maximum Depth of Binary Tree",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "basics",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Recursive DFS"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 3,
       "slug": "balanced-binary-tree",
       "name": "Balanced Binary Tree",
       "difficulty": "easy",
@@ -85,82 +149,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 3 after depth-of-binary-tree"
-    },
-    {
-      "index": 1,
-      "slug": "binary-tree-inorder-traversal",
-      "name": "Binary Tree Inorder Traversal",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "traversal",
-      "is_design": false,
-      "within_family_rank": 1,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Morris Traversal"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 8 after binary-tree-preorder-traversal"
-    },
-    {
-      "index": 2,
-      "slug": "binary-tree-postorder-traversal",
-      "name": "Binary Tree Postorder Traversal",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "traversal",
-      "is_design": false,
-      "within_family_rank": 2,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Morris Traversal"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 9 after binary-tree-inorder-traversal"
-    },
-    {
-      "index": 3,
-      "slug": "binary-tree-preorder-traversal",
-      "name": "Binary Tree Preorder Traversal",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "traversal",
-      "is_design": false,
-      "within_family_rank": 0,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Morris Traversal"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 7 after merge-two-binary-trees"
+      "order_verdict": "ORDER_OK"
     },
     {
       "index": 4,
@@ -189,35 +178,8 @@
     },
     {
       "index": 5,
-      "slug": "invert-a-binary-tree",
-      "name": "Invert Binary Tree",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "basics",
-      "is_design": true,
-      "within_family_rank": 0,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Breadth First Search",
-        "Depth First Search",
-        "Iterative DFS"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 0 after (start)"
-    },
-    {
-      "index": 6,
-      "slug": "depth-of-binary-tree",
-      "name": "Maximum Depth of Binary Tree",
+      "slug": "subtree-of-a-binary-tree",
+      "name": "Subtree of Another Tree",
       "difficulty": "easy",
       "current_patterns": [
         "trees"
@@ -228,19 +190,19 @@
       ],
       "technique_family": "basics",
       "is_design": false,
-      "within_family_rank": 2,
+      "within_family_rank": 5,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Recursive DFS"
+        "Serialization And Pattern Matching"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 2 after same-binary-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 7,
+      "index": 6,
       "slug": "merge-two-binary-trees",
       "name": "Merge Two Binary Trees",
       "difficulty": "easy",
@@ -265,10 +227,85 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 6 after subtree-of-a-binary-tree"
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 7,
+      "slug": "binary-tree-preorder-traversal",
+      "name": "Binary Tree Preorder Traversal",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Morris Traversal"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
     },
     {
       "index": 8,
+      "slug": "binary-tree-inorder-traversal",
+      "name": "Binary Tree Inorder Traversal",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Morris Traversal"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 9,
+      "slug": "binary-tree-postorder-traversal",
+      "name": "Binary Tree Postorder Traversal",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "traversal",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Morris Traversal"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 10,
       "slug": "n-ary-tree-postorder-traversal",
       "name": "N-ary Tree Postorder Traversal",
       "difficulty": "easy",
@@ -291,10 +328,37 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 10 after binary-tree-postorder-traversal"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 9,
+      "index": 11,
+      "slug": "range-sum-of-bst",
+      "name": "Range Sum of BST",
+      "difficulty": "easy",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "bst",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Depth First Search",
+        "Depth First Search (Optimal)",
+        "Iterative DFS"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 12,
       "slug": "path-sum",
       "name": "Path Sum",
       "difficulty": "easy",
@@ -319,113 +383,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 12 after range-sum-of-bst"
-    },
-    {
-      "index": 10,
-      "slug": "range-sum-of-bst",
-      "name": "Range Sum of BST",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "bst",
-      "is_design": false,
-      "within_family_rank": 0,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Depth First Search",
-        "Depth First Search (Optimal)",
-        "Iterative DFS"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 11 after n-ary-tree-postorder-traversal"
-    },
-    {
-      "index": 11,
-      "slug": "same-binary-tree",
-      "name": "Same Tree",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "basics",
-      "is_design": false,
-      "within_family_rank": 1,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Depth First Search"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 1 after invert-a-binary-tree"
-    },
-    {
-      "index": 12,
-      "slug": "string-matching-in-an-array",
-      "name": "String Matching in an Array",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "MOVE:",
-      "target_patterns": [],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Sorting",
-        "Knuth-Morris-Pratt (KMP) Algorithm",
-        "Rabin-Karp Algorithm (Rolling Hash)",
-        "Z-Algorithm"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
+      "order_verdict": "ORDER_OK"
     },
     {
       "index": 13,
-      "slug": "subtree-of-a-binary-tree",
-      "name": "Subtree of Another Tree",
-      "difficulty": "easy",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "basics",
-      "is_design": false,
-      "within_family_rank": 5,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Serialization And Pattern Matching"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 5 after binary-tree-diameter"
-    },
-    {
-      "index": 14,
       "slug": "binary-search-tree-iterator",
       "name": "Binary Search Tree Iterator",
       "difficulty": "medium",
@@ -449,6 +410,32 @@
       "confidence": "high",
       "notes": "",
       "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 14,
+      "slug": "house-robber-iii",
+      "name": "House Robber III",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "MOVE:dp-2d",
+      "target_patterns": [
+        "dp-2d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Memoization)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
     },
     {
       "index": 15,
@@ -560,8 +547,8 @@
     },
     {
       "index": 19,
-      "slug": "binary-tree-from-preorder-and-inorder-traversal",
-      "name": "Construct Binary Tree From Preorder And Inorder Traversal",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "name": "Populating Next Right Pointers In Each Node",
       "difficulty": "medium",
       "current_patterns": [
         "trees"
@@ -570,75 +557,23 @@
       "target_patterns": [
         "trees"
       ],
-      "technique_family": "construct",
+      "technique_family": "bfs",
       "is_design": false,
-      "within_family_rank": 0,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Morris Traversal"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 26 after recover-binary-search-tree"
-    },
-    {
-      "index": 20,
-      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
-      "name": "Construct Binary Tree from Inorder and Postorder Traversal",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "construct",
-      "is_design": false,
-      "within_family_rank": 1,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Hash Map + Depth First Search",
-        "Depth First Search (Optimal)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 27 after binary-tree-from-preorder-and-inorder-traversal"
-    },
-    {
-      "index": 21,
-      "slug": "construct-quad-tree",
-      "name": "Construct Quad Tree",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "construct",
-      "is_design": false,
-      "within_family_rank": 2,
+      "within_family_rank": 4,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Recursion (Optimal)",
-        "Recursion (Space Optimized)"
+        "Breadth First Search (Optimal)"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 28 after construct-binary-tree-from-inorder-and-postorder-traversal"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 22,
-      "slug": "convert-bst-to-greater-tree",
-      "name": "Convert Bst to Greater Tree",
+      "index": 20,
+      "slug": "insert-into-a-binary-search-tree",
+      "name": "Insert into a Binary Search Tree",
       "difficulty": "medium",
       "current_patterns": [
         "trees"
@@ -649,72 +584,19 @@
       ],
       "technique_family": "bst",
       "is_design": false,
-      "within_family_rank": 6,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Morris Traversal"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 24 after lowest-common-ancestor-in-binary-search-tree"
-    },
-    {
-      "index": 23,
-      "slug": "count-good-nodes-in-binary-tree",
-      "name": "Count Good Nodes In Binary Tree",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "path",
-      "is_design": false,
       "within_family_rank": 1,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Depth First Search",
-        "Breadth First Search"
+        "Iteration"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 29 after construct-quad-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 24,
-      "slug": "delete-leaves-with-a-given-value",
-      "name": "Delete Leaves With a Given Value",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "path",
-      "is_design": false,
-      "within_family_rank": 4,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Recursion (Postorder Traversal)",
-        "Iterative Postorder Traversal",
-        "Iterative Postorder Traversal (Optimal)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 32 after lowest-common-ancestor-of-a-binary-tree"
-    },
-    {
-      "index": 25,
+      "index": 21,
       "slug": "delete-node-in-a-bst",
       "name": "Delete Node in a BST",
       "difficulty": "medium",
@@ -738,39 +620,12 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 20 after insert-into-a-binary-search-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 26,
-      "slug": "implement-prefix-tree",
-      "name": "Implement Trie Prefix Tree",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees",
-        "tries"
-      ],
-      "verdict": "MOVE:tries",
-      "target_patterns": [
-        "tries"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Prefix Tree (Array)",
-        "Prefix Tree (Hash Map)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 27,
-      "slug": "insert-into-a-binary-search-tree",
-      "name": "Insert into a Binary Search Tree",
+      "index": 22,
+      "slug": "valid-binary-search-tree",
+      "name": "Validate Binary Search Tree",
       "difficulty": "medium",
       "current_patterns": [
         "trees"
@@ -781,19 +636,20 @@
       ],
       "technique_family": "bst",
       "is_design": false,
-      "within_family_rank": 1,
+      "within_family_rank": 3,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Iteration"
+        "Depth First Search",
+        "Breadth First Search"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 19 after populating-next-right-pointers-in-each-node"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 28,
+      "index": 23,
       "slug": "kth-smallest-integer-in-bst",
       "name": "Kth Smallest Element In a Bst",
       "difficulty": "medium",
@@ -815,37 +671,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 22 after valid-binary-search-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 29,
-      "slug": "longest-increasing-subsequence",
-      "name": "Longest Increasing Subsequence",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees",
-        "dp-1d"
-      ],
-      "verdict": "MOVE:dp-1d",
-      "target_patterns": [
-        "dp-1d"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Segment Tree",
-        "Dynamic Programming + Binary Search"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 30,
+      "index": 24,
       "slug": "lowest-common-ancestor-in-binary-search-tree",
       "name": "Lowest Common Ancestor of a Binary Search Tree",
       "difficulty": "medium",
@@ -867,12 +696,12 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 23 after kth-smallest-integer-in-bst"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 31,
-      "slug": "lowest-common-ancestor-of-a-binary-tree",
-      "name": "Lowest Common Ancestor of a Binary Tree",
+      "index": 25,
+      "slug": "convert-bst-to-greater-tree",
+      "name": "Convert Bst to Greater Tree",
       "difficulty": "medium",
       "current_patterns": [
         "trees"
@@ -881,104 +710,21 @@
       "target_patterns": [
         "trees"
       ],
-      "technique_family": "path",
+      "technique_family": "bst",
       "is_design": false,
-      "within_family_rank": 3,
+      "within_family_rank": 6,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Depth First Search",
-        "Depth First Search (Optimal)",
-        "Breadth First Search"
+        "Morris Traversal"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 31 after sum-root-to-leaf-numbers"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 32,
-      "slug": "minimum-height-trees",
-      "name": "Minimum Height Trees",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees",
-        "graphs",
-        "dp-1d"
-      ],
-      "verdict": "MOVE:graphs",
-      "target_patterns": [
-        "graphs"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Dynamic Programming On Trees (Rerooting)",
-        "Find Centroids of the Tree (DFS)",
-        "Topological Sorting (BFS)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 33,
-      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
-      "name": "Minimum Time to Collect All Apples in a Tree",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees",
-        "graphs"
-      ],
-      "verdict": "MOVE:graphs",
-      "target_patterns": [
-        "graphs"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Depth First Search",
-        "Topological Sort (Kahn's Algorithm)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 34,
-      "slug": "populating-next-right-pointers-in-each-node",
-      "name": "Populating Next Right Pointers In Each Node",
-      "difficulty": "medium",
-      "current_patterns": [
-        "trees"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "trees"
-      ],
-      "technique_family": "bfs",
-      "is_design": false,
-      "within_family_rank": 4,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Breadth First Search (Optimal)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 18 after check-completeness-of-a-binary-tree"
-    },
-    {
-      "index": 35,
+      "index": 26,
       "slug": "recover-binary-search-tree",
       "name": "Recover Binary Search Tree",
       "difficulty": "medium",
@@ -1000,10 +746,113 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 25 after convert-bst-to-greater-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 36,
+      "index": 27,
+      "slug": "binary-tree-from-preorder-and-inorder-traversal",
+      "name": "Construct Binary Tree From Preorder And Inorder Traversal",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "construct",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Morris Traversal"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 28,
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "name": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "construct",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Hash Map + Depth First Search",
+        "Depth First Search (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 29,
+      "slug": "construct-quad-tree",
+      "name": "Construct Quad Tree",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "MOVE:math-geometry",
+      "target_patterns": [
+        "math-geometry"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Recursion (Optimal)",
+        "Recursion (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 30,
+      "slug": "count-good-nodes-in-binary-tree",
+      "name": "Count Good Nodes In Binary Tree",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "path",
+      "is_design": false,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Depth First Search",
+        "Breadth First Search"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 31,
       "slug": "sum-root-to-leaf-numbers",
       "name": "Sum Root to Leaf Numbers",
       "difficulty": "medium",
@@ -1027,12 +876,12 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 30 after count-good-nodes-in-binary-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 37,
-      "slug": "valid-binary-search-tree",
-      "name": "Validate Binary Search Tree",
+      "index": 32,
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "name": "Lowest Common Ancestor of a Binary Tree",
       "difficulty": "medium",
       "current_patterns": [
         "trees"
@@ -1041,7 +890,7 @@
       "target_patterns": [
         "trees"
       ],
-      "technique_family": "bst",
+      "technique_family": "path",
       "is_design": false,
       "within_family_rank": 3,
       "live_on_neetcode": true,
@@ -1049,17 +898,44 @@
       "status": "ok",
       "optimal_approaches": [
         "Depth First Search",
+        "Depth First Search (Optimal)",
         "Breadth First Search"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 21 after delete-node-in-a-bst"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 38,
-      "slug": "binary-tree-maximum-path-sum",
-      "name": "Binary Tree Maximum Path Sum",
-      "difficulty": "hard",
+      "index": 33,
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "name": "Lowest Common Ancestor of a Binary Tree III",
+      "difficulty": "medium",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "path",
+      "is_design": false,
+      "within_family_rank": 4,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 34,
+      "slug": "delete-leaves-with-a-given-value",
+      "name": "Delete Leaves With a Given Value",
+      "difficulty": "medium",
       "current_patterns": [
         "trees"
       ],
@@ -1074,68 +950,16 @@
       "hashing": false,
       "status": "ok",
       "optimal_approaches": [
-        "Depth First Search (Optimal)"
+        "Recursion (Postorder Traversal)",
+        "Iterative Postorder Traversal",
+        "Iterative Postorder Traversal (Optimal)"
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 34 after serialize-and-deserialize-binary-tree"
+      "order_verdict": "ORDER_OK"
     },
     {
-      "index": 39,
-      "slug": "minimum-interval-including-query",
-      "name": "Minimum Interval to Include Each Query",
-      "difficulty": "hard",
-      "current_patterns": [
-        "trees",
-        "intervals"
-      ],
-      "verdict": "MOVE:intervals",
-      "target_patterns": [
-        "intervals"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Sweep Line Algorithm",
-        "Min Segment Tree (Lazy Propagation)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 40,
-      "slug": "russian-doll-envelopes",
-      "name": "Russian Doll Envelopes",
-      "difficulty": "hard",
-      "current_patterns": [
-        "trees",
-        "dp-1d"
-      ],
-      "verdict": "MOVE:dp-1d",
-      "target_patterns": [
-        "dp-1d"
-      ],
-      "technique_family": null,
-      "is_design": false,
-      "within_family_rank": null,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Dynamic Programming + Binary Search",
-        "Segment Tree"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "N/A"
-    },
-    {
-      "index": 41,
+      "index": 35,
       "slug": "serialize-and-deserialize-binary-tree",
       "name": "Serialize And Deserialize Binary Tree",
       "difficulty": "hard",
@@ -1158,7 +982,32 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_WRONG: should be at 33 after delete-leaves-with-a-given-value"
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 36,
+      "slug": "binary-tree-maximum-path-sum",
+      "name": "Binary Tree Maximum Path Sum",
+      "difficulty": "hard",
+      "current_patterns": [
+        "trees"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": "path",
+      "is_design": false,
+      "within_family_rank": 6,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Depth First Search (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
     }
   ]
 }

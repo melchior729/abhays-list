@@ -33,7 +33,7 @@ export function PatternDetailClient({
   const solved = useMemo(() => new Set(solvedSlugs), [solvedSlugs]);
   const [q, setQ] = useState("");
   const [diff, setDiff] = useState("all");
-  const [statusSort, setStatusSort] = useState<StatusSort>("open");
+  const [statusSort, setStatusSort] = useState<StatusSort>("path");
 
   const totals = useMemo(() => countByDifficulty(problems, null), [problems]);
   const solvedCounts = useMemo(
@@ -61,6 +61,11 @@ export function PatternDetailClient({
     };
   }, [diff, problems.length, solvedCounts, totals]);
 
+  const curriculumIndex = useMemo(
+    () => new Map(problems.map((p, i) => [p.slug, i])),
+    [problems],
+  );
+
   const filtered = useMemo(() => {
     const query = q.trim().toLowerCase();
     const matched = problems.filter((p) => {
@@ -72,20 +77,22 @@ export function PatternDetailClient({
       );
     });
 
-    // Keep curriculum/pedagogical order; Open/Done only reorders by status.
-    const statusRank = (slug: string) => {
-      const done = solved.has(slug);
-      if (statusSort === "open") return done ? 1 : 0;
-      return done ? 0 : 1;
-    };
-    const pos = new Map(problems.map((p, i) => [p.slug, i]));
+    const pos = curriculumIndex;
 
     return [...matched].sort((a, b) => {
+      if (statusSort === "path") {
+        return (pos.get(a.slug) ?? 0) - (pos.get(b.slug) ?? 0);
+      }
+      const statusRank = (slug: string) => {
+        const done = solved.has(slug);
+        if (statusSort === "open") return done ? 1 : 0;
+        return done ? 0 : 1;
+      };
       const statusCmp = statusRank(a.slug) - statusRank(b.slug);
       if (statusCmp !== 0) return statusCmp;
       return (pos.get(a.slug) ?? 0) - (pos.get(b.slug) ?? 0);
     });
-  }, [problems, q, diff, statusSort, solved]);
+  }, [problems, q, diff, statusSort, solved, curriculumIndex]);
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -163,7 +170,11 @@ export function PatternDetailClient({
                           ✓
                         </span>
                       ) : (
-                        String(i).padStart(2, "0")
+                        String(
+                          statusSort === "path"
+                            ? (curriculumIndex.get(p.slug) ?? i)
+                            : i,
+                        ).padStart(2, "0")
                       )}
                     </span>
 

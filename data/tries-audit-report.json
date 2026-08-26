@@ -1,0 +1,90 @@
+{
+  "pattern": "tries",
+  "before": 3,
+  "after": 3,
+  "moves": {},
+  "desired_order": [
+    "implement-prefix-tree",
+    "design-word-search-data-structure",
+    "search-for-word-ii"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "implement-prefix-tree",
+      "name": "Implement Trie Prefix Tree",
+      "difficulty": "medium",
+      "current_patterns": [
+        "tries"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "tries"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Tree (Array)",
+        "Prefix Tree (Hash Map)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 1,
+      "slug": "design-word-search-data-structure",
+      "name": "Design Add And Search Words Data Structure",
+      "difficulty": "medium",
+      "current_patterns": [
+        "tries"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "tries"
+      ],
+      "technique_family": "design",
+      "is_design": true,
+      "within_family_rank": 1,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Depth First Search (Trie)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "search-for-word-ii",
+      "name": "Word Search II",
+      "difficulty": "hard",
+      "current_patterns": [
+        "tries"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "tries"
+      ],
+      "technique_family": "search",
+      "is_design": false,
+      "within_family_rank": 0,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

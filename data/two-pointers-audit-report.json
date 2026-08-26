@@ -20,7 +20,8 @@
     "two-integer-sum-ii",
     "max-water-container",
     "three-integer-sum",
-    "find-k-closest-elements",
+    "4sum",
+    "number-of-subsequences-that-satisfy-the-given-sum-condition",
     "remove-duplicates-from-sorted-array-ii",
     "append-characters-to-string-to-make-subsequence",
     "string-compression",
@@ -28,8 +29,7 @@
     "sort-colors",
     "longest-palindromic-substring",
     "palindromic-substrings",
-    "trapping-rain-water",
-    "median-of-two-sorted-arrays"
+    "trapping-rain-water"
   ],
   "needs_review": [],
   "rows": [
@@ -445,8 +445,8 @@
     },
     {
       "index": 16,
-      "slug": "find-k-closest-elements",
-      "name": "Find K Closest Elements",
+      "slug": "4sum",
+      "name": "4Sum",
       "difficulty": "medium",
       "current_patterns": [
         "two-pointers"
@@ -459,10 +459,12 @@
       "is_design": false,
       "within_family_rank": 7,
       "live_on_neetcode": true,
-      "hashing": false,
+      "hashing": true,
       "status": "ok",
       "optimal_approaches": [
-        "Two Pointers"
+        "Hash Map",
+        "Two Pointers",
+        "K-Sum + Two Pointers"
       ],
       "confidence": "high",
       "notes": "",
@@ -492,7 +494,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 18 after number-of-subsequences-that-satisfy-the-given-sum-condition"
     },
     {
       "index": 18,
@@ -517,7 +519,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 19 after remove-duplicates-from-sorted-array-ii"
     },
     {
       "index": 19,
@@ -542,7 +544,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 20 after append-characters-to-string-to-make-subsequence"
     },
     {
       "index": 20,
@@ -568,7 +570,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 21 after string-compression"
     },
     {
       "index": 21,
@@ -596,7 +598,7 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 22 after rotating-the-box"
     },
     {
       "index": 22,
@@ -621,10 +623,37 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "ORDER_WRONG: should be at 23 after sort-colors"
     },
     {
       "index": 23,
+      "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+      "name": "Number of Subsequences That Satisfy The Given Sum Condition",
+      "difficulty": "medium",
+      "current_patterns": [
+        "two-pointers"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "two-pointers"
+      ],
+      "technique_family": "opposite_ends",
+      "is_design": false,
+      "within_family_rank": 50,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Search",
+        "Two Pointers",
+        "Two Pointers (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 17 after 4sum"
+    },
+    {
+      "index": 24,
       "slug": "palindromic-substrings",
       "name": "Palindromic Substrings",
       "difficulty": "medium",
@@ -650,7 +679,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 24,
+      "index": 25,
       "slug": "trapping-rain-water",
       "name": "Trapping Rain Water",
       "difficulty": "hard",
@@ -664,31 +693,6 @@
       "technique_family": "opposite_ends",
       "is_design": false,
       "within_family_rank": 8,
-      "live_on_neetcode": true,
-      "hashing": false,
-      "status": "ok",
-      "optimal_approaches": [
-        "Two Pointers"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_OK"
-    },
-    {
-      "index": 25,
-      "slug": "median-of-two-sorted-arrays",
-      "name": "Median of Two Sorted Arrays",
-      "difficulty": "hard",
-      "current_patterns": [
-        "two-pointers"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "two-pointers"
-      ],
-      "technique_family": "opposite_ends",
-      "is_design": false,
-      "within_family_rank": 9,
       "live_on_neetcode": true,
       "hashing": false,
       "status": "ok",

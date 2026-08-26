@@ -380,11 +380,11 @@ export function TrackerShell({
               </a>
               <a
                 className="flex items-center justify-between px-3 py-3 text-[13px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--bg-hover)] hover:text-[var(--text)]"
-                href="https://neetcode.io/practice"
+                href="https://neetcode.io"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>Clear history</span>
+                <span>Neetcode</span>
                 <span className="text-[var(--text-faint)]" aria-hidden="true">
                   ↗
                 </span>

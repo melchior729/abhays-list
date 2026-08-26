@@ -3,9 +3,11 @@ import type { CurriculumProblem } from "./types";
 const DISPLAY_NAMES: Record<string, string> = {
   arrays: "Arrays",
   hashing: "Hashing",
+  stack: "Stacks & Queues",
   "dp-1d": "1D Dynamic",
   "dp-2d": "2D Dynamic",
   "math-geometry": "Math & Geometry",
+  "advanced-graphs": "Weighted Graphs",
 };
 
 export function formatPatternName(slug: string): string {

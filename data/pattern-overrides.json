@@ -131,14 +131,15 @@
   },
   "jump-game-vii": {
     "patterns": [
-      "graphs"
+      "dp-1d"
     ],
     "drop_from": [
+      "graphs",
       "two-pointers",
       "sliding-window"
     ],
-    "main_pattern": "graphs",
-    "notes": "BFS is main approach"
+    "main_pattern": "dp-1d",
+    "notes": "Reachability DP / sliding-window BFS on indices"
   },
   "maximum-odd-binary-number": {
     "patterns": [
@@ -178,12 +179,13 @@
   },
   "number-of-subsequences-that-satisfy-the-given-sum-condition": {
     "patterns": [
-      "binary-search"
-    ],
-    "drop_from": [
       "two-pointers"
     ],
-    "main_pattern": "binary-search"
+    "drop_from": [
+      "binary-search"
+    ],
+    "main_pattern": "two-pointers",
+    "notes": "Two pointers on sorted nums for subsequence pairs"
   },
   "kth-smallest-product-of-two-sorted-arrays": {
     "patterns": [
@@ -234,11 +236,34 @@
   },
   "lowest-common-ancestor-of-a-binary-tree-iii": {
     "patterns": [
-      "linked-list"
+      "trees"
     ],
     "drop_from": [
-      "hashing"
-    ]
+      "linked-list"
+    ],
+    "main_pattern": "trees",
+    "notes": "LCA with parent pointers — tree problem"
+  },
+  "merge-k-sorted-linked-lists": {
+    "patterns": [
+      "heap"
+    ],
+    "drop_from": [
+      "linked-list"
+    ],
+    "main_pattern": "heap",
+    "notes": "Min-heap merge of k sorted lists"
+  },
+  "design-circular-queue": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "linked-list"
+    ],
+    "main_pattern": "arrays",
+    "design": true,
+    "notes": "Array ring-buffer queue design"
   },
   "subsets-ii": {
     "patterns": [
@@ -313,10 +338,13 @@
   },
   "text-justification": {
     "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
       "greedy"
     ],
-    "main_pattern": "greedy",
-    "notes": "Greedy line packing per problem statement"
+    "main_pattern": "arrays",
+    "notes": "Greedy line packing / string simulation"
   },
   "verifying-an-alien-dictionary": {
     "patterns": [
@@ -329,12 +357,12 @@
   },
   "unique-email-addresses": {
     "patterns": [
-      "arrays"
-    ],
-    "drop_from": [
       "hashing"
     ],
-    "main_pattern": "arrays"
+    "drop_from": [
+      "arrays"
+    ],
+    "main_pattern": "hashing"
   },
   "my-calendar-i": {
     "patterns": [
@@ -353,6 +381,76 @@
     ],
     "main_pattern": "arrays",
     "notes": "Boyer-Moore main approach \u2014 same as minimum-index-of-a-valid-split"
+  },
+  "hand-of-straights": {
+    "patterns": [
+      "heap"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "heap",
+    "notes": "Min-heap greedy grouping of consecutive cards"
+  },
+  "count-vowel-strings-in-ranges": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "arrays",
+    "notes": "Prefix sum over vowel-start/end flags"
+  },
+  "find-k-closest-elements": {
+    "patterns": [
+      "binary-search"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "binary-search",
+    "notes": "Binary search for k-window start on sorted array"
+  },
+  "median-of-two-sorted-arrays": {
+    "patterns": [
+      "binary-search"
+    ],
+    "drop_from": [
+      "two-pointers"
+    ],
+    "main_pattern": "binary-search",
+    "notes": "Binary search on partition — O(log(min(m,n)))"
+  },
+  "reorganize-string": {
+    "patterns": [
+      "heap"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "heap",
+    "notes": "Max-heap frequency / greedy rearrangement"
+  },
+  "4sum": {
+    "patterns": [
+      "two-pointers"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "two-pointers",
+    "notes": "K-sum + two pointers"
+  },
+  "sort-an-array": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "hashing"
+    ],
+    "main_pattern": "arrays",
+    "notes": "Counting sort / merge sort on array — not hash-map main approach"
   },
   "string-matching-in-an-array": {
     "patterns": [
@@ -389,28 +487,44 @@
   },
   "frequency-of-the-most-frequent-element": {
     "patterns": [
+      "sliding-window"
+    ],
+    "drop_from": [
       "binary-search"
     ],
-    "main_pattern": "binary-search",
+    "main_pattern": "sliding-window",
+    "notes": "Sliding window on sorted array for max frequency"
+  },
+  "check-if-array-is-sorted-and-rotated": {
+    "patterns": [
+      "arrays"
+    ],
     "drop_from": [
       "sliding-window"
     ],
-    "notes": "First optimal is prefix sum + binary search"
-  },
-  "sliding-window-maximum": {
-    "keep_in": [
-      "sliding-window"
-    ],
-    "main_pattern": "sliding-window",
-    "design": true,
-    "notes": "Canonical monotonic deque window"
+    "main_pattern": "arrays",
+    "notes": "Single-pass rotated sorted check"
   },
   "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
-    "keep_in": [
+    "patterns": [
+      "stack"
+    ],
+    "drop_from": [
       "sliding-window"
     ],
-    "main_pattern": "sliding-window",
-    "notes": "Monotonic deque over a window"
+    "main_pattern": "stack",
+    "notes": "Monotonic deque window"
+  },
+  "sliding-window-maximum": {
+    "patterns": [
+      "stack"
+    ],
+    "drop_from": [
+      "sliding-window"
+    ],
+    "main_pattern": "stack",
+    "design": true,
+    "notes": "Canonical monotonic deque — hard design lead-in"
   },
   "binary-search": {
     "keep_in": [
@@ -559,12 +673,13 @@
   },
   "find-duplicate-integer": {
     "patterns": [
-      "bit-manipulation"
-    ],
-    "drop_from": [
       "linked-list"
     ],
-    "main_pattern": "bit-manipulation"
+    "drop_from": [
+      "bit-manipulation"
+    ],
+    "main_pattern": "linked-list",
+    "notes": "Floyd cycle detection on array-as-list"
   },
   "rotate-array": {
     "patterns": [
@@ -619,11 +734,25 @@
       "graphs"
     ]
   },
-  "count-prefix-and-suffix-pairs-i": {
-    "keep_in": [
+  "search-for-word-ii": {
+    "patterns": [
       "tries"
     ],
-    "main_pattern": "tries"
+    "drop_from": [
+      "backtracking"
+    ],
+    "main_pattern": "tries",
+    "notes": "Trie + grid DFS for multiple words"
+  },
+  "count-prefix-and-suffix-pairs-i": {
+    "patterns": [
+      "arrays"
+    ],
+    "drop_from": [
+      "tries"
+    ],
+    "main_pattern": "arrays",
+    "notes": "Basic prefix/suffix string matching — not trie main approach"
   },
   "extra-characters-in-a-string": {
     "patterns": [
@@ -711,10 +840,23 @@
   },
   "house-robber-iii": {
     "patterns": [
+      "dp-2d"
+    ],
+    "drop_from": [
       "trees"
     ],
-    "main_pattern": "trees",
-    "notes": "Tree DP on binary tree"
+    "main_pattern": "dp-2d",
+    "notes": "Tree DP — rob / not-rob states on binary tree"
+  },
+  "construct-quad-tree": {
+    "patterns": [
+      "math-geometry"
+    ],
+    "drop_from": [
+      "trees"
+    ],
+    "main_pattern": "math-geometry",
+    "notes": "Divide-and-conquer quadtree on n×n matrix"
   },
   "perfect-squares": {
     "patterns": [
@@ -743,5 +885,55 @@
     ],
     "main_pattern": "greedy",
     "notes": "Greedy pairing by frequency"
+  },
+  "next-permutation": {
+    "patterns": [
+      "two-pointers"
+    ],
+    "drop_from": [
+      "greedy"
+    ],
+    "main_pattern": "two-pointers",
+    "notes": "In-place scan with two pointers from the right"
+  },
+  "minimize-the-maximum-difference-of-pairs": {
+    "patterns": [
+      "binary-search"
+    ],
+    "drop_from": [
+      "greedy"
+    ],
+    "main_pattern": "binary-search",
+    "notes": "Binary search on answer after sorting"
+  },
+  "buildings-with-an-ocean-view": {
+    "patterns": [
+      "stack"
+    ],
+    "drop_from": [
+      "greedy"
+    ],
+    "main_pattern": "stack",
+    "notes": "Monotonic stack / scan from the right"
+  },
+  "partition-equal-subset-sum": {
+    "patterns": [
+      "dp-2d"
+    ],
+    "drop_from": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-2d",
+    "notes": "0/1 knapsack; state is (index, target sum)"
+  },
+  "triangle": {
+    "patterns": [
+      "dp-2d"
+    ],
+    "drop_from": [
+      "dp-1d"
+    ],
+    "main_pattern": "dp-2d",
+    "notes": "Grid DP on triangle rows/cols"
   }
 }

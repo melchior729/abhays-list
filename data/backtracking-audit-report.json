@@ -1,0 +1,502 @@
+{
+  "pattern": "backtracking",
+  "before": 17,
+  "after": 9,
+  "moves": {
+    "subsets": [
+      "bit-manipulation"
+    ],
+    "combinations": [
+      "bit-manipulation"
+    ],
+    "combination-target-sum-ii": [
+      "hashing"
+    ],
+    "permutations-ii": [
+      "hashing"
+    ],
+    "generate-parentheses": [
+      "dp-1d"
+    ],
+    "search-for-word": [
+      "hashing"
+    ],
+    "n-queens": [
+      "hashing"
+    ],
+    "n-queens-ii": [
+      "hashing"
+    ]
+  },
+  "desired_order": [
+    "combination-target-sum",
+    "combinations-of-a-phone-number",
+    "matchsticks-to-square",
+    "palindrome-partitioning",
+    "partition-to-k-equal-sum-subsets",
+    "permutations",
+    "restore-ip-addresses",
+    "subsets-ii",
+    "word-break-ii"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "subsets",
+      "name": "Subsets",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:bit-manipulation",
+      "target_patterns": [
+        "bit-manipulation"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Iteration",
+        "Bit Manipulation"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 1,
+      "slug": "subsets-ii",
+      "name": "Subsets II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 7 after restore-ip-addresses"
+    },
+    {
+      "index": 2,
+      "slug": "combinations",
+      "name": "Combinations",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:bit-manipulation",
+      "target_patterns": [
+        "bit-manipulation"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking - I",
+        "Backtracking - II",
+        "Iteration",
+        "Bit Manipulation"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 3,
+      "slug": "combination-target-sum",
+      "name": "Combination Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Backtracking (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 0 after (start)"
+    },
+    {
+      "index": 4,
+      "slug": "combination-target-sum-ii",
+      "name": "Combination Sum II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Backtracking (Hash Map)",
+        "Backtracking (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 5,
+      "slug": "combinations-of-a-phone-number",
+      "name": "Letter Combinations of a Phone Number",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 1 after combination-target-sum"
+    },
+    {
+      "index": 6,
+      "slug": "permutations",
+      "name": "Permutations",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Backtracking",
+        "Backtracking (Bit Mask)",
+        "Backtracking (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 5 after partition-to-k-equal-sum-subsets"
+    },
+    {
+      "index": 7,
+      "slug": "permutations-ii",
+      "name": "Permutations II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking (Hash Set)",
+        "Backtracking (Hash Map)",
+        "Backtracking (Boolean Array)",
+        "Backtracking (Optimal)",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 8,
+      "slug": "generate-parentheses",
+      "name": "Generate Parentheses",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Dynamic Programming"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 9,
+      "slug": "palindrome-partitioning",
+      "name": "Palindrome Partitioning",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking - I",
+        "Backtracking - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 3 after matchsticks-to-square"
+    },
+    {
+      "index": 10,
+      "slug": "restore-ip-addresses",
+      "name": "Restore IP Addresses",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 6 after permutations"
+    },
+    {
+      "index": 11,
+      "slug": "search-for-word",
+      "name": "Word Search",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking (Hash Set)",
+        "Backtracking (Visited Array)",
+        "Backtracking (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 12,
+      "slug": "matchsticks-to-square",
+      "name": "Matchsticks to Square",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking (Pruning)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 2 after combinations-of-a-phone-number"
+    },
+    {
+      "index": 13,
+      "slug": "partition-to-k-equal-sum-subsets",
+      "name": "Partition to K Equal Sum Subsets",
+      "difficulty": "medium",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Backtracking (Pruning)",
+        "Backtracking (Bit Mask + Pruning)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 4 after palindrome-partitioning"
+    },
+    {
+      "index": 14,
+      "slug": "n-queens",
+      "name": "N Queens",
+      "difficulty": "hard",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Backtracking (Hash Set)",
+        "Backtracking (Visited Array)",
+        "Backtracking (Bit Mask)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 15,
+      "slug": "n-queens-ii",
+      "name": "N Queens II",
+      "difficulty": "hard",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking (Hash Set)",
+        "Backtracking (Boolean Array)",
+        "Backtracking (Bit Mask)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 16,
+      "slug": "word-break-ii",
+      "name": "Word Break II",
+      "difficulty": "hard",
+      "current_patterns": [
+        "backtracking"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "backtracking"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Backtracking",
+        "Backtracking + Trie",
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Bottom-Up)",
+        "Dynamic Programming (Top-Down) Using Trie"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    }
+  ]
+}

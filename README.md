@@ -49,14 +49,14 @@ Full audit rules: [`data/pattern-audit-rules.md`](data/pattern-audit-rules.md).
 | 03 | Two Pointers | 26 |
 | 04 | Sliding Window | 19 |
 | 05 | Binary Search | 21 |
-| 06 | Stack | 20 |
+| 06 | Stacks & Queues | 20 |
 | 07 | Linked List | 25 |
 | 08 | Trees | 36 |
 | 09 | Tries | 3 |
 | 10 | Heap | 11 |
 | 11 | Backtracking | 18 |
 | 12 | Graphs | 31 |
-| 13 | Advanced Graphs | 8 |
+| 13 | Weighted Graphs | 8 |
 | 14 | Greedy | 30 |
 | 15 | Intervals | 10 |
 | 16 | 1D Dynamic Programming | 26 |
@@ -86,6 +86,7 @@ npm install
 git clone https://github.com/melchior729/neetcode-submissions.git ../neetcode-submissions
 
 just update        # refresh solved set → data/generated.json
+just copy-list         # copy all pattern lists (path order, ✓ = solved) to clipboard
 npm run dev        # http://localhost:3000
 npm run build      # production build
 ```
@@ -120,7 +121,7 @@ abhays-list/
 │   └── retag-patterns.py     # Bulk pattern retagging
 ├── .github/workflows/
 │   └── sync-submissions.yml  # Auto-sync on submissions push
-└── justfile                  # `just update`, `just copy`
+└── justfile                  # `just update`, `just copy-list`
 ```
 
 ## Data files

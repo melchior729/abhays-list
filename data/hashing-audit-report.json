@@ -1,8 +1,15 @@
 {
   "pattern": "hashing",
-  "before": 53,
+  "before": 55,
   "after": 53,
-  "moves": {},
+  "moves": {
+    "hand-of-straights": [
+      "heap"
+    ],
+    "count-vowel-strings-in-ranges": [
+      "arrays"
+    ]
+  },
   "desired_order": [
     "design-hashset",
     "design-hashmap",
@@ -11,6 +18,7 @@
     "intersection-of-two-arrays",
     "find-the-difference-of-two-arrays",
     "path-crossing",
+    "unique-email-addresses",
     "first-unique-character-in-a-string",
     "ransom-note",
     "find-common-characters",
@@ -29,6 +37,7 @@
     "find-the-difference",
     "largest-substring-between-two-equal-characters",
     "number-of-good-pairs",
+    "longest-palindrome",
     "height-checker",
     "relative-sort-array",
     "minimum-number-of-moves-to-seat-everyone",
@@ -36,23 +45,21 @@
     "sort-array-by-increasing-frequency",
     "sort-the-people",
     "find-the-index-of-the-first-occurrence-in-a-string",
+    "string-matching-in-an-array",
     "find-all-numbers-disappeared-in-an-array",
+    "find-lucky-integer-in-an-array",
     "insert-delete-getrandom-o1",
     "longest-consecutive-sequence",
     "remove-sub-folders-from-the-filesystem",
+    "valid-sudoku",
     "anagram-groups",
     "custom-sort-string",
-    "reorganize-string",
-    "4sum",
-    "hand-of-straights",
     "unique-length-3-palindromic-subsequences",
-    "sort-an-array",
     "subarray-sum-equals-k",
     "continuous-subarray-sum",
     "subarray-sums-divisible-by-k",
     "number-of-sub-arrays-with-odd-sum",
     "make-sum-divisible-by-p",
-    "count-vowel-strings-in-ranges",
     "brick-wall",
     "count-squares",
     "analyze-user-website-visit-pattern",
@@ -244,6 +251,32 @@
     },
     {
       "index": 7,
+      "slug": "unique-email-addresses",
+      "name": "Unique Email Addresses",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 5,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Built-In Functions",
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 8,
       "slug": "first-unique-character-in-a-string",
       "name": "First Unique Character in a String",
       "difficulty": "easy",
@@ -270,7 +303,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 8,
+      "index": 9,
       "slug": "ransom-note",
       "name": "Ransom Note",
       "difficulty": "easy",
@@ -296,7 +329,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 9,
+      "index": 10,
       "slug": "find-common-characters",
       "name": "Find Common Characters",
       "difficulty": "easy",
@@ -321,7 +354,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 10,
+      "index": 11,
       "slug": "maximum-number-of-balloons",
       "name": "Maximum Number of Balloons",
       "difficulty": "easy",
@@ -347,7 +380,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 11,
+      "index": 12,
       "slug": "number-of-students-unable-to-eat-lunch",
       "name": "Number of Students Unable to Eat Lunch",
       "difficulty": "easy",
@@ -372,7 +405,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 12,
+      "index": 13,
       "slug": "redistribute-characters-to-make-all-strings-equal",
       "name": "Redistribute Characters to Make All Strings Equal",
       "difficulty": "easy",
@@ -398,7 +431,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 13,
+      "index": 14,
       "slug": "is-anagram",
       "name": "Valid Anagram",
       "difficulty": "easy",
@@ -424,7 +457,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 14,
+      "index": 15,
       "slug": "find-words-that-can-be-formed-by-characters",
       "name": "Find Words That Can Be Formed by Characters",
       "difficulty": "easy",
@@ -451,7 +484,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 15,
+      "index": 16,
       "slug": "maximum-difference-between-even-and-odd-frequency-i",
       "name": "Maximum Difference Between Even and Odd Frequency I",
       "difficulty": "easy",
@@ -477,7 +510,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 16,
+      "index": 17,
       "slug": "divide-array-into-equal-pairs",
       "name": "Divide Array Into Equal Pairs",
       "difficulty": "easy",
@@ -503,7 +536,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 17,
+      "index": 18,
       "slug": "kth-distinct-string-in-an-array",
       "name": "Kth Distinct String in an Array",
       "difficulty": "easy",
@@ -529,7 +562,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 18,
+      "index": 19,
       "slug": "word-pattern",
       "name": "Word Pattern",
       "difficulty": "easy",
@@ -557,7 +590,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 19,
+      "index": 20,
       "slug": "isomorphic-strings",
       "name": "Isomorphic Strings",
       "difficulty": "easy",
@@ -583,7 +616,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 20,
+      "index": 21,
       "slug": "two-integer-sum",
       "name": "Two Sum",
       "difficulty": "easy",
@@ -609,7 +642,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 21,
+      "index": 22,
       "slug": "roman-to-integer",
       "name": "Roman to Integer",
       "difficulty": "easy",
@@ -634,7 +667,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 22,
+      "index": 23,
       "slug": "find-the-difference",
       "name": "Find the Difference",
       "difficulty": "easy",
@@ -663,7 +696,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 23,
+      "index": 24,
       "slug": "largest-substring-between-two-equal-characters",
       "name": "Largest Substring Between Two Equal Characters",
       "difficulty": "easy",
@@ -690,7 +723,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 24,
+      "index": 25,
       "slug": "number-of-good-pairs",
       "name": "Number of Good Pairs",
       "difficulty": "easy",
@@ -716,7 +749,32 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 25,
+      "index": 26,
+      "slug": "longest-palindrome",
+      "name": "Longest Palindrome",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "map_lookup",
+      "is_design": false,
+      "within_family_rank": 9,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bitmask"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 27,
       "slug": "height-checker",
       "name": "Height Checker",
       "difficulty": "easy",
@@ -741,7 +799,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 26,
+      "index": 28,
       "slug": "relative-sort-array",
       "name": "Relative Sort Array",
       "difficulty": "easy",
@@ -766,7 +824,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 27,
+      "index": 29,
       "slug": "minimum-number-of-moves-to-seat-everyone",
       "name": "Minimum Number of Moves to Seat Everyone",
       "difficulty": "easy",
@@ -792,7 +850,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 28,
+      "index": 30,
       "slug": "special-array-with-x-elements-greater-than-or-equal-x",
       "name": "Special Array with X Elements Greater than or Equal X",
       "difficulty": "easy",
@@ -817,7 +875,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 29,
+      "index": 31,
       "slug": "sort-array-by-increasing-frequency",
       "name": "Sort Array by Increasing Frequency",
       "difficulty": "easy",
@@ -842,7 +900,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 30,
+      "index": 32,
       "slug": "sort-the-people",
       "name": "Sort the People",
       "difficulty": "easy",
@@ -869,7 +927,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 31,
+      "index": 33,
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "name": "Find The Index of The First Occurrence in a String",
       "difficulty": "easy",
@@ -894,7 +952,35 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 32,
+      "index": 34,
+      "slug": "string-matching-in-an-array",
+      "name": "String Matching in an Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "prefix_hash",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sorting",
+        "Knuth-Morris-Pratt (KMP) Algorithm",
+        "Rabin-Karp Algorithm (Rolling Hash)",
+        "Z-Algorithm"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 35,
       "slug": "find-all-numbers-disappeared-in-an-array",
       "name": "Find All Numbers Disappeared in An Array",
       "difficulty": "easy",
@@ -919,7 +1005,33 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 33,
+      "index": 36,
+      "slug": "find-lucky-integer-in-an-array",
+      "name": "Find Lucky Integer in an Array",
+      "difficulty": "easy",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "index_marking",
+      "is_design": false,
+      "within_family_rank": 2,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Negative Marking",
+        "Bit Manipulation"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 37,
       "slug": "insert-delete-getrandom-o1",
       "name": "Insert Delete Get Random O(1)",
       "difficulty": "medium",
@@ -944,7 +1056,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 34,
+      "index": 38,
       "slug": "longest-consecutive-sequence",
       "name": "Longest Consecutive Sequence",
       "difficulty": "medium",
@@ -970,7 +1082,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 35,
+      "index": 39,
       "slug": "remove-sub-folders-from-the-filesystem",
       "name": "Remove Sub-Folders from the Filesystem",
       "difficulty": "medium",
@@ -997,7 +1109,32 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 36,
+      "index": 40,
+      "slug": "valid-sudoku",
+      "name": "Valid Sudoku",
+      "difficulty": "medium",
+      "current_patterns": [
+        "hashing"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": "set_membership",
+      "is_design": false,
+      "within_family_rank": 7,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bitmask"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 41,
       "slug": "anagram-groups",
       "name": "Group Anagrams",
       "difficulty": "medium",
@@ -1022,7 +1159,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 37,
+      "index": 42,
       "slug": "custom-sort-string",
       "name": "Custom Sort String",
       "difficulty": "medium",
@@ -1047,74 +1184,20 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 38,
-      "slug": "reorganize-string",
-      "name": "Reorganize String",
-      "difficulty": "medium",
-      "current_patterns": [
-        "hashing"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "hashing"
-      ],
-      "technique_family": "freq_count",
-      "is_design": false,
-      "within_family_rank": 11,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Frequency Count",
-        "Frequency Count (Max-Heap)",
-        "Frequency Count (Greedy)"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_OK"
-    },
-    {
-      "index": 39,
-      "slug": "4sum",
-      "name": "4Sum",
-      "difficulty": "medium",
-      "current_patterns": [
-        "hashing"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "hashing"
-      ],
-      "technique_family": "map_lookup",
-      "is_design": false,
-      "within_family_rank": 9,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Hash Map",
-        "Two Pointers",
-        "K-Sum + Two Pointers"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_OK"
-    },
-    {
-      "index": 40,
+      "index": 43,
       "slug": "hand-of-straights",
       "name": "Hand of Straights",
       "difficulty": "medium",
       "current_patterns": [
         "hashing"
       ],
-      "verdict": "KEEP",
+      "verdict": "MOVE:heap",
       "target_patterns": [
-        "hashing"
+        "heap"
       ],
-      "technique_family": "map_lookup",
+      "technique_family": null,
       "is_design": false,
-      "within_family_rank": 10,
+      "within_family_rank": null,
       "live_on_neetcode": true,
       "hashing": true,
       "status": "ok",
@@ -1123,10 +1206,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "N/A"
     },
     {
-      "index": 41,
+      "index": 44,
       "slug": "unique-length-3-palindromic-subsequences",
       "name": "Unique Length 3 Palindromic Subsequences",
       "difficulty": "medium",
@@ -1152,32 +1235,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 42,
-      "slug": "sort-an-array",
-      "name": "Sort an Array",
-      "difficulty": "medium",
-      "current_patterns": [
-        "hashing"
-      ],
-      "verdict": "KEEP",
-      "target_patterns": [
-        "hashing"
-      ],
-      "technique_family": "counting_sort",
-      "is_design": false,
-      "within_family_rank": 5,
-      "live_on_neetcode": true,
-      "hashing": true,
-      "status": "ok",
-      "optimal_approaches": [
-        "Counting Sort"
-      ],
-      "confidence": "high",
-      "notes": "",
-      "order_verdict": "ORDER_OK"
-    },
-    {
-      "index": 43,
+      "index": 45,
       "slug": "subarray-sum-equals-k",
       "name": "Subarray Sum Equals K",
       "difficulty": "medium",
@@ -1202,7 +1260,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 44,
+      "index": 46,
       "slug": "continuous-subarray-sum",
       "name": "Continuous Subarray Sum",
       "difficulty": "medium",
@@ -1227,7 +1285,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 45,
+      "index": 47,
       "slug": "subarray-sums-divisible-by-k",
       "name": "Subarray Sums Divisible by K",
       "difficulty": "medium",
@@ -1253,7 +1311,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 46,
+      "index": 48,
       "slug": "number-of-sub-arrays-with-odd-sum",
       "name": "Number of Sub-arrays With Odd Sum",
       "difficulty": "medium",
@@ -1279,7 +1337,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 47,
+      "index": 49,
       "slug": "make-sum-divisible-by-p",
       "name": "Make Sum Divisible by P",
       "difficulty": "medium",
@@ -1304,20 +1362,20 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 48,
+      "index": 50,
       "slug": "count-vowel-strings-in-ranges",
       "name": "Count Vowel Strings in Ranges",
       "difficulty": "medium",
       "current_patterns": [
         "hashing"
       ],
-      "verdict": "KEEP",
+      "verdict": "MOVE:arrays",
       "target_patterns": [
-        "hashing"
+        "arrays"
       ],
-      "technique_family": "prefix_hash",
+      "technique_family": null,
       "is_design": false,
-      "within_family_rank": 6,
+      "within_family_rank": null,
       "live_on_neetcode": true,
       "hashing": true,
       "status": "ok",
@@ -1327,10 +1385,10 @@
       ],
       "confidence": "high",
       "notes": "",
-      "order_verdict": "ORDER_OK"
+      "order_verdict": "N/A"
     },
     {
-      "index": 49,
+      "index": 51,
       "slug": "brick-wall",
       "name": "Brick Wall",
       "difficulty": "medium",
@@ -1355,7 +1413,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 50,
+      "index": 52,
       "slug": "count-squares",
       "name": "Detect Squares",
       "difficulty": "medium",
@@ -1381,7 +1439,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 51,
+      "index": 53,
       "slug": "analyze-user-website-visit-pattern",
       "name": "Analyze User Website Visit Pattern",
       "difficulty": "medium",
@@ -1406,7 +1464,7 @@
       "order_verdict": "ORDER_OK"
     },
     {
-      "index": 52,
+      "index": 54,
       "slug": "first-missing-positive",
       "name": "First Missing Positive",
       "difficulty": "hard",

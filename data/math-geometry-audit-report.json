@@ -1,0 +1,749 @@
+{
+  "pattern": "math-geometry",
+  "before": 26,
+  "after": 4,
+  "moves": {
+    "plus-one": [
+      "arrays"
+    ],
+    "ugly-number": [
+      "arrays"
+    ],
+    "excel-sheet-column-title": [
+      "arrays"
+    ],
+    "count-odd-numbers-in-an-interval-range": [
+      "arrays"
+    ],
+    "greatest-common-divisor-of-strings": [
+      "arrays"
+    ],
+    "find-missing-and-repeated-values": [
+      "arrays"
+    ],
+    "matrix-diagonal-sum": [
+      "arrays"
+    ],
+    "transpose-matrix": [
+      "arrays"
+    ],
+    "arranging-coins": [
+      "bit-manipulation"
+    ],
+    "set-mismatch": [
+      "hashing"
+    ],
+    "special-array-i": [
+      "bit-manipulation"
+    ],
+    "rotate-matrix": [
+      "arrays"
+    ],
+    "set-zeroes-in-matrix": [
+      "arrays"
+    ],
+    "spiral-matrix": [
+      "arrays"
+    ],
+    "spiral-matrix-ii": [
+      "arrays"
+    ],
+    "pow-x-n": [
+      "arrays"
+    ],
+    "reverse-integer": [
+      "arrays"
+    ],
+    "multiply-strings": [
+      "arrays"
+    ],
+    "integer-to-roman": [
+      "arrays"
+    ],
+    "distribute-candies-among-children-ii": [
+      "arrays"
+    ],
+    "zigzag-conversion": [
+      "arrays"
+    ],
+    "k-th-smallest-in-lexicographical-order": [
+      "tries"
+    ]
+  },
+  "desired_order": [
+    "palindrome-number",
+    "pascals-triangle-ii",
+    "pascals-triangle",
+    "count-primes"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "plus-one",
+      "name": "Plus One",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 1,
+      "slug": "palindrome-number",
+      "name": "Palindrome Number",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "math-geometry"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Reverse the Integer",
+        "Two Pointers",
+        "Reverse Half of the Number"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "ugly-number",
+      "name": "Ugly Number",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Math"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 3,
+      "slug": "excel-sheet-column-title",
+      "name": "Excel Sheet Column Title",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 4,
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "name": "Count Odd Numbers in an Interval Range",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Math",
+        "Math (One Liner)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 5,
+      "slug": "greatest-common-divisor-of-strings",
+      "name": "Greatest Common Divisor of Strings",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Space Optimized)",
+        "Greatest Common Divisor (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 6,
+      "slug": "find-missing-and-repeated-values",
+      "name": "Find Missing and Repeated Values",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Math"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 7,
+      "slug": "matrix-diagonal-sum",
+      "name": "Matrix Diagonal Sum",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 8,
+      "slug": "transpose-matrix",
+      "name": "Transpose Matrix",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 9,
+      "slug": "pascals-triangle",
+      "name": "Pascals Triangle",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "math-geometry"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Combinatorics",
+        "Dynamic Programming - I",
+        "Dynamic Programming - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 2 after pascals-triangle-ii"
+    },
+    {
+      "index": 10,
+      "slug": "pascals-triangle-ii",
+      "name": "Pascal's Triangle II",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "math-geometry"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Combinatorics"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_WRONG: should be at 1 after palindrome-number"
+    },
+    {
+      "index": 11,
+      "slug": "arranging-coins",
+      "name": "Arranging Coins",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:bit-manipulation",
+      "target_patterns": [
+        "bit-manipulation"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Bit Manipulation",
+        "Math"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 12,
+      "slug": "set-mismatch",
+      "name": "Set Mismatch",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:hashing",
+      "target_patterns": [
+        "hashing"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Negative Marking",
+        "Math",
+        "Bitwise XOR"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 13,
+      "slug": "special-array-i",
+      "name": "Special Array I",
+      "difficulty": "easy",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:bit-manipulation",
+      "target_patterns": [
+        "bit-manipulation"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Modulo Comparison",
+        "Bitwise Comparison"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 14,
+      "slug": "rotate-matrix",
+      "name": "Rotate Image",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Rotate By Four Cells",
+        "Reverse And Transpose"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 15,
+      "slug": "set-zeroes-in-matrix",
+      "name": "Set Matrix Zeroes",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 16,
+      "slug": "spiral-matrix",
+      "name": "Spiral Matrix",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Iteration (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 17,
+      "slug": "spiral-matrix-ii",
+      "name": "Spiral Matrix II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration",
+        "Iteration (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 18,
+      "slug": "pow-x-n",
+      "name": "Pow(x, n)",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Binary Exponentiation (Iterative)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 19,
+      "slug": "reverse-integer",
+      "name": "Reverse Integer",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 20,
+      "slug": "multiply-strings",
+      "name": "Multiply Strings",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Multiplication & Addition"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 21,
+      "slug": "integer-to-roman",
+      "name": "Integer to Roman",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Math - I",
+        "Math - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 22,
+      "slug": "count-primes",
+      "name": "Count Primes",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "math-geometry"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Sieve of Eratosthenes"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 23,
+      "slug": "distribute-candies-among-children-ii",
+      "name": "Distribute Candies Among Children II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Inclusion-Exclusion Principle"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 24,
+      "slug": "zigzag-conversion",
+      "name": "Zigzag Conversion",
+      "difficulty": "medium",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Iteration - I",
+        "Iteration - II"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 25,
+      "slug": "k-th-smallest-in-lexicographical-order",
+      "name": "K-th Smallest in Lexicographical Order",
+      "difficulty": "hard",
+      "current_patterns": [
+        "math-geometry"
+      ],
+      "verdict": "MOVE:tries",
+      "target_patterns": [
+        "tries"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Prefix Count"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    }
+  ]
+}

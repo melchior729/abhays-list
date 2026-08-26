@@ -1,0 +1,673 @@
+{
+  "pattern": "dp-2d",
+  "before": 23,
+  "after": 1,
+  "moves": {
+    "unique-paths-ii": [
+      "dp-1d"
+    ],
+    "minimum-path-sum": [
+      "trees"
+    ],
+    "coin-change-ii": [
+      "dp-1d"
+    ],
+    "target-sum": [
+      "dp-1d"
+    ],
+    "ones-and-zeroes": [
+      "dp-1d"
+    ],
+    "last-stone-weight-ii": [
+      "dp-1d"
+    ],
+    "longest-common-subsequence": [
+      "dp-1d"
+    ],
+    "longest-palindromic-subsequence": [
+      "dp-1d"
+    ],
+    "edit-distance": [
+      "dp-1d"
+    ],
+    "interleaving-string": [
+      "dp-1d"
+    ],
+    "buy-and-sell-crypto-with-cooldown": [
+      "dp-1d"
+    ],
+    "maximal-square": [
+      "dp-1d"
+    ],
+    "maximum-number-of-points-with-cost": [
+      "dp-1d"
+    ],
+    "stone-game": [
+      "arrays"
+    ],
+    "stone-game-ii": [
+      "dp-1d"
+    ],
+    "burst-balloons": [
+      "dp-1d"
+    ],
+    "cherry-pickup": [
+      "dp-1d"
+    ],
+    "count-subsequences": [
+      "dp-1d"
+    ],
+    "longest-increasing-path-in-matrix": [
+      "dp-1d"
+    ],
+    "regular-expression-matching": [
+      "dp-1d"
+    ],
+    "shortest-common-supersequence": [
+      "dp-1d"
+    ],
+    "split-array-with-same-average": [
+      "dp-1d"
+    ]
+  },
+  "desired_order": [
+    "count-paths"
+  ],
+  "needs_review": [],
+  "rows": [
+    {
+      "index": 0,
+      "slug": "unique-paths-ii",
+      "name": "Unique Paths II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (In-Place)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 1,
+      "slug": "count-paths",
+      "name": "Unique Paths",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "KEEP",
+      "target_patterns": [
+        "dp-2d"
+      ],
+      "technique_family": "scan",
+      "is_design": false,
+      "within_family_rank": 999,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Math"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "ORDER_OK"
+    },
+    {
+      "index": 2,
+      "slug": "minimum-path-sum",
+      "name": "Minimum Path Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:trees",
+      "target_patterns": [
+        "trees"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 3,
+      "slug": "coin-change-ii",
+      "name": "Coin Change II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 4,
+      "slug": "target-sum",
+      "name": "Target Sum",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 5,
+      "slug": "ones-and-zeroes",
+      "name": "Ones and Zeroes",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Bottom-Up)",
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 6,
+      "slug": "last-stone-weight-ii",
+      "name": "Last Stone Weight II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": true,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Hash Set)",
+        "Dynamic Programming (Bitset)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 7,
+      "slug": "longest-common-subsequence",
+      "name": "Longest Common Subsequence",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 8,
+      "slug": "longest-palindromic-subsequence",
+      "name": "Longest Palindromic Subsequence",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 9,
+      "slug": "edit-distance",
+      "name": "Edit Distance",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 10,
+      "slug": "interleaving-string",
+      "name": "Interleaving String",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 11,
+      "slug": "buy-and-sell-crypto-with-cooldown",
+      "name": "Best Time to Buy And Sell Stock With Cooldown",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 12,
+      "slug": "maximal-square",
+      "name": "Maximal Square",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 13,
+      "slug": "maximum-number-of-points-with-cost",
+      "name": "Maximum Number of Points with Cost",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 14,
+      "slug": "stone-game",
+      "name": "Stone Game",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:arrays",
+      "target_patterns": [
+        "arrays"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Return TRUE"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 15,
+      "slug": "stone-game-ii",
+      "name": "Stone Game II",
+      "difficulty": "medium",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Top-Down) + Suffix Sum",
+        "Dynamic Programming (Bottom-Up)",
+        "Dynamic Programming (Bottom-Up) + Suffix Sum"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 16,
+      "slug": "burst-balloons",
+      "name": "Burst Balloons",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Bottom-Up)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 17,
+      "slug": "cherry-pickup",
+      "name": "Cherry Pickup",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 18,
+      "slug": "count-subsequences",
+      "name": "Distinct Subsequences",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 19,
+      "slug": "longest-increasing-path-in-matrix",
+      "name": "Longest Increasing Path In a Matrix",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Topological Sort (Kahn's Algorithm)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 20,
+      "slug": "regular-expression-matching",
+      "name": "Regular Expression Matching",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Space Optimized)",
+        "Dynamic Programming (Optimal)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 21,
+      "slug": "shortest-common-supersequence",
+      "name": "Shortest Common Supersequence",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Dynamic Programming (Top-Down)",
+        "Dynamic Programming (Top-Down) + Tracing",
+        "Dynamic Programming (Bottom-Up)",
+        "Dynamic Programming (Bottom-Up) + Tracing"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    },
+    {
+      "index": 22,
+      "slug": "split-array-with-same-average",
+      "name": "Split Array With Same Average",
+      "difficulty": "hard",
+      "current_patterns": [
+        "dp-2d"
+      ],
+      "verdict": "MOVE:dp-1d",
+      "target_patterns": [
+        "dp-1d"
+      ],
+      "technique_family": null,
+      "is_design": false,
+      "within_family_rank": null,
+      "live_on_neetcode": true,
+      "hashing": false,
+      "status": "ok",
+      "optimal_approaches": [
+        "Memoization (Optimal)",
+        "Dynamic Programming (Bottom-Up)"
+      ],
+      "confidence": "high",
+      "notes": "",
+      "order_verdict": "N/A"
+    }
+  ]
+}
