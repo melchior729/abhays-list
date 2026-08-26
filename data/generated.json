@@ -14,7 +14,8 @@
     "number-of-senior-citizens",
     "range-sum-query-immutable",
     "score-of-a-string",
-    "sign-of-the-product-of-an-array"
+    "sign-of-the-product-of-an-array",
+    "verifying-an-alien-dictionary"
   ],
   "gitDates": {}
 }
