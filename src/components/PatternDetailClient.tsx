@@ -33,7 +33,7 @@ export function PatternDetailClient({
   const solved = useMemo(() => new Set(solvedSlugs), [solvedSlugs]);
   const [q, setQ] = useState("");
   const [diff, setDiff] = useState("all");
-  const [statusSort, setStatusSort] = useState<StatusSort>("path");
+  const [statusSort, setStatusSort] = useState<StatusSort>("open");
 
   const totals = useMemo(() => countByDifficulty(problems, null), [problems]);
   const solvedCounts = useMemo(
