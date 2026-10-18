@@ -21,6 +21,7 @@
     "monotonic-array",
     "number-of-senior-citizens",
     "range-sum-query-immutable",
+    "replace-elements-with-greatest-element-on-right-side",
     "score-of-a-string",
     "sign-of-the-product-of-an-array",
     "time-needed-to-buy-tickets",
